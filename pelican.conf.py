@@ -3,9 +3,11 @@
 
 AUTHOR = u"theBunnyMan"
 SITENAME = u"BunnyMan.Info"
-SITEURL = '/'
+SITEURL = 'http://bunnyman.info'
 TIMEZONE = 'US/Pacific'
 DEFAULT_LANG='en'
+DEFAULT_PAGINATION = 5
+DELETE_OUTPUT_DIRECTORY = False
 
 # Blogroll
 LINKS = (
@@ -21,6 +23,3 @@ SOCIAL = (
 	('GitHub', 'https://github.com/tbunnyman'),
 	('Twitter', 'https://twitter.com/#!/bunnyman'),
 )
-
-DEFAULT_PAGINATION = 5
-DELETE_OUTPUT_DIRECTORY = False
