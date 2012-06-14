@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}        
+<div id="contents">
+{% block content_title %}{% endblock %}
+
+{% for article in articles_page.object_list %}        
+    <div class="post type-post status-publish format-standard hentry category-general" id="post">
+    	<div class="entry-meta">
+    		<div class="date"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.locale_date }}</a></div>
+    		{% if article.author %}
+    		<span class="byline">By <a href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a></span>
+    		{% endif %}
+    	</div>
+    	<div class="main">
+    		<h2 class="entry-title">
+    			<a href="{{ article.url }}" title="Permalink to {{ article.title|striptags }}" rel="bookmark">{{ article.title }}</a>
+    		</h2>
+    		<div class="entry-content">
+    			{{ article.content }}
+    		</div> <!--/#entry-content-->
+    	</div> <!--/#main-->
+    </div>  <!--/#post-->
+{% endfor %}
+{% include 'pagination.html' %}
+<div><!-- /#content -->
+{% endblock content %}
