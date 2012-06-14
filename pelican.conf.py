@@ -9,6 +9,13 @@ DEFAULT_LANG='en'
 DEFAULT_PAGINATION = 5
 DELETE_OUTPUT_DIRECTORY = False
 
+FEED_DOMAIN = SITEURL
+# Use RSS
+FEED_RSS = 'feeds/rss'
+CATEGORY_FEED_RSS = 'feeds/category.%s.rss'
+TAG_FEED_RSS = None
+FEED_MAX_ITEMS = 30
+
 # Blogroll
 LINKS = (
 	('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
