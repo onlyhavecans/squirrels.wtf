@@ -3,6 +3,7 @@
 
 AUTHOR = u"theBunnyMan"
 SITENAME = u"BunnyMan.Info"
+SITESUBTITLE = u"Because life is too awesome not to share"
 SITEURL = 'http://bunnyman.info'
 TIMEZONE = 'US/Pacific'
 DEFAULT_LANG='en'
