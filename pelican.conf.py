@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
-AUTHOR = u"the Bunny Man"
+AUTHOR = u"theBunnyMan"
 SITENAME = u"BunnyMan.Info"
 SITEURL = '/'
 TIMEZONE = 'US/Pacific'

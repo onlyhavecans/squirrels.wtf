@@ -1,7 +1,7 @@
 Date: 2010-12-03
 Title: PGP Key
 Tags:
-Slug: php-key
+Slug: pgp-key
 
 I'm one of the people who still use OpenPGP/GPG.
 While you can't trust just any old public key you find on the internet I like to have mine available. You can also find a copy of all my public keys on [http://pgp.mit.edu](http://pgp.mit.edu)
