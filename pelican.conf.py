@@ -16,6 +16,10 @@ CATEGORY_FEED_RSS = 'feeds/category.%s.rss'
 TAG_FEED_RSS = None
 FEED_MAX_ITEMS = 30
 
+#Theme
+THEME = 'notmyidea'
+CSS_FILE = 'main.css'
+
 # Blogroll
 LINKS = (
 	('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
