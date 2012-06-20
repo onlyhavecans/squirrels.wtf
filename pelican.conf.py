@@ -22,7 +22,7 @@ FEED_MAX_ITEMS = 30
 
 #Theme
 THEME = './theme/chunk'
-MINT = False
+MINT = True
 SINGLE_AUTHOR = False
 DISPLAY_CATEGORIES_ON_MENU = True
 DEFAULT_DATE_FORMAT = ('%b %d %Y')
