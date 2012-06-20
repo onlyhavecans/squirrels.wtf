@@ -6,9 +6,8 @@ INPUTDIR=$(BASEDIR)/src
 OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelican.conf.py
 
-SSH_HOST=locahost
-SSH_USER=root
-SSH_TARGET_DIR=/var/www
+SSH_HOST=bounce
+SSH_TARGET_DIR=www
 
 DROPBOX_DIR=~/Dropbox/Public/
 
@@ -18,6 +17,7 @@ help:
 	@echo 'Usage:                                                                 '
 	@echo '   make html                        (re)generate the web site          '
 	@echo '   make clean                       remove the generated files         '
+	@echo '   make update                      pup update pelican from github     '
 	@echo '   ssh_upload                       upload the web site using SSH      '
 	@echo '   dropbox_upload                   upload the web site using Dropbox  '
 	@echo '   rsync_upload                     upload the web site using rsync/ssh'
@@ -29,21 +29,25 @@ html: clean $(OUTPUTDIR)/index.html
 
 $(OUTPUTDIR)/%.html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+	cp -r extras/* $(OUTPUTDIR)/
 
 clean:
 	rm -fr $(OUTPUTDIR)/*
+
+update:
+	pip install -e 'git://github.com/ametaireau/pelican#egg=pelican'
 
 dropbox_upload: $(OUTPUTDIR)/index.html
 	cp -r $(OUTPUTDIR)/* $(DROPBOX_DIR)
 
 ssh_upload: $(OUTPUTDIR)/index.html
-	scp -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
+	scp -r $(OUTPUTDIR)/* $(SSH_HOST):$(SSH_TARGET_DIR)
 
 rsync_upload: $(OUTPUTDIR)/index.html
-	rsync -e ssh -P -rvz --delete $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
+	rsync -e ssh -P -rvz --delete $(OUTPUTDIR)/* $(SSH_HOST):$(SSH_TARGET_DIR)
 
 github: $(OUTPUTDIR)/index.html
 	ghp-import $(OUTPUTDIR)
 	git push origin gh-pages
 
-.PHONY: html help clean ssh_upload rsync_upload dropbox_upload github
+.PHONY: html help clean update ssh_upload rsync_upload dropbox_upload github
