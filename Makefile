@@ -18,7 +18,7 @@ help:
 	@echo '   make html                        (re)generate the web site          '
 	@echo '   make clean                       remove the generated files         '
 	@echo '   make update                      pup update pelican from github     '
-	@echo '   ssh_upload                       upload the web site using SSH      '
+	@echo '   ssh_up                           upload the web site using SSH      '
 	@echo '   dropbox_upload                   upload the web site using Dropbox  '
 	@echo '   rsync_upload                     upload the web site using rsync/ssh'
 	@echo '                                                                       '
@@ -40,7 +40,7 @@ update:
 dropbox_upload: $(OUTPUTDIR)/index.html
 	cp -r $(OUTPUTDIR)/* $(DROPBOX_DIR)
 
-ssh_upload: $(OUTPUTDIR)/index.html
+ssh_up: $(OUTPUTDIR)/index.html
 	scp -r $(OUTPUTDIR)/* $(SSH_HOST):$(SSH_TARGET_DIR)
 
 rsync_upload: $(OUTPUTDIR)/index.html
@@ -50,4 +50,4 @@ github: $(OUTPUTDIR)/index.html
 	ghp-import $(OUTPUTDIR)
 	git push origin gh-pages
 
-.PHONY: html help clean update ssh_upload rsync_upload dropbox_upload github
+.PHONY: html help clean update ssh_up rsync_upload dropbox_upload github

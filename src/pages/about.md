@@ -39,7 +39,7 @@ I have been a busy bunny all my life and even now I am far from stopping. I am w
 - Started a 21+ local Furry community Called Blackjack
 - Quit Smoking
 - Started building electronic kits
-- Learned C to program Arduinos
+- Learned basic C to program Arduinos
 - Went to burning Man 4 times in a row
 - Failed at Wedding Photography
 - Started a local book club
@@ -48,4 +48,4 @@ I have been a busy bunny all my life and even now I am far from stopping. I am w
 - Started Writing Fiction
 - Finished NaNoWriMo first year
 - Penned my first box professionally
-- Reversed and modified my first app (a crackme)
+- Studied low level architecture and began reversing crackmes
