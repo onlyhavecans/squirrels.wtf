@@ -5,6 +5,7 @@ AUTHOR = u"tBunnyMan"
 SITENAME = u"BunnyMan.Info"
 SITESUBTITLE = u"Because life is too awesome not to share"
 SITEURL = 'http://bunnyman.info'
+RELATIVE_URLS = False
 TIMEZONE = 'US/Pacific'
 DEFAULT_LANG='en'
 DEFAULT_PAGINATION = 3
@@ -38,3 +39,7 @@ PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = '{slug}.html'
 PAGE_LANG_URL = '{slug}-{lang}.html'
 PAGE_LANG_SAVE_AS = '{slug}-{lang}.html'
+
+# Cleaner Articles
+ARTICLE_URL = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/'
+ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/index.html'
