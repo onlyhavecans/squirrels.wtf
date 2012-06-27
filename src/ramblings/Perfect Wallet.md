@@ -8,7 +8,7 @@ I have always had a fascination with wallets. They are where we keep the summary
 
 In my search I have gone through piles of wallets. I still have a small box in my closet that I have been loathe to throw away with then. I have gone from sleek leather, to big woven bulletproof nylon with lots of features, to slim money clips with stamped leather card slots, to the famous minimal [Slimmy](http://www.koyono.com/Slimmy-Slim-Wallet-Alternative-p/m17546.htm). Even with the Slimmy I went through two separate versions, one with window and one without.
 
-<img src="/images/wallet/Wallet-Comparison.jpg" alt="Slimmy Vs Band" title="Wallet-Comparison.jpg" border="0" width="224" height="300" style="float:right;" />
+<img src="/static/images/wallet/Wallet-Comparison.jpg" alt="Slimmy Vs Band" title="Wallet-Comparison.jpg" border="0" width="224" height="300" style="float:right;" />
 
 My goal was to find a wallet that held everything I need to carry with me while still being small and slim. I have been on the largest minimal kick so the Slimmy and money clips were used for the last three years but they were too minimal for my needs. In the end the fact remains that any wallet I found that is small enough to make me happy didn't hold enough and any wallet with enough space for everything was just too damn big.
 
@@ -18,7 +18,7 @@ As a child my father never carried a wallet. He always just took his little pock
 
 Like father like son I guess. When I asked my brother about it he said he "got it from dad" and "It was inevitable, you will succumb to it too." It was and I did.
 
-<img src="/images/wallet/Wallet-w-battery.jpg" alt="Wallet w/ battery" title="Wallet-w-battery.jpg" border="0" width="224" height="300" style="float:left;" />
+<img src="/static/images/wallet/Wallet-w-battery.jpg" alt="Wallet w/ battery" title="Wallet-w-battery.jpg" border="0" width="224" height="300" style="float:left;" />
 
 In the top most picture I didn't use a normal rubber band but I quickly found that any fancy band I used was too much. Through a few months of testing I found that a traditional rubber band was just enough. In the picture you can easily see that I took the contents of the Slimmy, added my notebook and with the band it is still thinner than the EMPTY Slimmy. Even if I were to add more cards, which I have done, the wallet still manages to be no bigger than the standard four cards and a small amount of cash in a Slimmy that they recommend.[^SLIMMY]
 
