@@ -4,14 +4,13 @@
 AUTHOR = u"tBunnyMan"
 SITENAME = u"BunnyMan.Info"
 SITESUBTITLE = u"Because life is too awesome not to share"
-SITEURL = 'http://bunnyman.info'
-RELATIVE_URLS = False
+SITEURL = '/'
 TIMEZONE = 'US/Pacific'
+
 DEFAULT_LANG='en'
 DEFAULT_PAGINATION = 3
 DELETE_OUTPUT_DIRECTORY = False
 
-# Comments
 DISQUS_SITENAME = 'bunnymaninfo'
 
 # Use RSS
@@ -27,6 +26,8 @@ MINT = True
 SINGLE_AUTHOR = False
 DISPLAY_CATEGORIES_ON_MENU = True
 DEFAULT_DATE_FORMAT = ('%b %d %Y')
+#TYPOGRIFY = True
+RELATIVE_URLS = False
 
 # Blogroll
 LINKS = (

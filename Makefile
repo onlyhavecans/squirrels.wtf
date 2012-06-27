@@ -35,7 +35,7 @@ clean:
 	rm -fr $(OUTPUTDIR)/*
 
 update:
-	pip install -e 'git://github.com/ametaireau/pelican#egg=pelican'
+	pip install --upgrade -e 'git://github.com/ametaireau/pelican#egg=pelican'
 
 dropbox_upload: $(OUTPUTDIR)/index.html
 	cp -r $(OUTPUTDIR)/* $(DROPBOX_DIR)
