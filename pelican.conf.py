@@ -9,8 +9,7 @@ TIMEZONE = 'US/Pacific'
 
 DEFAULT_LANG = 'en'
 DEFAULT_PAGINATION = 3
-DELETE_OUTPUT_DIRECTORY = False
-
+DELETE_OUTPUT_DIRECTORY = True
 DISQUS_SITENAME = 'bunnymaninfo'
 
 # Use RSS
@@ -31,8 +30,8 @@ RELATIVE_URLS = True
 
 # Blogroll
 LINKS = (
-	('GitHub', 'https://github.com/tbunnyman'),
-	('Twitter', 'https://twitter.com/#!/bunnyman'),
+    ('GitHub', 'https://github.com/tbunnyman'),
+    ('Twitter', 'https://twitter.com/#!/bunnyman'),
 )
 
 # Cleaner page links
