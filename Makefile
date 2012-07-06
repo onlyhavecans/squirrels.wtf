@@ -7,9 +7,9 @@ OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelican.conf.py
 
 SSH_HOST=bounce
+SSH_PORT=22
+SSH_USER=tbunnyman
 SSH_TARGET_DIR=www
-
-DROPBOX_DIR=~/Dropbox/Public/
 
 help:
 	@echo 'Makefile for a pelican Web site                                        '
@@ -17,9 +17,8 @@ help:
 	@echo 'Usage:                                                                 '
 	@echo '   make html                        (re)generate the web site          '
 	@echo '   make clean                       remove the generated files         '
-	@echo '   make update                      pup update pelican from github     '
+	@echo '   make update                      pip update pelican from github     '
 	@echo '   ssh_up                           upload the web site using SSH      '
-	@echo '   dropbox_upload                   upload the web site using Dropbox  '
 	@echo '   rsync_upload                     upload the web site using rsync/ssh'
 	@echo '                                                                       '
 
@@ -29,7 +28,7 @@ html: clean $(OUTPUTDIR)/index.html
 
 $(OUTPUTDIR)/%.html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
-	cp -r extras/* $(OUTPUTDIR)/
+	cp $(BASEDIR)/extras/* $(OUTPUTDIR)/
 
 clean:
 	rm -fr $(OUTPUTDIR)/*
@@ -37,17 +36,15 @@ clean:
 update:
 	pip install --upgrade -e 'git://github.com/ametaireau/pelican#egg=pelican'
 
-dropbox_upload: $(OUTPUTDIR)/index.html
-	cp -r $(OUTPUTDIR)/* $(DROPBOX_DIR)
-
 ssh_up: $(OUTPUTDIR)/index.html
-	scp -r $(OUTPUTDIR)/* $(SSH_HOST):$(SSH_TARGET_DIR)
+	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)	
 
 rsync_upload: $(OUTPUTDIR)/index.html
-	rsync -e ssh -P -rvz --delete $(OUTPUTDIR)/* $(SSH_HOST):$(SSH_TARGET_DIR)
+	rsync -e "ssh -p $(SSH_PORT)" -P -rvz --delete $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
 
-github: $(OUTPUTDIR)/index.html
-	ghp-import $(OUTPUTDIR)
-	git push origin gh-pages
+commit: $(OUTPUTDIR)/index.html
+	git commit
+	git push origin
 
-.PHONY: html help clean update ssh_up rsync_upload dropbox_upload github
+.PHONY: html help clean update ssh_up rsync_upload commit
+
