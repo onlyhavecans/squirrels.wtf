@@ -4,13 +4,12 @@
 AUTHOR = u"tBunnyMan"
 SITENAME = u"BunnyMan.Info"
 SITESUBTITLE = u"Because life is too awesome not to share"
-SITEURL = 'bunnyman.info'
+SITEURL = ''
 TIMEZONE = 'US/Pacific'
 
 DEFAULT_LANG = 'en'
+
 DEFAULT_PAGINATION = 3
-DELETE_OUTPUT_DIRECTORY = True
-DISQUS_SITENAME = 'bunnymaninfo'
 
 # Use RSS
 FEED_DOMAIN = SITEURL
@@ -21,12 +20,10 @@ FEED_MAX_ITEMS = 30
 
 #Theme
 THEME = './theme/chunk'
-MINT = True
 SINGLE_AUTHOR = False
 DISPLAY_CATEGORIES_ON_MENU = True
 DEFAULT_DATE_FORMAT = ('%b %d %Y')
 #TYPOGRIFY = True
-RELATIVE_URLS = True
 
 # Blogroll
 LINKS = (
