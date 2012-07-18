@@ -2,7 +2,7 @@ date: 2012-07-17 14:19
 author: tBunnyMan
 title: More Pelican, or how I learned to stop worrying and start developing with others.
 slug: pre-pelican-3
-status: published
+tags: Pelican
 
 Pelican 3.0 is almost out the door now. It's been great working on a "real" project with other developers for what is, in retrospect, the first time ever.
 

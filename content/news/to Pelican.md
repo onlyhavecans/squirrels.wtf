@@ -1,6 +1,7 @@
 Date: 2012-07-06 19:04
 Title: Now with less dynamics
 Slug: pelican-changeover
+tags: Pelican
 
 I've been stalling a lot on writing this post. I guess I wanted everything to be perfect by the time I actually wrote about it however my willpower to finish these test cases is weak.
 
