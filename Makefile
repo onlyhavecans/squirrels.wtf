@@ -52,6 +52,6 @@ rsync: publish
 	rsync -e "ssh -p $(SSH_PORT)" -P -rvz --delete $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
 
 update:
-	pip install --upgrade -e 'git://github.com/ametaireau/pelican#egg=pelican'
+	pip install --upgrade -e 'git://github.com/getpelican/pelican#egg=pelican'
 
 .PHONY: html help clean regenerate serve publish ssh rsync update
