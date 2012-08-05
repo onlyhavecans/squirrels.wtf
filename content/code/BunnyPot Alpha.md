@@ -3,9 +3,9 @@ author: tBunnyMan
 title: BunnyPot Alpha
 slug:	bunnypot
 
-I've been getting a lot into reversing and malware. It's been my mid 2012 obsession, and it's really put an awesome edge on my understanding of computer science, programming, and hacking in general.
+Since the beginning of the year I have been mildly obsessed with reversing and malware. Studying ASM and low level debugging is put an awesome edge on my understanding of computer science, programming, and hacking in general.
 
-A week or so ago I started reading the [Malware Analyst's Cookbook and DVD: Tools and Techniques for Fighting Malicious Code](http://search.barnesandnoble.com/Malware-Analysts-Cookbook-and-DVD/Michael-Ligh/e/9780470613030) where they recommend you build up a honeypot to collect malware. Of course I can't just take a few suggestions and set up a normal honeypot; Being a SysAdmin at heart I have to _automate the hell_ out of everything.
+A week or so ago I started reading the [Malware Analyst's Cookbook and DVD: Tools and Techniques for Fighting Malicious Code](http://search.barnesandnoble.com/Malware-Analysts-Cookbook-and-DVD/Michael-Ligh/e/9780470613030) where they recommend you build up a honeypot to collect malware. Of course I can't a simple suggestions and set up a normal honeypot; Being a SysAdmin at heart I have to _automate the hell_ out of everything.
 
 **If you aren't interested in the scripts or the setup just scroll down for the iPhone pic money shot.**
 
@@ -13,7 +13,7 @@ A week or so ago I started reading the [Malware Analyst's Cookbook and DVD: Tool
 
 I started with a Ubuntu VPS, patched but lightly hardened. Obviously being a honeypot the system has to be quasi-disposable.
 
-Setting up dionaea was the **hardest part**!! _Seriously_. The install directions for it are fucked and the whole thing just feels like a one man hackjob, however it has the cool features that I want to play with. I wrote up a little batch script that SHOULD one-shot install it. Just like the original install instructions some of the versions might disappear/break so some of the fetch instructions may break and meed to be tweaked. While this script is dirty it's smart enough to exit with error if it fails to download or decompress a file. However if you run it outside of sudo it will fail in ugly ways. Standard disclaimer applies; never run rnadom scripts off the internet without vetting them yourself.
+Setting up dionaea was the **hardest part**!! _Seriously_. The install directions for it are fucked and the whole thing just feels like a one man hack job, however it has the cool features that I want to play with. I wrote up a little batch script that SHOULD one-shot install it. Just like the original install instructions some of the versions might disappear/break so some of the fetch instructions may break and meed to be tweaked. While this script is dirty it's smart enough to exit with error if it fails to download or decompress a file. However if you run it outside of sudo it will fail in ugly ways. Standard disclaimer applies; never run random scripts off the internet without vetting them yourself.
 
     :::bash
     #!/bin/sh
