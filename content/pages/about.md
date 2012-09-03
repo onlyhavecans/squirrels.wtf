@@ -47,5 +47,6 @@ I have been a busy bunny all my life and even now I am far from stopping. I am w
 - Became a Infrastructure Manager
 - Started Writing Fiction
 - Finished NaNoWriMo first year
-- Penned my first box professionally
 - Studied low level architecture and began reversing crackmes
+- Became an lead developer for the [Pelcian](http://getpelican.com) project
+- Started an organization to manage furry events and conventions in Las Vegas
