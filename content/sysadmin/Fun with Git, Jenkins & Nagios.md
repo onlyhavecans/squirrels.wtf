@@ -34,6 +34,7 @@ This was the tricky part but it will seem easy when we are done.
 
 Start by initing your nagios configs;
 
+    :::bash...
     cd /usr/local/etc/nagios
     git init
     git add .
@@ -41,6 +42,7 @@ Start by initing your nagios configs;
 
 Now you will want to set up the "hub" repo. For sakes of simplicity I'm setting it up in Nagios' home directory but as long as Jenkins and you can reach it then you are solid.
 
+    :::bash...
     cd ~
     mkdir nagios_configs.git
     ^mkdir^cd^
@@ -48,12 +50,14 @@ Now you will want to set up the "hub" repo. For sakes of simplicity I'm setting 
 
 Now we clone over our working data to the "hub";
 
+    :::bash...
     cd /usr/local/etc/nagios
     git remote add hub ~/nagios_configs.git
     git push hub master
 
 While we are in the nagios config directory lets script a hook so that when this repo pulls and updates its configs from the hub it automatically reloads nagios.
 
+    :::bash...
     cd .git/hooks
     vim post-merge
     #!/bin/sh
@@ -105,6 +109,7 @@ Now BEFORE we move on let's make Jenkin's do a little extra work and deploy from
 
 Now Under `Build` click `Add Build Step` and add a _second_ `Execute Shell`. Then put the following unto it[^GITPULL]
 
+    :::bash...
     cd /usr/local/etc/nagios
     unset GIT_DIR
     /usr/local/bin/git pull hub master
@@ -115,6 +120,7 @@ Now Under `Build` click `Add Build Step` and add a _second_ `Execute Shell`. The
 
 To finish off our super automation let's make it so that when anyone pushes to the hub it instantly triggers a build, test, and if the tests passes deploy. Let's just jump back to the command line to add a hook to our hub repo now
 
+    :::bash...
     cd ~/nagios_configs.git/hooks
     vim post-update
     #!/bin/sh
@@ -136,6 +142,7 @@ Ok. This might seem just about perfect but there is a catch. The default Nagios 
 
 This process _should_ be as easy as taking all the links at the top of the `nagios.cfg` file and just making them relative to the main config. For example, here is the head of my config minus comments;
 
+    :::bash...
     $ egrep '^[^#]' nagios.cfg | head
     log_file=/usr/local/var/lib/nagios/nagios.log
     cfg_file=objects/commands.cfg
@@ -154,6 +161,7 @@ Notice the gotcha in there!!! This one stuck me up for about two hours. **I was 
 
 To explain a few other lines;
 
+    :::bash...
     cfg_file=objects/commands.cfg
     cfg_file=objects/contacts.cfg
     cfg_file=objects/timeperiods.cfg
@@ -164,6 +172,7 @@ This is referring to /usr/local/etc/nagios/objects. I store all the default conf
 
 Here is the layout of my nagios config directory;
 
+    :::bash...
     $ tree nagios_configs 
     nagios_configs
     ├── cgi.cfg
@@ -201,6 +210,7 @@ If you think I've missed anything feel free to drop me a comment.
 
 Go into your personal repo and make git a little more SVN, for better or worse.
 
+    :::bash...
     cd my_nagios_configs
     echo 'git push' > .git/hooks/post-commit
     chmod 755 .git/hooks/post-commit
