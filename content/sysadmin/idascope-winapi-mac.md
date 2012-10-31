@@ -2,7 +2,7 @@ date: 2012-10-30 19:29
 author: tBunnyMan
 title: simpliFiRE.IDAscope API browsing on a Mac
 slug: idascope-winapi-browsing-on-a-mac
-tags: ida mac
+tags: ida,mac
 
 I know this isn't the most revolutionary tip ever but my google searches pulled up nada when I tried to figure this out. I'm an IDA Pro MAC user. Bastard child of IDA right? Not really, except for plugins usually which is the point of this short tips post.
 
