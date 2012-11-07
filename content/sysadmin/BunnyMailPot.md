@@ -2,7 +2,7 @@ date: 2012-11-06 15:16
 author: tBunnyMan
 title: BunMailPot Alpha…
 slug: bunny-mail-honeypot-alpha
-tags:
+tags: mac, malware
 
 Ok… so that is not the best name I've every come up with. Sorry, but whatever. This is a quick but fun one.
 
