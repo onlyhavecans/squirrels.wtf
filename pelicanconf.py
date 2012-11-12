@@ -28,7 +28,6 @@ DEFAULT_DATE_FORMAT = ('%b %d %Y')
 # Blogroll
 LINKS = (
     ('GitHub', 'https://github.com/tbunnyman'),
-    ('Twitter', 'https://twitter.com/#!/bunnyman'),
 )
 
 # Cleaner page links
