@@ -19,7 +19,7 @@ As always YMMV and don't copy paste things I write here into the terminal.
 2. Double check your drive name with "`ls -ln /Volumes`".
 3. with sudo add a new line to `/etc/fstab`[^NOT]
 
-		#Drive called iamakey and user 501
+		#Drive called iamaKey and user 501
 		LABEL=iamaKey none msdos -u=501,-m=700
 
 There is no step 4; eject & replug your key to enjoy ssh keys used directly from drive.
