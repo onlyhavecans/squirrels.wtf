@@ -2,7 +2,7 @@ date: 2013-02-25 10:39
 author: tBunnyMan
 title: SSH Keys on a USB jump drive on Mac OS X (Mountain Lion Edition)
 slug: ssh-on-usb-on-mac-os-x
-tags: Mac
+tags: mac
 
 ## Here I address the eternal struggle.
 
@@ -40,7 +40,7 @@ There is no step 4; eject & replug your key to enjoy ssh keys used directly from
 
 - I'm really sure putting spaces in your drive name will only wreck havoc. However you would assume that having lowercase letters in it would also fail hard but as you can see it works fine for me.
 
-- if you wanna be *really* cool then set up your config file on the jump drive as well and then alias keyssh to 'ssh -F /path/to/usb/config' Then that can ALL follow you around, except for on linux since it would mount on media or whatever instead of /Volumes breaking all your pathing in the config but then you can just create a symlink anyways and it will work again… or something like that.
+- if you wanna be *really* cool then set up your config file on the jump drive as well and then alias keyssh to 'ssh -F /path/to/usb/config' Then that can ALL follow you around, except for on linux since it would mount on media or whatever instead of /Volumes breaking all your paths in the config but then you can just create a symlink anyways and it will work again… or something like that.
 
 - While not the point of this article yet your OpenPGP, GnuPG, GPG whateverPG, etc keys should also be WAY happier now placed on the jump drive. I believe they also hate being world readable. 
 
