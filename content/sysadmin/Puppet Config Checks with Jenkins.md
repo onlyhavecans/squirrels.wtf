@@ -86,15 +86,15 @@ Now starts the puppet configurations!
 
 On your git repo for puppet you need to add a 'post-update' hook. to trigger builds remotely. Don't forget to sub out YOUR_TOKEN with the token you picked above and set the kenkins server proper. The quick and dirty is;
 
-:::bash...
-cd puppet_configs.git/hooks
-cat __EOL__
-#!/bin/sh
-echo "Sending build command to Jenkins"
-curl -sSL 'http://mycooljenkins:8080/job/Nagios_Config/build?token=YOUR_TOKEN' >> /dev/null
-exec git update-server-info
-__EOL__ >> post-update
-chmod 755 post-update
+    :::bash...
+    cd puppet_configs.git/hooks
+    cat __EOL__
+    #!/bin/sh
+    echo "Sending build command to Jenkins"
+    curl -sSL 'http://mycooljenkins:8080/job/Nagios_Config/build?token=YOUR_TOKEN' >> /dev/null
+    exec git update-server-info
+    __EOL__ >> post-update
+    chmod 755 post-update
 
 Now lets add two execute shell actions.
 
