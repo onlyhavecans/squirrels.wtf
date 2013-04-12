@@ -78,7 +78,7 @@ Now starts the puppet configurations!
 * Trigger Builds Remotely: check
     * Authentication Token: _pick something simple but unique here like 'stopHackingRoot'_
 * Poll SCM: check
-    * Schedule: `*/15 * * * *`[^POLL]
+    * Schedule: `H/15 * * * *`[^POLL]
 
 [^NOT]: Seriously, if you don't have a central git server set up a central git repo SOMEWHERE safe, even on your jenkins box if need be (like we did for nagios) Just remember that your going to end up with something sensitive in there someday.
 
