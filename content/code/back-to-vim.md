@@ -88,22 +88,11 @@ A lot of my inital vim config like most was stolen from somewhere but over time 
 There you go! I know it feels like I'm skimming the VIM part of the vim writeup but there is really only so much you can do TO VIM itself. It's the development environment you put around it and what you put out with it. Hopefully I will be putting out great things once I learn how to use tags and rope and all that other stuff to get back to ultra fast code sifting and editing.
 
 ## Part Five: Wishlist
-### A debugger
-I wish I had a really good one of these. I like being able to trace code execution. It helps me understand how things are going deep deep into libraries. I know I shouldn't NEED to do this but I really like it.
-
 ### Auto-running tests
 Just something that PyCharm and Komono before that spoiled me on. `:w` running my tests since I very often TDD would save a lot of window jumping
 
 ### Snippits
 I'll never get deep code intelligence with vim and that's kinda the point but PyCharm saved somewhere around a billion keystrokes when you learned when to hit the auto complete right.
-
-### This Damn vim Bug being fixed
-Every time I try to run python inside of vim with either `:pyf %` or the cleaner `<leader>r` from python-mode I get dumped back to the terminal leaving a highlighted `Code running.%` *only if* there isn't a exception, also sometimes my vim process' will lock up and spin out of CPU control.
-I learned while wiring ASM that the highlighted `%` tends to mean the binary returned sloppily. This is why I need the mini-console so I can jump to it to test run things. Very annoying.
-
-I don't know if that's a brew vim problem because it's the came on my 10.7 server and 10.8 macbook even after recompiling a few times with either macvim or vim compiled different ways. I get no crash logs, no errors, and tossing it in gdb tells me `Program exited normally.` so outside of deep debugging I have little to run on. Apple's included vim is kind enough to not be compiled with python support at all so no dice there.
-
-If anyone has any awesome advice I'd love it
 
 ## Part Six: Warnings
 This allows me to do some awesome stuff and so far I am happy with with it outside of a few small caveats.
