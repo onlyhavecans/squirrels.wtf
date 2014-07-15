@@ -7,7 +7,7 @@ OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
-SSH_HOST=bounce
+SSH_HOST=bounce.bunni.biz
 SSH_PORT=22
 SSH_USER=tbunnyman
 SSH_TARGET_DIR=www

@@ -2,7 +2,6 @@ date: 2014-07-13
 author: tBunnyMan
 title: Where have you been?
 slug: update-2014
-tags: work
 
 Actually I should have called this where have *I* been. This seemed catchier though.
 

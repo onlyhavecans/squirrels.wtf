@@ -18,16 +18,17 @@ CATEGORY_FEED_RSS = 'feeds/category.%s.rss'
 TAG_FEED_RSS = None
 FEED_MAX_ITEMS = 30
 
-#Theme
+# Theme
 THEME = './theme/chunk'
 SINGLE_AUTHOR = False
 DISPLAY_CATEGORIES_ON_MENU = True
 DEFAULT_DATE_FORMAT = ('%b %d %Y')
-#TYPOGRIFY = True
+# TYPOGRIFY = True
 
 # Blogroll
 LINKS = (
     ('GitHub', 'https://github.com/tbunnyman'),
+    ('Stash', 'http://stash.bunni.biz'),
 )
 
 # Cleaner page links
