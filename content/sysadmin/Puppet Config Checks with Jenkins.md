@@ -2,6 +2,7 @@ date: 2013-02-19 19:32
 author: tBunnyMan
 title: Puppet Configuration Checks with Jenkins
 slug: puppet_jenkins
+tags: jenkins
 
 Ok, so we have all our Nagios configs being sanitized and checked by Jenkins, why not [Puppet: IT Automation Software for System Administrators](https://puppetlabs.com/)? WHY NOT PUPPET!?
 
