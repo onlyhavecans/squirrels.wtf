@@ -3,7 +3,6 @@ author: tBunnyMan
 title: Git-Fu Advice
 slug: git-fu-02
 tags: git
-status: draft
 
 Now who would have thought, I start blogging about git and people have advice. This post isn't just my personal learning but also some advice I received from others!
 
