@@ -48,5 +48,5 @@ I have been a busy bunny all my life and even now I am far from stopping. I am w
 - Started Writing Fiction
 - Finished NaNoWriMo first year
 - Studied low level architecture and began reversing crackmes
-- Became an lead developer for the [Pelcian](http://getpelican.com) project
+- Became an lead developer for the [Pelican](http://getpelican.com) project
 - Started an organization to manage furry events and conventions in Las Vegas
