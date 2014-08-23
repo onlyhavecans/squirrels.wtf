@@ -75,4 +75,4 @@ ssh_upload: publish
 rsync_upload: publish
 	rsync -e "ssh -p $(SSH_PORT)" -P -rvzc --delete $(OUTPUTDIR)/ $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR) --cvs-exclude
 
-.PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload 
+.PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload
