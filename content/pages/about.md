@@ -1,4 +1,4 @@
-Date: 2012-06-13
+Date: 2015-04-16
 Title: About
 Tags:
 Slug: about
@@ -50,3 +50,11 @@ I have been a busy bunny all my life and even now I am far from stopping. I am w
 - Studied low level architecture and began reversing crackmes
 - Became an lead developer for the [Pelican](http://getpelican.com) project
 - Started an organization to manage furry events and conventions in Las Vegas
+- Bought my own house
+- Attended more furry cons that I can imagine
+- Went to Slickdeals.net to be a System Engineer
+- Went to Percona Live to get involved in DBA
+- Took and graduated from O'Reilly's Database Administration Series
+- Got Serious about studying Japanese
+- Starting commuting by bicyle full time
+- Fell in love with and became entrenched in the Chef community
