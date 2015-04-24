@@ -45,8 +45,8 @@ Create a knife object. have it take all your settings on initialize, then you ca
 You really only need status for this one. The meat of status is this here, coderanger dropped this on me in IRC
 
     :::python
-    for row in chef.Search(‘node’, ‘*:*’):
-        nodes[row.object[‘machine name’]] = datetime.fromtimestamp(row.object[‘ohai_time’])
+    for row in chef.Search('node', '*:*'):
+        nodes[row.object['machine name']] = datetime.fromtimestamp(row.object['ohai_time'])
 
 ### Step three
 Now from here I created a TimeChecker object. It takes the dictionary of `{ server: datetimeObj }` on it’s init. For consistency sake I also init `self.now = datetime.now()`. Then I have a `TimeChecker.runs_not_in_the_last()` that just takes an int. 
