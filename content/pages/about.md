@@ -41,7 +41,7 @@ I have been a busy bunny all my life and even now I am far from stopping. I am w
 - Started building electronic kits
 - Learned basic C to program Arduinos
 - Went to burning Man 4 times in a row
-- Failed at Wedding Photography
+- Photograpphed three weddings and hated every moment of it
 - Started a local book club
 - Taught Myself Python
 - Became a Infrastructure Manager
@@ -58,3 +58,4 @@ I have been a busy bunny all my life and even now I am far from stopping. I am w
 - Got Serious about studying Japanese
 - Starting commuting by bicyle full time
 - Fell in love with and became entrenched in the Chef community
+- Started back into photography with art
