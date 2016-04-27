@@ -10,5 +10,6 @@ Slug: contact
 - Wag That Tail At Me... dot com
 - tBunnyMan on FreeNode IRC
 
-My PGP/GPG fingerprint is : `F8E4 FD83 7B31 F2A1 5831  B65A 48B4 70EF 1707 3F62`
+My PGP/GPG fingerprint is : `E1C0 35C3 A434 909B 8056  2D41 01DC 4C9E A162 B659`
+
 You can also just download it [here](/publickey.asc)
