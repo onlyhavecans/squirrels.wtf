@@ -28,6 +28,7 @@ I understand staffing is expensive and money is tight when your product is still
 The best thing that ever happened to me in my experience in operations was learning to foster an interpersonal technical rapport with my co-workers and keeping it open. Constantly jogging ideas back and forth, never letting myself, or them stick on a problem and instead kicking it out to jog between us. I've done it twice and now it's a job requirement for me. The ability to "pair up" with operations to constantly foster and develop the most efficiently.
 
 You see a lot of this starting to bud up in the tech world these days actually;
+
 - Open floor plans and chat based teams open up as much quick and easy discussion on issues as possible.
 - Code reviews are becoming the norm not just in development but in several forms of operations[^2].
 - The whole DevOps movement has large parts about enhancing communication and working together with others to help pool strengths and minimize weaknesses.
@@ -40,8 +41,9 @@ In closing I'd like to talk a little bit more about my mother. She's been a regi
 
 ----
 
-tl;dr
+## tl;dr
 In my opinion burnout is a natural product of the tech industry culture. In order help combat this you need to do all of the following, which is not a panacea but a powerful preventive framework;
+
 - Work with others to help solve problems instead of trying to be a rockstar and solve them all yourself.
 - Create review processes around configuration and software changes so that you have reduced liability and risk.
 - Work with someone to develop intelligent alerting as well as a support rotation that allows rest and relaxation cycles as frequently as possible to reduce pager fatigue.
