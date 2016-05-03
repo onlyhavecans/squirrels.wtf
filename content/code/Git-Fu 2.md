@@ -1,5 +1,4 @@
 date: 2012-09-11 15:05
-author: tBunnyMan
 title: Git-Fu Advice
 slug: git-fu-02
 tags: git

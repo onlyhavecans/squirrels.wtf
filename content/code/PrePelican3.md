@@ -1,5 +1,4 @@
 date: 2012-07-17 14:19
-author: tBunnyMan
 title: More Pelican, or how I learned to stop worrying and start developing with others.
 slug: pre-pelican-3
 tags: Pelican

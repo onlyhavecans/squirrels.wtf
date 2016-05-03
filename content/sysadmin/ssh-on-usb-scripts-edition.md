@@ -1,5 +1,4 @@
 date: 2013-03-07 07:50
-author: tBunnyMan
 title: SSH Keys on a USB jump drive on Mac OS X Part 2
 slug: ssh-on-usb-on-mac-os-x-scripts
 tags: mac

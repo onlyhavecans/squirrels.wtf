@@ -1,5 +1,4 @@
 date: 2012-11-06 15:16
-author: tBunnyMan
 title: BunMailPot Alpha…
 slug: bunny-mail-honeypot-alpha
 tags: mac, malware

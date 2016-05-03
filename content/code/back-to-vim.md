@@ -1,5 +1,4 @@
 date: 2013-04-11 21:53
-author: tBunnyMan
 title: Coming back to vim
 slug: back-to-vim
 tags: python, vim

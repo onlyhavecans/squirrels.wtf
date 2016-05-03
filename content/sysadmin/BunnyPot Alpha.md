@@ -1,5 +1,4 @@
 date: 2012-08-04 15:20
-author: tBunnyMan
 title: BunnyPot Alpha
 slug:	bunnypot
 

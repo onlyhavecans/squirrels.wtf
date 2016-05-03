@@ -1,5 +1,4 @@
 date: 2015-04-17 17:15
-author: tBunnyMan
 title: An Open Year
 slug: open-year-2015
 tags: 
