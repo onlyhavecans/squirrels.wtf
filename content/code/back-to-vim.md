@@ -46,10 +46,10 @@ Just remember to not make these your ONLY keys, all posable keys should be passw
 I need a sweet terminal so I use zsh with oh-my-zsh and a while bunch of personal mods. Remember the whole lazy part? Yes. Here is the highlights of my zsh configs;
 
 - I have my .zsh run `workon` at the end to list all my virtenvs. It's a nice nag
-- I use ^p and ^n for fuzzy history find and it's amazing [dotfiles/zsh/keybindings.zsh at master · tbunnyman/dotfiles · GitHub](https://github.com/tbunnyman/dotfiles/blob/master/zsh/keybindings.zsh#L20-L21)
-- vi-mode!!!!! 
+- I use ^p and ^n for fuzzy history find and it's amazing [dotfiles/zsh/keybindings.zsh at master · onlyhavecans/dotfiles · GitHub](https://github.com/onlyhavecans/dotfiles/blob/master/zsh/keybindings.zsh#L20-L21)
+- vi-mode!!!!!
 
-The second major part is tmux. Whatever you are using now… drop it and use tmux. I remapped all my common tmux commands to vi-mode style and C-a for my leader because now ctrl and a are touching. For the full list of my configs which I won't get too deep into check out [tmux.conf at master · tbunnyman/dotfiles · GitHub](https://github.com/tbunnyman/dotfiles/blob/master/tmux/tmux.conf.symlink).
+The second major part is tmux. Whatever you are using now… drop it and use tmux. I remapped all my common tmux commands to vi-mode style and C-a for my leader because now ctrl and a are touching. For the full list of my configs which I won't get too deep into check out [tmux.conf at master · onlyhavecans/dotfiles · GitHub](https://github.com/onlyhavecans/dotfiles/blob/master/tmux/tmux.conf.symlink).
 
 My main tmux window generally looks like this
 
@@ -71,7 +71,7 @@ I often have a second window but the latest version added `C-a z` for window zoo
 First and foremost I keep an 8.5x11 copy of [Beautiful Vim Cheat-Sheet Poster & Printable Downloads](http://vimcheatsheet.com/) on my desk. It's a nice way to keep reminding me of all the features I NEED to be using and if you don't want to give someone 10USD for it there is a free link right on the page for a low res.
 
 ### tl;dr the configs
-[dotfiles/vim at master · tbunnyman/dotfiles · GitHub](https://github.com/tbunnyman/dotfiles/tree/master/vim)
+[dotfiles/vim at master · onlyhavecans/dotfiles · GitHub](https://github.com/onlyhavecans/dotfiles/tree/master/vim)
 
 A lot of my inital vim config like most was stolen from somewhere but over time I have stripped out everything I didn't adapt in. I started with [YADR](http://skwp.github.io/dotfiles/) and then seriously hacked it to death. In the end there is still yadr references but you shouldn't take anything that claims being from yadr in there still is. I'm just lazy about renaming files for scuz.
 

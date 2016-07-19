@@ -10,4 +10,4 @@ I just though I would share that I redid this repository completely and cleaned 
 
 I should really break out TransmissionRequestWrapper into it's own package and distribute that since it's so sweet. Please feel free to use it with some credit.
 
-[tbunnyman/Transmission_Tools · GitHub](https://github.com/tbunnyman/Transmission_Tools)
+[onlyhavecans/Transmission_Tools · GitHub](https://github.com/onlyhavecans/Transmission_Tools)

@@ -22,13 +22,13 @@ SnowLprd wanted me to get some documenting on and take notes on what I find usef
 ## Starter Commands
 I'm not gonna put up how to clone a repo here. SRSLY if you haven't gotten past 101 I'm not going to be useful. This is supposed to be 105b.
 	
-	git remote set-url origin git@github.com:tbunnyman/pelican.git
+	git remote set-url origin git@github.com:onlyhavecans/pelican.git
 	git remote add upstream git://github.com/getpelican/pelican.git
 	git remote add MyExBF git://github.com/justinmayer/pelican.git
 > Ok, so this one could be obvious but double check to make sure you have everything linked properly. You want the the R/W link to any repos you are pushing to. You might want to change your auth or connect style if you've say… been made a repo maintainer. For sakes of safety/neatness you should still treat your upstream as R/O and make all your changes in push requests and patches. Also add the R/O of your major contributors and co-developers so you can test their patches easier.
 
 	git pull upstream master && git push origin
-> There really should be a shortcut in this for git. Maybe I'll discover it later. I don't do my work on getpelican/pelican, I have the tbunnyman/pelican fork! Each time I want to work on something I branch, code, commit, push, pull-request. It's an endless cycle. I never really touch my master, I just want to keep it up to date with the upstream. I don't know an amazing shortcut for that so the above micro shell script does the trick.
+> There really should be a shortcut in this for git. Maybe I'll discover it later. I don't do my work on getpelican/pelican, I have the onlyhavecans/pelican fork! Each time I want to work on something I branch, code, commit, push, pull-request. It's an endless cycle. I never really touch my master, I just want to keep it up to date with the upstream. I don't know an amazing shortcut for that so the above micro shell script does the trick.
 
 	git push origin --delete <branchname>
 > I branch for every single patch to maintain tree neatness… however this becomes ugly fast on a good code month. This quickly dumps a branch and deletes it from github. Don't do this before it's been merged into master though, you are asking for pain the first time you make that mistake. Try to remember, branches aren't too expensive disk-wise so don't g too crazy on deleting them.

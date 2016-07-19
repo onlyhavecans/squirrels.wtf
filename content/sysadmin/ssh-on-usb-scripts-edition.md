@@ -63,7 +63,7 @@ Maximum lazy engage!
 Ok. To start there is no ssh-askpass on Mac OS X Mountain Lion which is fairly un-bro of apple but whatever. I replaced it with an applescript I stole and _slightly_ tweaked to run better. 
 
 Take this, it's dangerous to go alone.
-[tbunnyman/mac-ssh-askpass · GitHub](https://github.com/tbunnyman/mac-ssh-askpass)
+[onlyhavecans/mac-ssh-askpass · GitHub](https://github.com/onlyhavecans/mac-ssh-askpass)
 
 Just put it in ~/Applications like me or /usr/local/bin or where ever makes you warmest and fuzziest inside. Either way don't forget where you put our makeshift ssh-askpass
 
@@ -75,7 +75,7 @@ Now break out the applescript editor and take this puppy for a ride.
     then prompts you for what one you want to load into ssh-agent
 
     You need mac-ssh-addpass for this to work as well
-    https://github.com/tbunnyman/mac-ssh-askpass
+    https://github.com/onlyhavecans/mac-ssh-askpass
     *)
 
     property keyFolder : "KEYDRIVE:ssh"

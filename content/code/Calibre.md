@@ -15,7 +15,7 @@ After digging about I found a few "close enough but incomplete" and outdated sol
 
 A python based open source project with something that I want improved? A bunny like me only can do one thing in a situation like this; reach back to grab one of my many 'cans', learn the [API Documentation for recipes](http://manual.calibre-ebook.com/news_recipe.html), and get my money out of PyCharm.
 
-After a few days and learning more than just Calibre api[^browser], I put out what I called ReadItLater V3 on to [my github](https://github.com/tbunnyman/ReadItLater-Calibre-Plugin) and reposted it to [Calibre Recipes MobileRead Forums](http://www.mobileread.com/forums/forumdisplay.php?f=228). Other people picked it up and I ended up adding a few extra features per requests
+After a few days and learning more than just Calibre api[^browser], I put out what I called ReadItLater V3 on to [my github](https://github.com/onlyhavecans/ReadItLater-Calibre-Plugin) and reposted it to [Calibre Recipes MobileRead Forums](http://www.mobileread.com/forums/forumdisplay.php?f=228). Other people picked it up and I ended up adding a few extra features per requests
 
 [^browser]: [mechanize Browser](http://wwwsearch.sourceforge.net/mechanize/) and [Beautiful Soup](http://www.crummy.com/software/BeautifulSoup/bs3/documentation.html) are now favorites in my toolbox of handling and scraping web content, something I do more than any bunny should.
 

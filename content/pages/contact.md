@@ -5,7 +5,7 @@ Slug: contact
 
 - @OnlyHaveCans on twitter
 - @OnlyHaveCans on Telegram
-- tbunnyman on GitHub
+- onlyhavecans on GitHub
 - Wag That Tail At Me... dot com
 - tBunnyMan on FreeNode IRC
 
