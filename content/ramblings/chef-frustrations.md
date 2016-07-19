@@ -1,5 +1,4 @@
 date: 2014-07-14 18:24
-author: tBunnyMan
 title: Chef Frustrations
 slug: chef-frustrations
 tags: chef

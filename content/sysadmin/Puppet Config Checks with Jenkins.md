@@ -1,5 +1,4 @@
 date: 2013-02-19 19:32
-author: tBunnyMan
 title: Puppet Configuration Checks with Jenkins
 slug: puppet_jenkins
 tags: jenkins

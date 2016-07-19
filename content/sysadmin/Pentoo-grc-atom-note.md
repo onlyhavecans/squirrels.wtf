@@ -1,5 +1,4 @@
 date: 2015-09-06 15:03
-author: tBunnyMan
 title: Quick Note on GnuRadio on Pentoo
 slug: pentoo-grc-atom
 tags: grc

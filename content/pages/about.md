@@ -5,7 +5,7 @@ Slug: about
 
 ## What is there to know about a bunny… man? ##
 
-I have been a busy bunny all my life and even now I am far from stopping. I am what I like to call a modern renaissance bun. My interests include becoming a better person and learning all that there is to learn about how amazing life can be. As of this writing I am thirty years old and even as I go to list my accomplishments I realize I have so very much more to do!
+I have been a busy skwrl all my life and even now I am far from stopping. I am what I like to call a modern renaissance man. My interests include becoming a better person and learning all that there is to learn about how amazing life can be. As of this writing I am thirty years old and even as I go to list my accomplishments I realize I have so very much more to do!
 
 ## In the past I have;
 - Graduated High school
@@ -41,7 +41,7 @@ I have been a busy bunny all my life and even now I am far from stopping. I am w
 - Started building electronic kits
 - Learned basic C to program Arduinos
 - Went to burning Man 4 times in a row
-- Failed at Wedding Photography
+- Photograpphed three weddings and hated every moment of it
 - Started a local book club
 - Taught Myself Python
 - Became a Infrastructure Manager
@@ -58,3 +58,5 @@ I have been a busy bunny all my life and even now I am far from stopping. I am w
 - Got Serious about studying Japanese
 - Starting commuting by bicyle full time
 - Fell in love with and became entrenched in the Chef community
+- Started back into photography with art
+- Became a squirrel, how does that even happen?

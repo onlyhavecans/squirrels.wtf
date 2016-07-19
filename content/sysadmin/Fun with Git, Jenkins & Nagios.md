@@ -1,5 +1,4 @@
 date: 2012-09-07 11:04
-author: tBunnyMan
 title: Fun with Git, Jenkins, &amp; Nagios
 slug: git-jenkins-nagios
 tags: git, jenkins

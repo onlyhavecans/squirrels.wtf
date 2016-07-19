@@ -1,5 +1,4 @@
 date: 2015-04-24 13:52
-author: tBunnyMan
 title: Monitoring Chef runs without Chef
 slug: nagios-chef-run-check
 tags: nagios, chef

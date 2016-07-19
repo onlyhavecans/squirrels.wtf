@@ -1,5 +1,4 @@
 date: 2012-10-30 19:29
-author: tBunnyMan
 title: simpliFiRE.IDAscope API browsing on a Mac
 slug: idascope-winapi-browsing-on-a-mac
 tags: ida,mac
