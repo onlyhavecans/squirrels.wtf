@@ -28,6 +28,7 @@ sudo pkg install ruby rubygem-bundler portdowngrade git
 sudo portdowngrade devel/gecode r345033
 cd /usr/ports/devel/gecode/gecode
 sudo make deinstall install clean
+cd ~
 git clone https://github.com/chef/chef-dk.git
 cd chef-dk
 USE_SYSTEM_GECODE=1 bundle install --without development
