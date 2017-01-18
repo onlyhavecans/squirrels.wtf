@@ -25,9 +25,11 @@ If you aren’t then ymmv.
 
 ```
 sudo pkg install ruby rubygem-bundler portdowngrade git
+cd ~
 sudo portdowngrade devel/gecode r345033
-cd /usr/ports/devel/gecode/gecode
+cd gecode
 sudo make deinstall install clean
+sudo sed -ie 's/\(#define GECODE_VERSION_NUMBER\)\s*/\1 300703/' /usr/local/include/gecode/support/config.hpp
 cd ~
 git clone https://github.com/chef/chef-dk.git
 cd chef-dk
@@ -36,3 +38,5 @@ USE_SYSTEM_GECODE=1 bundle install --without development
 
 There you go! It’s not going to give you the /opt/chef-dk omnibus but you will have all the chef-dk you need to do your stuff!
 Maybe later I’ll document how to make a package but this will likely work for me.
+
+UPDATE 2017-01-17: Thanks to [Shawn](https://shawnwilsher.com/) for the GECODE_VERSION_NUMBER update. This was broken several months after this post initally was written
