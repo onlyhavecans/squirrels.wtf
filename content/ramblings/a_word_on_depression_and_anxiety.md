@@ -20,4 +20,6 @@ I have my friends to talk to, not just endless shouts into the void like this bl
 
 You may not have all these things, but I really hope if you have a cascade of voices telling you how horrible you are and how every choice you have made is a bad one you can still reach out and listen to a real voice who can tell you how special and valid you _really_ are.
 
+Because you are valid, and awesome. I can promise you that you do deserve to be happy. While it won't always be easy you can be happy too.
+
 If you don’t feel you have anyone, ping me; let’s talk. I can’t promise I’ll always be the person you need to talk to but maybe I can at least help.
