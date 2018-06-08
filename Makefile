@@ -1,5 +1,5 @@
 PY?=python
-PELICAN?=pelican
+PELICAN?=./env/bin/pelican
 PELICANOPTS=
 
 BASEDIR=$(CURDIR)
@@ -65,9 +65,13 @@ stopserver:
 	kill -9 `cat srv.pid`
 	@echo 'Stopped Pelican and SimpleHTTPServer processes running in background.'
 
-publish:
+envbuild:
 	git submodule init
 	git submodule update
+	test -e env || python3 -m venv env
+	./env/bin/pip install -r requirements.txt --upgrade
+
+publish: envbuild
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 	cp $(BASEDIR)/extras/* $(OUTPUTDIR)/
 
