@@ -1,9 +1,9 @@
-baseURL = "http://bunnyman.info/"
+baseURL = "https://bunnyman.info/"
 languageCode = "en-us"
 theme = "whiteplain"
 disqusShortname = "bunnymaninfo"
 
-title = "Dear Squirrels, WTF"
+title = "Dear Squirrels, WTF aka BunnyMan.Info"
 description = "Because Life is too Awesome not to share"
 copyright = "&copy; Amy Aronsohn 2012-2018"
 
