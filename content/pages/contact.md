@@ -6,9 +6,7 @@ Slug: contact
 - @OnlyHaveCans on twitter
 - @OnlyHaveCans on Telegram
 - onlyhavecans on GitHub
-- thebunnymachine on Flickr
 - Wag That Tail At Me... dot com
-- tBunnyMan on FreeNode IRC
 
 My PGP/GPG fingerprint is : `E1C0 35C3 A434 909B 8056  2D41 01DC 4C9E A162 B659`
 
