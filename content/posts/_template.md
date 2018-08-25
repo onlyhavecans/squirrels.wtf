@@ -1,9 +1,7 @@
 ---
 date:
-title:
-slug:
+title: Today I Feel...
 categories: [ramblings]
-tags: [stuff]
 ---
 
-Content
+Today I Feel...
