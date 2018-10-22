@@ -12,18 +12,20 @@ This isn't "where it starts" we've been on this road for quite a while and now t
 
 Ever since yesterday I can't stop thinking about a poem that recited around me all the time when I was young. It's had a big impact on my life.
 
----
-
 > First they came for the socialists, and I did not speak out—
+>
 > Because I was not a socialist.
 >
 > Then they came for the trade unionists, and I did not speak out—
+>
 > Because I was not a trade unionist.
 >
 > Then they came for the Jews, and I did not speak out—
+>
 > Because I was not a Jew.
 >
 > Then they came for me—
+>
 > and there was no one left to speak for me.
 >
 > -Martin Niemöller
