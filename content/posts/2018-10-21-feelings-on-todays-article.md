@@ -4,7 +4,9 @@ title: My feelings on today's article
 categories: [ramblings]
 ---
 
-I'm exceptionally upset and disturbed over the New York Times article about a memo looking to define trans people out of existence as a part of Title IX. 
+I'm exceptionally upset and disturbed over the New York Times article[^1] about a memo looking to define trans people out of existence as a part of Title IX. 
+
+[^1]: Instead of linking to the New York Times article because they don't need my link love go to [The Mary Sue](https://www.themarysue.com/trump-transgender-rights-attack/) where they talk about it.
 
 It's not even the memo or the attempt to change Title IX actually. (Here is where you link in 6mo when I need to eat my own words) I doubt the ability to get something like that passed and standing up in courts.
 
