@@ -8,9 +8,7 @@ I am exceptionally upset and disturbed over the New York Times article[^1] about
 
 [^1]: Instead of linking to the New York Times article because they don't need my link love go to [The Mary Sue](https://www.themarysue.com/trump-transgender-rights-attack/) where they talk about it if you need a refresher.
 
-It's not the wording of the article or the attempt to change Title IX that has me most upset; I doubt the ability of the current government to get something like that passed and standing up in courts[^2]. Considering the timing and the political climate this feels more like an extremely conservative call to arms; a rallying cry to drive more of their voters out in response to the mobilization of the liberals. However that is what upsets me the most.
-
-[^2]: Here is where you link when I need to eat my own words about the ability of the Trump Administration to screw me over.
+It's not the wording of the article or the attempt to change Title IX that has me most upset; Not to underplay that if this actually happens I have no idea what I'll do. Considering the timing and the political climate this feels more like an extremely conservative call to arms; a rallying cry to drive more of their voters out in response to the mobilization of the liberals. However that is what upsets me the most.
 
 What has me flailing like Kermit T. Frog here is that publishing these things emboldens bigots. It empowers them to do evil with great self righteousness. They no longer to have to listen to all those voices about human rights, now they have a voice of hatred to focus on and galvanize around.
 
