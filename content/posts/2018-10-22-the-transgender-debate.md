@@ -4,13 +4,13 @@ title: The Transgender Debate
 categories: [ramblings]
 ---
 
-There is a lot of posts all over facebook today comparing the "Transgender Debate" to the "Jewish Question". Seeing this comparison makes me wince really hard, recoil from it even! This invokes a great feeling of taking the comparison too far.
+There is a lot of posts all over facebook today comparing the "Transgender Debate" to the "Jewish Question." Seeing this comparison makes me wince hard, recoil from it even! This phrasing invokes a feeling of taking the analogy too far.
 
-However the fact that I'm trying to be reputed out of existence by my own government makes me really feel this whole "holy shit our government is run by white nationalists" feel a lot less like something I can point at and make grim laughter about or mock. It's a blood draining reality now.
+However, the fact that I'm trying to be reputed out of existence by my government makes me feel this whole "holy shit our government is run by white nationalists" feel a lot less like something I can point at and make grim laughter about or mock. It's a blood draining reality now.
 
-This isn't "where it starts" we've been on this road for quite a while and now they are coming for me. The transgender community has very little political power or outreach, so we don't have enough voice to decide if we will survive this. Those who are willing to stand up for us will decide where this nation goes.
+This isn't "where it starts" we've been on this road for quite a while, and now they are coming for me. The transgender community has very little political power or outreach, so we don't have enough voice to decide if we will survive this. Those who are willing to stand up for us will determine where this nation goes.
 
-Ever since yesterday I can't stop thinking about a poem that recited around me all the time when I was young. It's had a big impact on my life.
+Ever since yesterday, I can't stop thinking about a poem that recited around me all the time when I was young. It's had a significant impact on my life.
 
 > First they came for the socialists, and I did not speak out—
 >
