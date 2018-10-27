@@ -1,6 +1,6 @@
 ---
 date: 2018-10-27
-title: Trans stories by Trans People pt1: name
+title: Trans stories by Trans People Part 1
 categories: [ramblings]
 ---
 
@@ -11,5 +11,7 @@ She came back with the card “Mr Aronsohn?“ and looked at everyone but me exp
 She was so mortified (hopefully by her mistake) that she made this amazingly shocked sound, handed the check folder over with this confused expression, and dashed away.
 
 I've never even considered the fact that I've “passed” as a cis woman so that was kind of both an amazingly validating and completely humiliating moment.
+
+We all shared a laughed out loud because we didn't want to let it be a big deal but...
 
 This is the power a name has.
