@@ -1,7 +1,7 @@
 ---
 date: 2018-05-03
 title: An Open Letter to Whom it May Concern
-categories: [ramblings]
+categories: [being_transgender]
 ---
 
 Sometimes it’s a little odd to hear these things from other people so I thought I’d leave a nice open letter to whom it may concern. No wait, this isn’t a generic letter to just anyone. This is a letter I am writing specifically for _you_. That’s right, directly from me to you; Just you. You probably heard some confusing things, or caught wind of some stuff you don't understand. I am here to make some clarifications, set the record straight, just in case you missed the news.

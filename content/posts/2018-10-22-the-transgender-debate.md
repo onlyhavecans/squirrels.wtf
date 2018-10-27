@@ -1,7 +1,7 @@
 ---
 date: 2018-10-22
 title: The Transgender Debate
-categories: [ramblings]
+categories: [being_transgender]
 ---
 
 There is a lot of posts all over facebook today comparing the "Transgender Debate" to the "Jewish Question." Seeing this comparison makes me wince hard, recoil from it even! This phrasing invokes a feeling of taking the analogy too far.

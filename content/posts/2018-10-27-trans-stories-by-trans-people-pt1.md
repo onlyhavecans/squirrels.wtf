@@ -1,7 +1,7 @@
 ---
 date: 2018-10-27
-title: Trans stories by Trans People Part 1
-categories: [ramblings]
+title: Trans Stories by Trans People
+categories: [being_transgender]
 ---
 
 I picked up breakfast this morning. The waitress was this super kind personable type.

@@ -1,7 +1,7 @@
 ---
 date: 2018-10-21
 title: My feelings on today's news about Trans rights
-categories: [ramblings]
+categories: [being_transgender]
 ---
 
 I am distraught and disturbed over the New York Times article[^1] about a memo looking to define trans people out of existence as a part of a change to Title IX. 
