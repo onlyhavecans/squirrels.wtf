@@ -29,6 +29,9 @@ ignoreFiles = ["_template.md"]
   category = "categories"
   tag = "tags"
 
+[permalinks]
+  posts = "/posts/:year-:month-:day-:title/"
+
 # Header
 [[menu.main]]
   name = "Categories"
@@ -53,7 +56,12 @@ ignoreFiles = ["_template.md"]
 
 # Footer Menu
 [[menu.footer]]
-  name = "About"
+  name = "Exploration#5"
+  identifier = "Exploration #5 Games"
+  url = "https://exploration5.games"
   weight = 1
-  identifier = "about"
-  url = "/about/"
+[[menu.footer]]
+  name = "MyGitea"
+  identifier = "Squirrel Gitea"
+  url = "https://onlyhavecans.works"
+  weight = 2

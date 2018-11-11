@@ -5,7 +5,7 @@ categories: [productivity]
 tags: [gtd]
 ---
 
-In [part one]({{< relref "2018-06-15-systems-are-not-easy-p1.md" >}}) of this post I talked about what I feel the hardest part of every system is, maintence. I talked about identifying tasks that take up large amounts of mental stress and what you should maybe do with them. Hint, throw them out or defer them. What if you really need to do this thing though?<!--more-->
+In [part one]({{< relref "systems-are-not-easy-p1.md" >}}) of this post I talked about what I feel the hardest part of every system is, maintence. I talked about identifying tasks that take up large amounts of mental stress and what you should maybe do with them. Hint, throw them out or defer them. What if you really need to do this thing though?<!--more-->
 
 I believe there is very few things we _need_ to do, but there is a lot of things you really should do in your system. Some of those things you should do might be friction items that are not getting done. For these probleamatic items I have a special method of reviewing however this process isn’t free and takes both time and energy. I don’t always do this soon enough which is why sometimes things break down. If I haven’t done this in a while my normally 30 minute review can quickly ballon out into an hour or more, but sometimes you need to do that processing up front instead of every time you look at your list.
 
