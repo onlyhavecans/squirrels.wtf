@@ -10,6 +10,9 @@ copyright = "&copy; Amy Aronsohn 2012-2018"
 footnotereturnlinkcontents = "↩"
 ignoreFiles = ["_template.md"]
 
+[params]
+  useCDN = false
+  showShareIcons = false
 
 # This is all displayed on author
 [params.author]
