@@ -6,7 +6,7 @@ categories: [being_transgender]
 
 There is a lot of posts all over facebook today comparing the "Transgender Debate" to the "Jewish Question." Seeing this comparison makes me wince hard, recoil from it even! This phrasing invokes a feeling of taking the analogy too far.
 
-However, the fact that I'm trying to be reputed out of existence by my government makes me feel this whole "holy shit our government is run by white nationalists" feel a lot less like something I can point at and make grim laughter about or mock. It's a blood draining reality now.
+However, the fact that I'm trying to be reputed out of existence by my government makes me feel this whole "holy shit our government is run by white nationalists" feel a lot less like something I can point at and make grim laughter about or mock. It's a blood draining reality now.<!--more-->
 
 This isn't "where it starts" we've been on this road for quite a while, and now they are coming for me. The transgender community has very little political power or outreach, so we don't have enough voice to decide if we will survive this. Those who are willing to stand up for us will determine where this nation goes.
 

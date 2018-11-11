@@ -8,7 +8,7 @@ I am distraught and disturbed over the New York Times article[^1] about a memo l
 
 [^1]: Instead of linking to the New York Times article because they don't need my link love go to [The Mary Sue](https://www.themarysue.com/trump-transgender-rights-attack/) where they talk about it if you need a refresher.
 
-It's not the wording of the article or the attempt to change Title IX that has me most upset; Not to underplay that if this happens, I have no idea what I'll do. Considering the timing and the political climate, this feels more like an extremely conservative call to arms. However, that is what upsets me the most.
+It's not the wording of the article or the attempt to change Title IX that has me most upset; Not to underplay that if this happens, I have no idea what I'll do. Considering the timing and the political climate, this feels more like an extremely conservative call to arms. However, that is what upsets me the most.<!--more-->
 
 What has me flailing like Kermit T. Frog here is that publishing these things emboldens bigot and empowers them to do evil with great self-righteousness. They no longer to have to listen to all those voices about human rights, now they have a view of hatred to focus on and galvanize around.
 

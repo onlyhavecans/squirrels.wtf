@@ -4,6 +4,8 @@ title: Trans Stories by Trans People
 categories: [being_transgender]
 ---
 
+An really weird thing happened to me today, a weirdly trans thing you could say.<!--more-->
+
 I picked up breakfast this morning. The waitress was this super kind personable type.
 
 She came back with the card “Mr Aronsohn?“ and looked at everyone but me expectantly. She didn't hear me when I replied either. After asking twice I raised my hand and everyone pointed to me.
