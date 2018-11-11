@@ -15,11 +15,12 @@ ignoreFiles = ["_template.md"]
 [params.author]
     name = "Amy Aronsohn"
     gravatar = "wagthattail@me.com"
-    twitter = "OnlyHaveCans"
     github = "OnlyHaveCans"
     gitlab = "OnlyHaveCans"
-    telegram = "OnlyHaveCans"
+    instagram = "OnlyHaveCans"
     keybase = "OnlyHaveCans"
+    telegram = "OnlyHaveCans"
+    twitter = "OnlyHaveCans"
 
 [taxonomies]
   category = "categories"
