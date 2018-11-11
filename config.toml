@@ -56,12 +56,12 @@ ignoreFiles = ["_template.md"]
 
 # Footer Menu
 [[menu.footer]]
-  name = "Exploration#5"
+  name = "[Exploration #5 Games]"
   identifier = "Exploration #5 Games"
   url = "https://exploration5.games"
   weight = 1
 [[menu.footer]]
-  name = "MyGitea"
+  name = "[My Gitea]"
   identifier = "Squirrel Gitea"
   url = "https://onlyhavecans.works"
   weight = 2
