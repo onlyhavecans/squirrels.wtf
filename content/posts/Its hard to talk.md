@@ -5,18 +5,22 @@ categories: [ramblings]
 ---
 
 The following is a stream of consciousness. It was originally meant as something more poetic, to try and share what social situations are like post transition.
+
 It is not meant as a call out post for any person or the conference I was at. I solely wish to share what my experience is like now, and offer some contrast to how it was.
 
 ---
 
 It’s hard to talk (as a trans person).
+
 I say (as a trans person) because it was not hard to talk before.
-I don’t want to say it’s hardER to talk as a trans person.
+I don’t want to say it’s hardEr to talk as a trans person.
 It’s not a healthy comparison I think.
 
 It’s wilting how often people stare with unpleasant eyes.
 A conference hall I’ve walked ten times before, full of people who I called my friends without reserve or limitations is now hostile and scary.
+
 I’m gauging every glare.
+
 It makes me not want to speak; don’t bring more attention to yourself.
 I don’t feel well after the third glare. Am I still a friend? Can I be apart of this a community? Is this going to a problem? Will I be able to pee?
 
@@ -36,9 +40,11 @@ Somone called me "he", it’s a slip up. What makes someone make that slip up? T
 Someone once told me that it’s really awkward when they make a mistake; they don’t want to call attention to the mistake or me by correcting themselves or apologizing. It’s jarring to me when it happens, it sounds like someone screaming about how I’m just a dude in a dress. I’m downplaying how upset I am. I’m not even mad at you, I’m upset at the moment. I wish we could rewind and scrub it, we both get a do-over and everything great now.
 
 It’s worse when you ignore the mistake, now I’m mad at you because you’ve hurt me without repentance, it feels like you are making a statement. Is it worth derailing this entire conversation? Take a deep breath and let it go, no one likes the pronoun police, you don’t want to be marked one of those shrew trans women.
+
 Nobody else cares.
 
 Shoot I missed what they said, I was distracted.
+
 Smile and nod.
 
 It’s hard to talk.
