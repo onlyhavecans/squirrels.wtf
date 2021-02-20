@@ -16,7 +16,7 @@ So without further ado, here is building Chef-DK for FreeBSD 10.3 (and probably 
 If this is a fresh box you need pkg, ports, and some base packages.
 All this assumes run as root.
 
-```
+```bash
 pkg install pkg
 portsnap fetch extract
 portsnap fetch update
@@ -26,7 +26,7 @@ pkg install sudo
 Ok, for the rest of this I am assuming you are running as a user that has sudo rights.
 If you aren’t then ymmv.
 
-```
+```bash
 sudo pkg install ruby rubygem-bundler portdowngrade git
 cd ~
 sudo portdowngrade devel/gecode r345033

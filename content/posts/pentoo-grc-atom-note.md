@@ -13,14 +13,14 @@ One thing is GNURadio on Pentoo. Pentoo runs hardened and this pisses off the At
 
 So if you get the following error.
 
-```
+```bash
 LLVM ERROR: Allocation failed when allocating new memory in the JIT
 Can't Allocate RWX Memory: Operation not permitted
 ```
 
 Then you need to soft disable hardened with the following command
 
-```
+```bash
 sudo toggle_hardened
 ```
 

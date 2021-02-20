@@ -6,7 +6,7 @@ categories: [sysadmin]
 tags: [mac]
 ---
 
-## Here I address the eternal struggle.
+## Here I address the eternal struggle
 
 I want to store all my private keys on my jump drive I wear around everywhere. I use Win, Linux, but primarily Macs to do to my work so it needs to be some FAT variant formatted. I want to use the absolutely least hacky way.
 
@@ -17,24 +17,30 @@ All the searches in duck duck go and google came up with "Nope! Can't do it! Giv
 As always YMMV and don't copy paste things I write here into the terminal.
 
 ## tl;dr jump point
+
 1. Find your uid with "`id -u`". 99% of the time it's 501.
 2. Double check your drive name with "`ls -ln /Volumes`".
 3. with sudo add a new line to `/etc/fstab`[^NOT]
 
-		#Drive called iamaKey and user 501
-		LABEL=iamaKey none msdos -u=501,-m=700
+```bash
+#Drive called iamaKey and user 501
+LABEL=iamaKey none msdos -u=501,-m=700
+```
 
 There is no step 4; eject & replug your key to enjoy ssh keys used directly from drive.
 
 [^NOT]: On a new 10.8 machine `/etc/fstab` does not exist. You must create a fresh file as root.
 
 ## Considerations
+
 - You have to do this on every mac you use. The drive name is always the same but there is a chance the user id is different.
 
 - If you aren't sure if it worked or are having trouble give another "`ls -ln /Volumes`" which should look shockingly similar to this if you did it right:
 
-		lrwxr-xr-x  1 0    80     1 Feb 25 07:01 Macintosh HD -> /
-		drwx------  1 501  20  8192 Feb 25 10:17 iamaKey
+```bash
+lrwxr-xr-x  1 0    80     1 Feb 25 07:01 Macintosh HD -> /
+drwx------  1 501  20  8192 Feb 25 10:17 iamaKey
+```
 
 - You should REALLY make sure this drive name is unique to this drive for your machine. Any drive with the same name will get grabbed up by this now and if it's not msdos formatted or you don't want this havoc can be had.
 

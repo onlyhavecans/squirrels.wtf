@@ -6,7 +6,6 @@ categories: [news]
 ---
 
 > A: Importing this content into the new site was attempted only for a few moments before a review of it's nature and amount had it canceled.
-
 > Q: What is, BunnyMan's old LJ?
 
 Correct!

@@ -44,6 +44,7 @@ In closing I'd like to talk a little bit more about my mother. She's been a regi
 ----
 
 ## tl;dr
+
 In my opinion burnout is a natural product of the tech industry culture. In order help combat this you need to do all of the following, which is not a panacea but a powerful preventive framework;
 
 - Work with others to help solve problems instead of trying to be a rockstar and solve them all yourself.
@@ -58,6 +59,6 @@ And I hear you saying it already; "_This isn't important right now_", "_I/we don
 
 But know that when you _do_ burn out I can promise you that you _absolutely will not_ have the bandwidth or mental energy to do these things. By the time you are so far into burnout you actually become self aware of it deadlines will have slipped, everyone's already jaded and unhappy, and maybe you won't even care enough to implement this change.
 
-[^1]:	I have some amazing stories about Sybase databases running on a failover Sun Cluster using Veritas Volume Manager and the catastrophic problem with SCSI-3 reservations preventing disks to randomly not be mountable during a fail over event caused only when the LUNs are provided from newer NetApp hardware. Long story short, the database will start without half it's disks and it is not a pretty sight where it goes from there.
+[^1]: I have some amazing stories about Sybase databases running on a failover Sun Cluster using Veritas Volume Manager and the catastrophic problem with SCSI-3 reservations preventing disks to randomly not be mountable during a fail over event caused only when the LUNs are provided from newer NetApp hardware. Long story short, the database will start without half it's disks and it is not a pretty sight where it goes from there.
 
-[^2]:	The third best thing I have ever done in my career so far was take all of a companies critical configurations (haproxy, dns, maintenance crons, backup scripts, monitoring, ect) and put them in git, created a code review process, and used jenkins to deploy to production. Call it CI/CD, call it change control, call it whatever you want; I call it almost never again making that one line stupid oops uh oh that breaks an entire system again.
+[^2]: The third best thing I have ever done in my career so far was take all of a companies critical configurations (haproxy, dns, maintenance crons, backup scripts, monitoring, ect) and put them in git, created a code review process, and used jenkins to deploy to production. Call it CI/CD, call it change control, call it whatever you want; I call it almost never again making that one line stupid oops uh oh that breaks an entire system again.
