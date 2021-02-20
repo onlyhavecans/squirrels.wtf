@@ -130,4 +130,4 @@ Ok, I'm not going to teach you how to set up growl to notify your phone for when
 
 Next I need to find out how to get an email or even an entire domain onto as many spam lists as possible…
 
-Feel free to send donations or suggestions to <a href="mailto:free_mal_pleez@bunnyman.info">free_mal_pleez@bunnyman.info</a>
+Feel free to send donations or suggestions to [free_mal_pleez@bunnyman.info](mailto:free_mal_pleez@bunnyman.info
