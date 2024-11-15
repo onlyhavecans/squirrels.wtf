@@ -10,7 +10,7 @@ It's my main blog!
 
 I use hugo to develop this
 
-### Obisdian
+### Obsidian
 
 This is also an obsidian vault, there is some posts about how I configure the vault with nifty writing features
 

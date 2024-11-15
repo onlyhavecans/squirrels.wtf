@@ -1,3 +1,13 @@
 {
-  "useTab": false
+  "useTab": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "content/posts",
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "static/img",
+  "userIgnoreFilters": [
+    "public/",
+    "resources/",
+    "themes/"
+  ],
+  "alwaysUpdateLinks": false
 }

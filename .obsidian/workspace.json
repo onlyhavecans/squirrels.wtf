@@ -11,13 +11,49 @@
             "id": "02530c265753f1fa",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "archetypes/obsidian-post.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "obsidian-post"
+            }
+          },
+          {
+            "id": "16ce23e749a231c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/2024-11-15-obsidian-hugo.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024-11-15-obsidian-hugo"
+            }
+          },
+          {
+            "id": "9de2590d057dc403",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/2024-returns.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024-returns"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -48,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#nagios",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,10 +128,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/_index.md"
+                "file": "2024-11-15-A New Post.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of _index"
+              "title": "Outline of 2024-11-15-A New Post"
             }
           },
           {
@@ -130,14 +166,32 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "quickadd:QuickAdd": false,
       "switcher:Open quick switcher": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "233ff101323b7b85",
+  "active": "9de2590d057dc403",
   "lastOpenFiles": [
+    "archetypes/obsidian-post.md",
+    "content/posts/2024-11-15-adding-the-backlog.md",
+    "public/posts/2024-11-15-adding-the-backlog/index.html",
+    "public/posts/2024-11-15-adding-the-backlog",
+    "content/posts/2024-11-15-obsidian-hugo.md",
+    "content/posts/2024-11-15-newtest.md",
+    "archetypes/posts.md",
+    "content/posts/2024-11-15-test.md",
+    "content/posts/2024-returns.md",
+    "content/posts/2024-11-15-Test this.md",
+    "content/posts/BunnyPot Alpha.md",
+    "content/posts/2024-11-15-Test me.md",
+    "2024-11-15-A New Post.md",
+    "content/posts/BunnyMailPot.md",
+    "content/posts/back-to-vim.md",
+    "README.md",
+    "content/_index.md",
     "public/posts/bunnypot-alpha/index.html",
     "public/posts/bunnypot-alpha",
     "public/posts/ssh-on-usb-scripts-edition/index.html",
@@ -146,9 +200,6 @@
     "public/posts/wow",
     "public/posts/puppet-config-checks-with-jenkins/index.html",
     "public/posts/puppet-config-checks-with-jenkins",
-    "public/posts/update-transmission-tools/index.html",
-    "public/posts/update-transmission-tools",
-    "public/posts/update/index.html",
     "themes/hugo-theme-m10c/exampleSite/content/about.md",
     "content/about/_index.md",
     "content/about.md",
@@ -159,9 +210,6 @@
     "themes/hugo-theme-m10c/exampleSite/content/posts/hugoisforlovers.md",
     "themes/hugo-theme-m10c/exampleSite/content/posts/goisforlovers.md",
     "themes/hugo-theme-m10c/exampleSite/content/posts/creating-a-new-theme.md",
-    "themes/hugo-theme-m10c/README.md",
-    "content/_index.md",
-    "README.md",
     "public/avatar.jpg",
     "public/ms-icon-70x70.png",
     "public/favicon-32x32.png",
@@ -171,18 +219,6 @@
     "public/apple-icon-60x60.png",
     "public/apple-icon-76x76.png",
     "public/android-icon-48x48.png",
-    "public/favicon-96x96.png",
-    "content/posts/wow.md",
-    "content/posts/2024-returns.md",
-    "content/posts/2024-11-15-obsidian-hugo.md",
-    "content/posts/Update-Transmission-Tools.md",
-    "content/posts/chef-frustrations.md",
-    "content/posts/Perfect Wallet.md",
-    "content/posts/Being Happy.md",
-    "content/posts/BaaS Burnout as a a Service.md",
-    "content/posts/An-open-Year.md",
-    "().md",
-    "archetypes/posts.md",
-    "content/posts/systems-are-not-easy-p2.md"
+    "public/favicon-96x96.png"
   ]
 }
