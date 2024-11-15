@@ -11,10 +11,15 @@
             "id": "075f357f60d5a551",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/2024-11-15-obsidian-hugo.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2024-11-15-obsidian-hugo"
             }
           }
         ]
@@ -125,8 +130,9 @@
   },
   "active": "075f357f60d5a551",
   "lastOpenFiles": [
+    "().md",
+    "content/posts/2024-11-15-obsidian-hugo.md",
     "README.md",
-    "content/posts/2024-11-15-obdsidian-hugo.md",
     "archetypes/posts.md",
     "content/posts/_index.md",
     "content/posts/2024-returns.md",
@@ -150,7 +156,6 @@
     "content/posts/Its hard to talk.md",
     "content/posts/idascope-winapi-mac.md",
     "content/posts/Git-Fu 2.md",
-    "content/posts/Git-Fu 1.md",
     "public/posts/2024-11-15-the-union-of-obsidian-and-hugo/index.html",
     "public/posts/2024-11-15-the-union-of-obsidian-and-hugo",
     "public/posts/2024-11-15-2024-11-15-obdsidian-hugo/index.html",
