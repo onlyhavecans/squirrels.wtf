@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/2024-11-15-obsidian-hugo.md",
+                "file": "content/posts/wow.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-11-15-obsidian-hugo"
+              "title": "wow"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#vim",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,10 +97,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "archetypes/posts.md"
+                "file": "content/posts/wow.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of posts"
+              "title": "Outline of wow"
             }
           },
           {
@@ -112,9 +112,22 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "aa021084bc541976",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -128,43 +141,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "075f357f60d5a551",
+  "active": "233ff101323b7b85",
   "lastOpenFiles": [
-    "().md",
+    "static/ms-icon-310x310.png",
+    "static/ms-icon-150x150.png",
+    "static/ms-icon-144x144.png",
+    "static/ms-icon-70x70.png",
+    "static/manifest.json",
+    "static/favicon.ico",
+    "static/favicon-96x96.png",
+    "static/favicon-32x32.png",
+    "static/favicon-16x16.png",
+    "static/browserconfig.xml",
+    "static/apple-icon.png",
+    "static/apple-icon-precomposed.png",
+    "static/apple-icon-180x180.png",
+    "static/apple-icon-152x152.png",
+    "public/index.xml",
+    "public/about/index.xml",
+    "public/about/page/1/index.html",
+    "content/posts/2024-returns.md",
     "content/posts/2024-11-15-obsidian-hugo.md",
+    "content/posts/wow.md",
+    "content/posts/Update-Transmission-Tools.md",
+    "content/posts/_index.md",
+    "content/posts/chef-frustrations.md",
+    "content/posts/Perfect Wallet.md",
+    "content/posts/Being Happy.md",
+    "content/posts/BaaS Burnout as a a Service.md",
+    "content/posts/An-open-Year.md",
+    "().md",
     "README.md",
     "archetypes/posts.md",
-    "content/posts/_index.md",
-    "content/posts/2024-returns.md",
     "content/posts/systems-are-not-easy-p2.md",
     "content/posts/systems-are-not-easy-p1.md",
     "content/posts/TestPost.md",
     "content/posts/to Pelican.md",
     "content/posts/update.md",
-    "content/posts/Update-Transmission-Tools.md",
-    "content/posts/wow.md",
     "content/posts/ssh-on-usb-scripts-edition.md",
     "content/posts/ssh-on-usb-on-mac.md",
     "content/posts/Puppet Config Checks with Jenkins.md",
     "content/posts/PrePelican3.md",
-    "content/posts/Perfect Wallet.md",
     "content/posts/pentoo-grc-atom-note.md",
     "content/posts/Open-Letter.md",
     "content/posts/Nothing For a Reason.md",
-    "content/posts/nagios-chef-run-check.md",
-    "content/posts/old-lj.md",
-    "content/posts/Its hard to talk.md",
-    "content/posts/idascope-winapi-mac.md",
-    "content/posts/Git-Fu 2.md",
     "public/posts/2024-11-15-the-union-of-obsidian-and-hugo/index.html",
     "public/posts/2024-11-15-the-union-of-obsidian-and-hugo",
     "public/posts/2024-11-15-2024-11-15-obdsidian-hugo/index.html",
-    "public/posts/2024-11-15-2024-11-15-obdsidian-hugo",
-    "public/posts/2024-11-15-2024-11-15-test/index.html",
-    "public/posts/2024-11-15-2024-11-15-test",
-    "public/posts/2024-11-15-the-power-of-obsidian-hugo/index.html",
-    "public/posts/2024-11-15-the-power-of-obsidian-hugo",
-    "public/tags/obsidian/index.xml",
-    "public/tags/obsidian/page/1/index.html"
+    "public/posts/2024-11-15-2024-11-15-obdsidian-hugo"
   ]
 }

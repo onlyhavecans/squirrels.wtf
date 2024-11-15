@@ -1,7 +1,7 @@
 {
   "ruleConfigs": {
     "add-blank-line-after-yaml": {
-      "enabled": true
+      "enabled": false
     },
     "dedupe-yaml-array-values": {
       "enabled": false,
@@ -177,8 +177,8 @@
       "list-style": "-"
     },
     "compact-yaml": {
-      "enabled": false,
-      "inner-new-lines": false
+      "enabled": true,
+      "inner-new-lines": true
     },
     "consecutive-blank-lines": {
       "enabled": true
@@ -204,7 +204,7 @@
     },
     "heading-blank-lines": {
       "enabled": true,
-      "bottom": true,
+      "bottom": false,
       "empty-line-after-yaml": true
     },
     "line-break-at-document-end": {
@@ -277,7 +277,12 @@
   "lintOnFileChange": false,
   "displayLintOnFileChangeNotice": false,
   "settingsConvertedToConfigKeyValues": true,
-  "foldersToIgnore": [],
+  "foldersToIgnore": [
+    "themes",
+    "public",
+    "resources",
+    ""
+  ],
   "filesToIgnore": [],
   "linterLocale": "system-default",
   "logLevel": "ERROR",
