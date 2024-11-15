@@ -1,0 +1,165 @@
+{
+  "main": {
+    "id": "00c2cce3f6ca590b",
+    "type": "split",
+    "children": [
+      {
+        "id": "0f42f80897a45f10",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "075f357f60d5a551",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0298e7265bd706b8",
+    "type": "split",
+    "children": [
+      {
+        "id": "a8622ebdcf3beb4e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "233ff101323b7b85",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d65d2699f93e0352",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#vim",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 262.5
+  },
+  "right": {
+    "id": "8820312b8c296de6",
+    "type": "split",
+    "children": [
+      {
+        "id": "b3a2ca5b6abb8215",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b74bc756970c8309",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a017d2bb3fb26717",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "archetypes/posts.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of posts"
+            }
+          },
+          {
+            "id": "456fe852018fd40a",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "075f357f60d5a551",
+  "lastOpenFiles": [
+    "README.md",
+    "content/posts/2024-11-15-obdsidian-hugo.md",
+    "archetypes/posts.md",
+    "content/posts/_index.md",
+    "content/posts/2024-returns.md",
+    "content/posts/systems-are-not-easy-p2.md",
+    "content/posts/systems-are-not-easy-p1.md",
+    "content/posts/TestPost.md",
+    "content/posts/to Pelican.md",
+    "content/posts/update.md",
+    "content/posts/Update-Transmission-Tools.md",
+    "content/posts/wow.md",
+    "content/posts/ssh-on-usb-scripts-edition.md",
+    "content/posts/ssh-on-usb-on-mac.md",
+    "content/posts/Puppet Config Checks with Jenkins.md",
+    "content/posts/PrePelican3.md",
+    "content/posts/Perfect Wallet.md",
+    "content/posts/pentoo-grc-atom-note.md",
+    "content/posts/Open-Letter.md",
+    "content/posts/Nothing For a Reason.md",
+    "content/posts/nagios-chef-run-check.md",
+    "content/posts/old-lj.md",
+    "content/posts/Its hard to talk.md",
+    "content/posts/idascope-winapi-mac.md",
+    "content/posts/Git-Fu 2.md",
+    "content/posts/Git-Fu 1.md",
+    "public/posts/2024-11-15-the-union-of-obsidian-and-hugo/index.html",
+    "public/posts/2024-11-15-the-union-of-obsidian-and-hugo",
+    "public/posts/2024-11-15-2024-11-15-obdsidian-hugo/index.html",
+    "public/posts/2024-11-15-2024-11-15-obdsidian-hugo",
+    "public/posts/2024-11-15-2024-11-15-test/index.html",
+    "public/posts/2024-11-15-2024-11-15-test",
+    "public/posts/2024-11-15-the-power-of-obsidian-hugo/index.html",
+    "public/posts/2024-11-15-the-power-of-obsidian-hugo",
+    "public/tags/obsidian/index.xml",
+    "public/tags/obsidian/page/1/index.html"
+  ]
+}
