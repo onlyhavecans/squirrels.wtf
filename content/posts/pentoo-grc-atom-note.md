@@ -2,8 +2,7 @@
 date: 2015-09-06
 title: Quick Note on GnuRadio on Pentoo
 slug: pentoo-grc-atom
-categories: [sysadmin]
-tags: [grc]
+tags: [grc, security, radio]
 ---
 
 Not a big blog, but a quick problem I got solved on IRC that I thought might help others.

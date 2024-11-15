@@ -2,8 +2,7 @@
 date: 2012-07-06
 title: Now with less dynamics
 slug: pelican-changeover
-categories: [news]
-tags: [Pelican]
+tags: [pelican, news]
 ---
 
 I've been stalling a lot on writing this post. I guess I wanted everything to be perfect by the time I actually wrote about it however my willpower to finish these test cases is weak.

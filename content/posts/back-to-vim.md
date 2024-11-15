@@ -2,8 +2,7 @@
 date: 2013-04-11
 title: Coming back to vim
 slug: back-to-vim
-categories: [code]
-tags: [python, vim]
+tags: [python, vim, development]
 ---
 
 It's time for my monthly or so post! I wanted to go through and post about my OpenBSD firewall I built but that's not 100%. Also I'm not ready to go on about anything amazing with puppet  because without my lab being done puppet isn't useful so lets go back to talking about my dev environment!

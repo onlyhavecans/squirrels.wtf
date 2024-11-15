@@ -1,0 +1,55 @@
+---
+baseURL: https://squirrels.wtf
+languageCode: en-us
+title: Dear Squirrels, WTF
+copyright: Amelia Aronsohn 2012-2024
+theme: hugo-theme-m10c
+
+params:
+  author: Amelia Aronsohn
+  avatar: img/naryana2.png
+  description: Musings, Tech, & Deep Thots
+  menu_item_seperator: ' | '
+  social:
+    - icon: brand-github
+      name: Github
+      url: https://github.com/onlyhavecans
+    - icon: brand-mastodon
+      name: Mastodon (Hachyderm)
+      url: https://hachyderm.io/@onlyhavecans
+    - icon: brand-bluesky
+      name: BlueSky
+      url: https://bsky.app/profile/squirrels.wtf
+  style:
+    darkestColor: '#242930'
+    darkColor: '#353b43'
+    lightColor: '#afbac4'
+    lightestColor: '#ffffff'
+    primaryColor: '#eec3c2'
+
+taxonomies:
+  tag: tags
+
+menu:
+  main:
+    - name: Home
+      identifier: home
+      url: /
+      weight: 1
+    - name: Tags
+      identifier: tags
+      url: /tags/
+      weight: 2
+    - name: About
+      identifier: about
+      url: /about/
+      weight: 3
+
+enableEmoji: true
+footnotereturnlinkcontents: ↩
+permalinks:
+  posts: /posts/:year-:month-:day-:title/
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

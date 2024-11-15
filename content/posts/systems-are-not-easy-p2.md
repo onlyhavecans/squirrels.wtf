@@ -1,11 +1,10 @@
 ---
 date: 2018-06-16
 title: "Systems are Not Always Easy Part 2: Unblocking"
-categories: [productivity]
-tags: [gtd]
+tags: [gtd, productivity, musings]
 ---
 
-In [part one]({{< relref "systems-are-not-easy-p1.md" >}}) of this post I talked about what I feel the hardest part of every system is, maintence. I talked about identifying tasks that take up large amounts of mental stress and what you should maybe do with them. Hint, throw them out or defer them. What if you really need to do this thing though?<!--more-->
+In [part one]({{< relref "systems-are-not-easy-p1.md" >}}) of this post I talked about what I feel the hardest part of every system is, maintenance. I talked about identifying tasks that take up large amounts of mental stress and what you should maybe do with them. Hint, throw them out or defer them. What if you really need to do this thing though?<!--more-->
 
 I believe there is very few things we _need_ to do, but there is a lot of things you really should do in your system. Some of those things you should do might be friction items that are not getting done. For these probleamatic items I have a special method of reviewing however this process isn’t free and takes both time and energy. I don’t always do this soon enough which is why sometimes things break down. If I haven’t done this in a while my normally 30 minute review can quickly ballon out into an hour or more, but sometimes you need to do that processing up front instead of every time you look at your list.
 
@@ -23,6 +22,6 @@ Well it’s important, and urgent, and it’s the next action and I still don’
 
 I find by scheduling it, doing it early, and surrounding it by incentives makes things that suck, suck less.
 
-Also finding an accountability buddy, or accoutabilabuddy as I like to say, is indispensable. It might be hard to find someone at first (or it might be too easy) but I’m sure someone out there is willing to give you that disapproving stare and tell you that you absolutely gotta do this thing. I would not have learned Japanese on my own, and I still wouldn’t be doing it either if not for having a regular study partner to both keep me in check, and also for me to keep them motivated as well.
+Also finding an accountability buddy, or accoutabilabuddy as I like to say, is indispensable. It might be hard to find someone at first (or it might be too easy) but I’m sure someone out there is willing to give you that disapproving stare and tell you that you absolutely gotta do this thing. I would not have learned Japanese on my own, and I still would not be doing it either if not for having a regular study partner to both keep me in check, and also for me to keep them motivated as well.
 
 So if you are having problems with your system; ask yourself why but don’t take the first answer. Keep digging in and make sure it’s not what you are putting into the system, or that the things in your system need more processing still. Your system shouldn’t be the source of your stress, it should be what is helping enable you to get more done and not forget what really matters most to you. All systems have an overhead and require maintenance but your gains should be exponential if you tend to it.

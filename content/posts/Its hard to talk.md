@@ -1,7 +1,7 @@
 ---
 date: 2019-04-26
 title: It's hard to talk
-categories: [ramblings]
+tags: [musings, transgender]
 ---
 
 The following is a stream of consciousness. It was originally meant as something more poetic, to try and share what social situations are like post transition.

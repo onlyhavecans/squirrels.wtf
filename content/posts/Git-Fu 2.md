@@ -2,7 +2,6 @@
 date: 2012-09-11
 title: Git-Fu Advice
 slug: git-fu-02
-categories: [code]
 tags: [git]
 ---
 

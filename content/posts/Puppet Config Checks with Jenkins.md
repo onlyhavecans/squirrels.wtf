@@ -2,8 +2,7 @@
 date: 2013-02-19
 title: Puppet Configuration Checks with Jenkins
 slug: puppet-jenkins
-categories: [sysadmin]
-tags: [jenkins]
+tags: [jenkins, devops, puppet]
 ---
 
 Ok, so we have all our Nagios configs being sanitized and checked by Jenkins, why not [Puppet: IT Automation Software for System Administrators](https://puppetlabs.com/)? WHY NOT PUPPET!?
@@ -31,32 +30,34 @@ We have a few caveats to overcome here but it's not impossible.
 
 Puppet server should be locked down. So for my it's a box with all the screws down tight as they can be, puppet's web port and ssh passworded key to one user only is enabled. In order to allow pushing changes through git we will set up our friend the hub repo.
 
-    :::bash...
-    # Make puppet config directory a git repo
-    cd /etc/puppet
-    git init
-    git add .
-    git commit -m"Inital Commit"
-    # Make a hub repo in home
-    cd ~
-    mkdir puppet_configs.git
-    ^mkdir^cd^
-    git --bare init
-    # Link and push to our hub
-    cd /etc/puppet
-    git remote add hub ~/puppet_configs.git
-    git push hub master
+```bash
+# Make puppet config directory a git repo
+cd /etc/puppet
+git init
+git add .
+git commit -m"Inital Commit"
+# Make a hub repo in home
+cd ~
+mkdir puppet_configs.git
+^mkdir^cd^
+git --bare init
+# Link and push to our hub
+cd /etc/puppet
+git remote add hub ~/puppet_configs.git
+git push hub master
+```
 
 There! That wasn't hard at all. In fact it was a short rehash of what I did last yesterday. However, lets add the post-merge hook to THIS hub.
 
-    :::bash...
-    cat __EOF__
-    #!/bin/sh
-    cd /etc/puppet
-    unset GIT_DIR
-    /usr/bin/git pull hub master
-    __EOF__ >  ~/puppet_configs.git/hooks/post-merge
-    chmod 755  ~/puppet_configs.git/hooks/post-merge
+```bash
+cat __EOF__
+#!/bin/sh
+cd /etc/puppet
+unset GIT_DIR
+/usr/bin/git pull hub master
+__EOF__ >  ~/puppet_configs.git/hooks/post-merge
+chmod 755  ~/puppet_configs.git/hooks/post-merge
+```
 
 So now when the hub gets pushed to, puppet gets a fresh load of configs and it does whatever it needs to do from then on out! Yea? Awesome
 
@@ -91,33 +92,36 @@ Now starts the puppet configurations!
 
 On your git repo for puppet you need to add a 'post-update' hook. to trigger builds remotely. Don't forget to sub out YOUR_TOKEN with the token you picked above and set the kenkins server proper. The quick and dirty is;
 
-    :::bash...
-    cd puppet_configs.git/hooks
-    cat __EOL__
-    #!/bin/sh
-    echo "Sending build command to Jenkins"
-    curl -sSL 'http://mycooljenkins:8080/job/Nagios_Config/build?token=YOUR_TOKEN' >> /dev/null
-    exec git update-server-info
-    __EOL__ >> post-update
-    chmod 755 post-update
+```bash
+cd puppet_configs.git/hooks
+cat __EOL__
+#!/bin/sh
+echo "Sending build command to Jenkins"
+curl -sSL 'http://mycooljenkins:8080/job/Nagios_Config/build?token=YOUR_TOKEN' >> /dev/null
+exec git update-server-info
+__EOL__ >> post-update
+chmod 755 post-update
+```
 
 Now lets add two execute shell actions.
 
 Build Execute Shell Number one:
 
-    :::bash...
-    for file in $(find . -iname '*.pp’)
-    do
-      puppet parser validate \
-        --render-as s \
-        --modulepath=modules \
-        "$file" || exit 1;
-    done
+```bash
+for file in $(find . -iname '*.pp’)
+do
+  puppet parser validate \
+    --render-as s \
+    --modulepath=modules \
+    "$file" || exit 1;
+done
+```
 
 Build Execute Shell Number two:
 
-    :::bash...
-    find . -iname *.pp -exec puppet-lint --log-format "%{path}:%{linenumber}:%{check}:%{KIND}:%{message}" {}  \;
+```bash
+find . -iname *.pp -exec puppet-lint --log-format "%{path}:%{linenumber}:%{check}:%{KIND}:%{message}" {}  \;
+```
 
 The second one shouldn't error out but it will toss up style warnings and possible errors so lets check for those with our warning plugin.
 

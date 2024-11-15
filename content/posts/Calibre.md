@@ -2,8 +2,7 @@
 date: 2012-04-30
 title: My Contribution to Calibre
 slug: my-controbution-to-calibre
-categories: [code]
-tags: [python]
+tags: [python, open_source, books]
 ---
 
 ## Backstory

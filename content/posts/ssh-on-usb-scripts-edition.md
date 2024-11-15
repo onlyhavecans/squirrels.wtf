@@ -2,8 +2,7 @@
 date: 2013-03-07
 title: SSH Keys on a USB jump drive on Mac OS X Part 2
 slug: ssh-on-usb-on-mac-os-x-scripts
-categories: [sysadmin]
-tags: [mac]
+tags: [macos, security]
 ---
 
 All right! You read my post [SSH Keys on a USB jump drive on Mac OS X (Mountain Lion Edition)](http://bunnyman.info/posts/2013/Feb/25/ssh-on-usb-on-mac-os-x/) and want to take this to the next level huh? Maybe having your config posting back to a jump drive and having to have it plugged in _every time_ you want to log into something is sooooo lame! You often just leave it there, plugged in when you walk away from your work station. There has to be a better way…

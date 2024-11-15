@@ -2,7 +2,7 @@
 date: 2012-03-08
 title: Wow!
 slug: wow
-categories: [news]
+tags: [news]
 ---
 
 Another new site, another clean slate ready to be filled with so much information!

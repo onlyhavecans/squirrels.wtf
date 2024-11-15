@@ -2,7 +2,7 @@
 date: 2012-03-08
 title: Things that are not happening for 100, Alex
 slug: things-that-are-not-happening-for-100-alex
-categories: [news]
+tags: [news]
 ---
 
 > A: Importing this content into the new site was attempted only for a few moments before a review of it's nature and amount had it canceled.

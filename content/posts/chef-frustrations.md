@@ -2,8 +2,7 @@
 date: 2014-07-14
 title: Chef Frustrations
 slug: chef-frustrations
-categories: [ramblings]
-tags: [chef]
+tags: [musings, open_source, chef-infra]
 ---
 
 I've spent the last week working on implementing chef. The experience is frustrating to say the least. Instead of whining I wanted to take the time to write out some of my pain points and hopefully offer some constructive fixes to what I see as the wall in the learning curve.

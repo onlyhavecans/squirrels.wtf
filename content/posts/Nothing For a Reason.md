@@ -2,7 +2,7 @@
 date: 2012-03-14
 title: Nothing happens for a reason
 slug: nothing-happens-for-a-reason
-categories: [ramblings]
+tags: [musings]
 ---
 
 **"Everything happens for a reason."** I read this normally innocuous phrase on a friend's blog recently and wanted to toss my coffee mug. The notion of the phrase makes me want to jump out of my chair and flip my keyboard. I'm not going to rag on them for saying or even feeling it, it's simply not my place to tell people how to live their lives, however it bothers me that people who I care about in the world think like that.

@@ -2,7 +2,7 @@
 date: 2018-06-08
 title: A Word On Depression and Anxiety
 slug: a-word-on-depression-and-anxiety
-categories: [ramblings]
+tags: [musings, Depression]
 ---
 
 Every day people say horrible things to me,  constantly judging me, tearing me down, and invalidating me. Sometimes it's my friends, sometimes it's my family, other times it's just me looking in a mirror.

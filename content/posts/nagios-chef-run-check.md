@@ -2,8 +2,7 @@
 date: 2015-04-24
 title: Monitoring Chef runs without Chef
 slug: nagios-che-run-check
-categories: [sysadmin]
-tags: [nagios, chef]
+tags: [nagios, chef-infra, devops]
 ---
 
 I, like many sysadmins, really want to monitor all the things I actually care about. Monitoring is in general *hard*. Not because it’s hard to set up, but it’s hard to get right. It’s really easy to monitor ALL THE THINGS and then just end up with pager fatigue. It’s all about figuring out what you need to know and when you need to know it.
@@ -48,9 +47,10 @@ Create a knife object. have it take all your settings on initialize, then you ca
 
 You really only need status for this one. The meat of status is this here, coderanger dropped this on me in IRC
 
-    :::python
-    for row in chef.Search('node', '*:*'):
-        nodes[row.object['machine name']] = datetime.fromtimestamp(row.object['ohai_time'])
+```python
+for row in chef.Search('node', '*:*'):
+    nodes[row.object['machine name']] = datetime.fromtimestamp(row.object['ohai_time'])
+```
 
 ### Step three
 
@@ -58,9 +58,10 @@ Now from here I created a TimeChecker object. It takes the dictionary of `{ serv
 
 The magic of `runs_not_in_the_last` I will also share with you because I’m proud of this damn script and want to share it with the world
 
-    :::python
-    diff = timedelta(hours=hours)
-    return [k for k in self.runtimes.keys() if self.now - self.runtimes[k] > diff]
+```python
+diff = timedelta(hours=hours)
+return [k for k in self.runtimes.keys() if self.now - self.runtimes[k] > diff]
+```
 
 Bam!
 
@@ -86,11 +87,12 @@ seriously, this can and will make them so catch them properly and return errors.
 
 So there is no trusted_certs here. You need to either give your server a working cert, install the snake oil into the nagios server as acceptable or do the dirtiest of monkey patches.
 
-    :::python
-    # Dirty Monkeypatch
-    if sys.version_info >= (2, 7, 9):
-        import ssl
-        ssl._create_default_https_context = ssl._create_unverified_context
+```python
+# Dirty Monkeypatch
+if sys.version_info >= (2, 7, 9):
+    import ssl
+    ssl._create_default_https_context = ssl._create_unverified_context
+```
 
 But before you do this think of the children!!!
 

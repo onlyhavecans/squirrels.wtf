@@ -2,8 +2,7 @@
 date: 2012-11-06
 title: "BunMailPot Alpha..."
 slug: bunny-mail-honeypot-alpha
-categories: [sysadmin]
-tags: [mac, malware]
+tags: [macos, malware, security]
 ---
 
 Ok… so that is not the best name I've every come up with. Sorry, but whatever. This is a quick but fun one.

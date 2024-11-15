@@ -2,8 +2,7 @@
 date: 2012-09-07
 title: Fun with Git, Jenkins, & Nagios
 slug: git-jenkins-nagios
-categories: [sysadmin]
-tags: [git, jenkins]
+tags: [git, jenkins, devops]
 ---
 
 Welcome to another edition on how to automate the hell out of your workflow.

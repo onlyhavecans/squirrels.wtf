@@ -2,8 +2,7 @@
 date: 2016-08-02
 title: Building chef-dk on FreeBSD 10
 slug: chef-dk-on-freebsd
-categories: [sysadmin]
-tags: [freebsd, chef, chef-dk]
+tags: [freebsd, chef-infra, devops]
 ---
 
 For those that don’t know I’m a Chef for a living. Not the kind that works with food but one that works with code.

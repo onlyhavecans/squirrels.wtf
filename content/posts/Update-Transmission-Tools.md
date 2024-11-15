@@ -2,8 +2,7 @@
 date: 2013-02-27
 title: Update to my Transmission Tools
 slug: transmission-tools-2013-02-27
-categories: [code]
-tags: [python, transmissionbt]
+tags: [python, bittorrent]
 ---
 
 Nope, not something to help unmount and flush your transmissions, it's some tools for [Transmission](http://www.transmissionbt.com/), specifically MY tools.

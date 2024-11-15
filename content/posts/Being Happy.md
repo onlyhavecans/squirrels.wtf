@@ -2,7 +2,7 @@
 date: 2015-12-30
 title: Being Happy
 slug: being-happy
-categories: [ramblings]
+categories: [musings, depression]
 ---
 
 In my personal experience not everyone wants to be happy. When I say that I'm not _talking about that one friend_ either. I'm talking about me. For a very long time I didn't wanna be happy. It was a very frustrating time. I can't say I knew I wanted to be unhappy, I just was all the time. I was angry, depressed, and off and on apathetic. It was actually my mother who coined the phrase _"You just need to be unhappy."_ somewhere in my early to mid 20s.

@@ -1,8 +1,7 @@
 ---
 date: 2018-06-15
 title: Systems are Not Always Easy Part 1
-categories: [productivity]
-tags: [gtd]
+tags: [gtd, productivity, musings]
 ---
 
 I've spent a lot of my time over the past years evangelizing the power of having a system and the David Allen Getting Things Done (GTD) method. One thing I haven't talked much about is that while having a trusted system has huge advantages it doesn't come for free. Like all systems it must be maintained or it breaks down slowly until one day it either stops working completely, or you've given up on it for it's inefficiency. Having a system isn't unique to GTD but it is my favored variant of system. There is a lot of GTD flavor and verbiage here but absolutely nothing in this post is unique to GTD, this will apply to most of the systems I have used.
