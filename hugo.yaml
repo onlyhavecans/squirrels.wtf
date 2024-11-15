@@ -10,7 +10,7 @@ params:
   avatar: img/naryana2.png
   description: Musings, Tech, & Deep Thots
   favicon: /favicon.ico
-  menu_item_seperator: ' | '
+  menu_item_separator: ' | '
   social:
     - icon: brand-github
       name: Github
