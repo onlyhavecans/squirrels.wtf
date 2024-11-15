@@ -49,6 +49,9 @@ menu:
 taxonomies:
   tag: tags
 
+permalinks:
+  posts: /posts/:year-:month-:day-:title/
+
 enableEmoji: true
 footnotereturnlinkcontents: ↩
 markup:
