@@ -92,7 +92,7 @@
       "enabled": false
     },
     "header-increment": {
-      "enabled": true,
+      "enabled": false,
       "start-at-h2": true
     },
     "headings-start-line": {

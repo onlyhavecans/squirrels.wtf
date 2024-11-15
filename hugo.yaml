@@ -31,9 +31,6 @@ params:
     lightestColor: '#ffffff'
     primaryColor: '#eec3c2'
 
-taxonomies:
-  tag: tags
-
 menu:
   main:
     - name: Home
@@ -49,10 +46,11 @@ menu:
       url: /about/
       weight: 3
 
+taxonomies:
+  tag: tags
+
 enableEmoji: true
 footnotereturnlinkcontents: ↩
-permalinks:
-  posts: /posts/:year-:month-:day-:title/
 markup:
   goldmark:
     renderer:

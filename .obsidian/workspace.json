@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0f42f80897a45f10",
+        "id": "091c4149a0d7ff3c",
         "type": "tabs",
         "children": [
           {
-            "id": "075f357f60d5a551",
+            "id": "02530c265753f1fa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "themes/hugo-theme-m10c/README.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "README"
+              "title": "New tab"
             }
           }
         ]
@@ -97,10 +92,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "themes/hugo-theme-m10c/README.md"
+                "file": "content/_index.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of _index"
             }
           },
           {
@@ -141,52 +136,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "075f357f60d5a551",
+  "active": "233ff101323b7b85",
   "lastOpenFiles": [
+    "public/posts/bunnypot-alpha/index.html",
+    "public/posts/bunnypot-alpha",
+    "public/posts/ssh-on-usb-scripts-edition/index.html",
+    "public/posts/ssh-on-usb-scripts-edition",
+    "public/posts/wow/index.html",
+    "public/posts/wow",
+    "public/posts/puppet-config-checks-with-jenkins/index.html",
+    "public/posts/puppet-config-checks-with-jenkins",
+    "public/posts/update-transmission-tools/index.html",
+    "public/posts/update-transmission-tools",
+    "public/posts/update/index.html",
+    "themes/hugo-theme-m10c/exampleSite/content/about.md",
+    "content/about/_index.md",
+    "content/about.md",
+    "themes/hugo-theme-m10c/exampleSite/content/posts/test-6.md",
+    "themes/hugo-theme-m10c/exampleSite/content/posts/test-9.md",
+    "themes/hugo-theme-m10c/exampleSite/content/posts/test-1.md",
+    "themes/hugo-theme-m10c/exampleSite/content/posts/migrate-from-jekyll.md",
+    "themes/hugo-theme-m10c/exampleSite/content/posts/hugoisforlovers.md",
+    "themes/hugo-theme-m10c/exampleSite/content/posts/goisforlovers.md",
+    "themes/hugo-theme-m10c/exampleSite/content/posts/creating-a-new-theme.md",
+    "themes/hugo-theme-m10c/README.md",
+    "content/_index.md",
+    "README.md",
+    "public/avatar.jpg",
+    "public/ms-icon-70x70.png",
+    "public/favicon-32x32.png",
+    "public/apple-icon-120x120.png",
+    "public/apple-icon-72x72.png",
+    "public/android-icon-144x144.png",
+    "public/apple-icon-60x60.png",
+    "public/apple-icon-76x76.png",
+    "public/android-icon-48x48.png",
+    "public/favicon-96x96.png",
     "content/posts/wow.md",
-    "static/ms-icon-310x310.png",
-    "static/ms-icon-150x150.png",
-    "static/ms-icon-144x144.png",
-    "static/ms-icon-70x70.png",
-    "static/manifest.json",
-    "static/favicon.ico",
-    "static/favicon-96x96.png",
-    "static/favicon-32x32.png",
-    "static/favicon-16x16.png",
-    "static/browserconfig.xml",
-    "static/apple-icon.png",
-    "static/apple-icon-precomposed.png",
-    "static/apple-icon-180x180.png",
-    "public/index.xml",
-    "public/about/index.xml",
-    "public/about/page/1/index.html",
     "content/posts/2024-returns.md",
     "content/posts/2024-11-15-obsidian-hugo.md",
     "content/posts/Update-Transmission-Tools.md",
-    "content/posts/_index.md",
     "content/posts/chef-frustrations.md",
     "content/posts/Perfect Wallet.md",
     "content/posts/Being Happy.md",
     "content/posts/BaaS Burnout as a a Service.md",
     "content/posts/An-open-Year.md",
     "().md",
-    "README.md",
     "archetypes/posts.md",
-    "content/posts/systems-are-not-easy-p2.md",
-    "content/posts/systems-are-not-easy-p1.md",
-    "content/posts/TestPost.md",
-    "content/posts/to Pelican.md",
-    "content/posts/update.md",
-    "content/posts/ssh-on-usb-scripts-edition.md",
-    "content/posts/ssh-on-usb-on-mac.md",
-    "content/posts/Puppet Config Checks with Jenkins.md",
-    "content/posts/PrePelican3.md",
-    "content/posts/pentoo-grc-atom-note.md",
-    "content/posts/Open-Letter.md",
-    "content/posts/Nothing For a Reason.md",
-    "public/posts/2024-11-15-the-union-of-obsidian-and-hugo/index.html",
-    "public/posts/2024-11-15-the-union-of-obsidian-and-hugo",
-    "public/posts/2024-11-15-2024-11-15-obdsidian-hugo/index.html",
-    "public/posts/2024-11-15-2024-11-15-obdsidian-hugo"
+    "content/posts/systems-are-not-easy-p2.md"
   ]
 }
