@@ -20,6 +20,9 @@ params:
     - icon: brand-bluesky
       name: BlueSky
       url: https://bsky.app/profile/squirrels.wtf
+    - icon: brand-rss
+      name: RSS Feed
+      url: https://squirrels.wtf/index.xml
   style:
     darkestColor: '#242930'
     darkColor: '#353b43'

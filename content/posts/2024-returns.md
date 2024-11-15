@@ -18,7 +18,7 @@ I am going to try to spend more time adding smaller things to it, and putting mo
 
 It's going to be a rough next four years, might as well spend it contributing.
 
----
+## Dear Hugo, ouch
 
 It's been years and the last time I wrote here I was using Hugo 0.80, sadly it is now at 0.138 and I have had to redo a shocking amount of code. It's outright frustrating I needed to replace the theme and tonnes of code changes.
 
