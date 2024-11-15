@@ -9,6 +9,7 @@ params:
   author: Amelia Aronsohn
   avatar: img/naryana2.png
   description: Musings, Tech, & Deep Thots
+  favicon: /favicon.ico
   menu_item_seperator: ' | '
   social:
     - icon: brand-github

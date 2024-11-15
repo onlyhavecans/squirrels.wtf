@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/wow.md",
+                "file": "themes/hugo-theme-m10c/README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "wow"
+              "title": "README"
             }
           }
         ]
@@ -97,10 +97,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/wow.md"
+                "file": "themes/hugo-theme-m10c/README.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of wow"
+              "title": "Outline of README"
             }
           },
           {
@@ -141,8 +141,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "233ff101323b7b85",
+  "active": "075f357f60d5a551",
   "lastOpenFiles": [
+    "content/posts/wow.md",
     "static/ms-icon-310x310.png",
     "static/ms-icon-150x150.png",
     "static/ms-icon-144x144.png",
@@ -156,13 +157,11 @@
     "static/apple-icon.png",
     "static/apple-icon-precomposed.png",
     "static/apple-icon-180x180.png",
-    "static/apple-icon-152x152.png",
     "public/index.xml",
     "public/about/index.xml",
     "public/about/page/1/index.html",
     "content/posts/2024-returns.md",
     "content/posts/2024-11-15-obsidian-hugo.md",
-    "content/posts/wow.md",
     "content/posts/Update-Transmission-Tools.md",
     "content/posts/_index.md",
     "content/posts/chef-frustrations.md",
