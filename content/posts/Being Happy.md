@@ -21,7 +21,7 @@ It was around that time I stopped reading fiction and switched to non-fiction. I
 
 My personal mantra around then was _"It Never Hurts to Help"_; a tongue in cheek reference to a cartoon from my youth called _Eek the Cat_. It was a morbid tale about an anthropomorphic feline whose overly sunny attitude and unflappable willingness to help other constantly ended him up in the hospital. That was his catch phrase, the one he said right before he was mauled by something. I like to say I was using it ironically since in the end I rarely caught fire after saying it but I did end up getting places professional and personally.
 
-Needless to say life started moving really fast when I became truly motivated to help and get things done. I can't say I was happy... but I was really busy.
+Needless to say life started moving really fast when I became truly motivated to help and get things done. I can't say I was happy… but I was really busy.
 
 It was around then the shift really happened. I don't know if my attitude shifted first or those around me but things became nightmarishly disjointed and stressful at work over bad management, the club promoters I was working with went to war with another promotions group, and the community I was dealing with collapsed around the time someone slept with a minor unknowing and then someone else killed themselves. Needless to say these were dark times. However through all this stress I had a mantra and I stuck to it. Suddenly I was a too positive person for those I was around.
 

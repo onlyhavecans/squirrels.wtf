@@ -9,7 +9,7 @@ Welcome to another edition on how to automate the hell out of your workflow.
 
 ## Preface
 
-One thing I have been addicted to since I learned it was source control. I don't understand how some developers work without it... and I **really** don't understand how any syadmins live without it. I have actually found it _more_ useful as a sysadmin as a programmer, but only because at my day job I have used it in most of our major configs. Putting our 400+ file bind setup in subversion and using hooks to test and deploy our changes was not only a massive time saver but tail saver as well.
+One thing I have been addicted to since I learned it was source control. I don't understand how some developers work without it… and I **really** don't understand how any syadmins live without it. I have actually found it _more_ useful as a sysadmin as a programmer, but only because at my day job I have used it in most of our major configs. Putting our 400+ file bind setup in subversion and using hooks to test and deploy our changes was not only a massive time saver but tail saver as well.
 
 Another system that gets plenty of additions or tweaks is our [Nagios](http://www.nagios.org/) configuration. Server gets deployed? Nagios. New services? Nagios. Something gets moved? Nagios. The list goes on.
 
@@ -19,18 +19,18 @@ The problem is that at work the Nagios commits aren't so automated. You push to 
 
 The goal is to set up Nagios to have all it's configurations in git. Then I want Jenkins CI to test my commits automatically and push to production if they are solid! This was shocking easy to do with just a few gotcha's. I put this entire setup together in about a few hours, so expect possible areas of improvement.
 
-### Step one: Get your install on
+### Step One: Get Your Install on
 
 Install [Nagios](http://www.nagios.org/) and git. I'm not even gonna get into this, also if you haven't already throw java on the box. I'm going to demonstrate how to do everything on one box but it should be easy to break everything out onto multiple systems where needed.
 
-[Jenkins](http://jenkins-ci.org/) might seem intimidating because it's java but it's not, really. I don't even bother with package installers, just grab the .war file from the website and `java --jar jenkins.war`[^SECURITY].
+[Jenkins](http://jenkins-ci.org/) might seem intimidating because it's java but it's not, really. I don't even bother with package installers, just grab the .war file from the website and `java --jar jenkins.war`.[^SECURITY]
 You might want to set up an init script and play with all the features but I'm not going to cover that, it's all well documented on [Welcome to Jenkins CI!](http://jenkins-ci.org/). If you are setting this up on a mac server, I tend to steal my LaunchAgent plists from [Homebrew](http://mxcl.github.com/homebrew/)
 
 [^SECURITY]:You'll want to set up authentication, general security, and maybe even want to restrict access by firewall to jenkins in the long run. Jenkins is a well tested system but left unsecured and open on the internet this system can be invoked to execute arbitrary code in a snap.
 
 For simplicities sake, or to mimic me, set up jenkins running as the same user as nagios. In my case I'm going to give nagios it's own dedicated jenkins that can only be accessed by private IPs.
 
-### Step two: Git-fu
+### Step Two: Git-fu
 
 This was the tricky part but it will seem easy when we are done.
 
@@ -74,11 +74,11 @@ chmod 755 post-merge
 
 Now leave this repo/directory and NEVER RETURN unless you break the hell out of the repo.
 
-Now we have enough so that you can clone the hub repo and work on your nagios configs on your local workstation git style before pushing them back to your git hub... HA! See what I did there? Sorry...
+Now we have enough so that you can clone the hub repo and work on your nagios configs on your local workstation git style before pushing them back to your git hub… HA! See what I did there? Sorry…
 
 Now what about testing?! and automation!? How does the data get from hub back to your nagios configs? Well this is where Jenkins comes in.
 
-### Step Three: Putting Jenkins to work
+### Step Three: Putting Jenkins to Work
 
 First you need the Jenkins git plugin. Jenkin's plugins are quick and easy. I'll shortcut you to it just for completion;
 
@@ -111,7 +111,7 @@ Jenkins; It's just that easy. Now lets set up our tests and deploy!
 
 Technically that is all the Jenkins config we need to have it automatically clone the hub to it's own private repo and then nagios -v to test the config. All typed out it seems like a decent amount of steps but by the time you set up your third Jenkin's test you realize most all of that is boilerplate. Most of the time you spend with Jenkin's is checking to see why your build failed and sometimes tweaking tests for the environment. It's really a get set up and get out of your way kinda tool.
 
-Now BEFORE we move on let's make Jenkin's do a little extra work and deploy from the hub to the live configs if the tests pass... oh crap you clicked save already didn't you... If you did just go back to the project and hit `Configure`.
+Now BEFORE we move on let's make Jenkin's do a little extra work and deploy from the hub to the live configs if the tests pass… oh crap you clicked save already didn't you… If you did just go back to the project and hit `Configure`.
 
 Now Under `Build` click `Add Build Step` and add a _second_ `Execute Shell`. Then put the following unto it[^GITPULL]
 
@@ -140,7 +140,7 @@ chmod 755 post-update
 
 Note that with the curl line, if you enable authentication on jenkins you will need to create a user that has "build" level permissions and put it into that line. Also replace my example token with yours.
 
-All right! Now we have it so that using ssh you can clone the hub repo and work on it. When you push back to hub it triggers Jenkins to build the tests. Then jenkins will take a copy, run `nagios -v` to test it, and if it passes it will tell the live config to pull the new updates... and once that is done the live config `-HUP`s nagios for us.
+All right! Now we have it so that using ssh you can clone the hub repo and work on it. When you push back to hub it triggers Jenkins to build the tests. Then jenkins will take a copy, run `nagios -v` to test it, and if it passes it will tell the live config to pull the new updates… and once that is done the live config `-HUP`s nagios for us.
 
 AMAZING!!! But not done yet.
 
@@ -170,7 +170,7 @@ Notice the gotcha in there!!! This one stuck me up for about two hours. **I was 
 
 To explain a few other lines;
 
-```bash
+```toml
 cfg_file=objects/commands.cfg
 cfg_file=objects/contacts.cfg
 cfg_file=objects/timeperiods.cfg
@@ -215,9 +215,9 @@ There will probably be a follow up when I figure out how to make the setup a bit
 
 If you think I've missed anything feel free to drop me a comment.
 
-### Bonus points
+### Bonus Points
 
-#### Got someone who doesn't get git and can't remember to push? Hate the extra command?
+#### Got Someone Who Doesn't Get Git and Can't Remember to Push? Hate the Extra Command?
 
 Go into your personal repo and make git a little more SVN, for better or worse.
 
@@ -227,16 +227,16 @@ echo 'git push' > .git/hooks/post-commit
 chmod 755 .git/hooks/post-commit
 ```
 
-#### How do you feel about circular dependencies?
+#### How Do You Feel about Circular Dependencies?
 
 If they are your thing then use the [Nagios Jenkins Plugin](https://github.com/jonlives/nagios-jenkins-plugin) to make Nagios check Jenkins and throw up alerts when your Nagios configs fail their tests!
 
 ### Caveats
 
-#### Never use git push --force
+#### Never Use Git Push --force
 
 If you ever _ever_ **EVER** _**EVER**_ do anything that requires a `git push --force` on hub like an `--amend` then may god have mercy on your soul. You know how they tell you that `push --force` is bad and breaks things when you first learned git? This is that exact use case where it ruins everything. Just don't do it, the point of nifty automation is to make your life easier. Suck it up and let your tree be nice and linear, have mistakes, and be "bloated"; Git has some great storage ratios across lots of minor commits.
 
-#### The test links to the prod version of resource.cfg
+#### The Test Links to the Prod Version of resource.cfg
 
 You are always testing against the live version of `resource.cfg`, which will usually be the HEAD^ version but if you break the build it could be even farther off. If you break the build on the resource.cfg file, the bad version will push, nagios will fail to restart properly, and then your NEXT build will fail in Jenkins and refuse to push so you will have to go into the server, test by hand, and then pull from hub manually. _**DAMN IT**_. I consider this to be a fairly major flaw that prevents me from wanting to deploy this in a professional environment.

@@ -18,15 +18,15 @@ Now Puppet is a system that hold dynamically updated configurations of your ever
 Ok, now lets start by assuming the following;
 
 1. You are not using anything crazy like githubbing puppet configs nor can you afford github enterprise.
-1. Puppet Master (puppet.domain.ex) runs in DMZ and is locked down tight.
-1. _/etc/puppet_ is your config locations on puppet.domain.ex and you have a user that can write to it other than root.
-1. Jenkins is hidden away in your network where it belongs, also fairly secured.
-1. Your central git server is on the same lan as your Jenkins, if not on the same box for some reason.
-1. You solemly swear not to do anything **stupid** and copy paste anything from this document directly into a command prompt. I may toss a bad char in there just to keep you honest.
+2. Puppet Master (puppet.domain.ex) runs in DMZ and is locked down tight.
+3. _/etc/puppet_ is your config locations on puppet.domain.ex and you have a user that can write to it other than root.
+4. Jenkins is hidden away in your network where it belongs, also fairly secured.
+5. Your central git server is on the same lan as your Jenkins, if not on the same box for some reason.
+6. You solemly swear not to do anything **stupid** and copy paste anything from this document directly into a command prompt. I may toss a bad char in there just to keep you honest.
 
 We have a few caveats to overcome here but it's not impossible.
 
-## Step Two: Prepare your Puppet box
+## Step Two: Prepare Your Puppet Box
 
 Puppet server should be locked down. So for my it's a box with all the screws down tight as they can be, puppet's web port and ssh passworded key to one user only is enabled. In order to allow pushing changes through git we will set up our friend the hub repo.
 
@@ -67,24 +67,26 @@ Now get out of your puppet box and STAY OUT (until it breaks, you did set up Nag
 
 In case you haven't already Jenkins is going to need a few upgrades. Hit it up with the following plugins.
 
-* Warnings Plug-in
-* Jenkins GIT plugin
+- Warnings Plug-in
+- Jenkins GIT plugin
 
 I have been told you can set up this to work with the RVM plugin to deploy this and that but I took the cheap route since puppet is installed on this machine anyways. For this setup we will need one gem though. If this is for a buisness network I'd go the extra hours to learn RVM but it's not, this is my home lab.
 
-* sudo gem install puppet-lint
+```bash
+sudo gem install puppet-lint
+```
 
 Now this is where I start to steal heavily from [Continuous Deployment with Jenkins and Puppet](https://gist.github.com/stephenc/3053561).
 
 Now starts the puppet configurations!
 
-* Name: Puppet
-* Source Code Management: Git
-  * Repositories: Your central git hub, not the one on puppet[^NOT]
-* Trigger Builds Remotely: check
-  * Authentication Token: _pick something simple but unique here like 'stopHackingRoot'_
-* Poll SCM: check
-  * Schedule: `H/15 * * * *`[^POLL]
+- Name: Puppet
+- Source Code Management: Git
+  - Repositories: Your central git hub, not the one on puppet[^NOT]
+- Trigger Builds Remotely: check
+  - Authentication Token: _pick something simple but unique here like 'stopHackingRoot'_
+- Poll SCM: check
+  - Schedule: `H/15 * * * *`[^POLL]
 
 [^NOT]: Seriously, if you don't have a central git server set up a central git repo SOMEWHERE safe, even on your jenkins box if need be (like we did for nagios) Just remember that your going to end up with something sensitive in there someday.
 
@@ -125,13 +127,13 @@ find . -iname *.pp -exec puppet-lint --log-format "%{path}:%{linenumber}:%{check
 
 The second one shouldn't error out but it will toss up style warnings and possible errors so lets check for those with our warning plugin.
 
-* Post-Build Actions
-* Scan for compiler warnings
-  * Parser: Puppet-Lint
+- Post-Build Actions
+- Scan for compiler warnings
+  - Parser: Puppet-Lint
 
-## Step four: The Danger Zone
+## Step Four: The Danger Zone
 
-Now this is where you might expect me to tell you to set up a Post-Build Action using Git Publisher or some script or another to automate your verified go-live puppet, maybe with a cool mcollector call to speed up your push...
+Now this is where you might expect me to tell you to set up a Post-Build Action using Git Publisher or some script or another to automate your verified go-live puppet, maybe with a cool mcollector call to speed up your push…
 
 **That recommendation is NOT forthcoming**
 
@@ -141,4 +143,4 @@ The simple fact of the matter is that if you are automatically pushing configs t
 2. Much much bigger balls than me
 3. Hopefully a whole enterprise security team all over this shit like a hawk.
 
-You _can_ set up an automated push and hope that everything you or anyone else pushes in master is gold but my recommendation is to test in branches, tag, and then have a human eyes verification on the configs before your push to puppet. When you have a bad push to nagios monitoring glitches out. When pupped fucks up... well you are running down a bad road at full speed.
+You _can_ set up an automated push and hope that everything you or anyone else pushes in master is gold but my recommendation is to test in branches, tag, and then have a human eyes verification on the configs before your push to puppet. When you have a bad push to nagios monitoring glitches out. When pupped fucks up… well you are running down a bad road at full speed.

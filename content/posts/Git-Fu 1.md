@@ -61,7 +61,7 @@ git commit --amend -c HEAD && git push --force
 
 > Ok, for bigger things --fixup or --squash might be better but when you open up a PR and instantly realize you are a total moron and everyone is gonna see how dumb your are because of your misspelling/typo/misscommited line… this squished one liner will recommit your quickly staged fix (letting you tweak the commit message in case that's your problem too) and replace your commit in the Pull Request with this much more awesome one.
 
-## Concepts to think of
+## Concepts to Think of
 
 ```bash
 Revision bad4dad

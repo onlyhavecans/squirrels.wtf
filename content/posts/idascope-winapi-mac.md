@@ -24,7 +24,7 @@ While not directly documented the fix is _really_ easy. Just tweak your ```confi
 }
 ```
 
-After you do this don't even restart IDA, just close the IDAscope tab and rerun the script. This trick comes with another fringe benefit; IDAscope will load in a _flash_ compared to the normal 30 second running, wait, almost... there... OK. The only disadvantage is that each search is now a web lookup but I don't think that's a horrible situation.
+After you do this don't even restart IDA, just close the IDAscope tab and rerun the script. This trick comes with another fringe benefit; IDAscope will load in a _flash_ compared to the normal 30 second running, wait, almost… there… OK. The only disadvantage is that each search is now a web lookup but I don't think that's a horrible situation.
 
 Now if I can only get the hotkey working right…
 

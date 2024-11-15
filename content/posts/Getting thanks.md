@@ -2,7 +2,7 @@
 date: 2012-06-27
 Title: A little thank you goes a long way
 slug: giving-thanks
-tags: [Pelican, open_source]
+tags: [pelican, open-source]
 ---
 
 Things like this happen sometimes
@@ -23,6 +23,6 @@ Things like this happen sometimes
 [4:36 PM] <tBunnyMan> It does. It's why I love contributing little things to big projects.
 ```
 
-All I really was trying to do is add a very quick and simple feature I needed. This was the response I got for it! The thing is, you would be shocked how infrequently I see something like this... It's this type of additude and behavior amongst developers that makes people WANT to work with eachother and help really grow a product.
+All I really was trying to do is add a very quick and simple feature I needed. This was the response I got for it! The thing is, you would be shocked how infrequently I see something like this… It's this type of additude and behavior amongst developers that makes people WANT to work with eachother and help really grow a product.
 
 I just wanted to post a little good will and show that some people rule. Expecially SnowLprd, kylef, bbinet, and doubly so alexis!

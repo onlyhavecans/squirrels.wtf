@@ -11,7 +11,7 @@ A week or so ago I started reading the [Malware Analyst's Cookbook and DVD: Tool
 
 **If you aren't interested in the scripts or the setup just scroll down for the iPhone pic money shot.**
 
-## Thus is born BunnyPot 0.5
+## Thus is Born BunnyPot 0.5
 
 I started with a Ubuntu VPS, patched but lightly hardened. Obviously being a honeypot the system has to be quasi-disposable.
 
@@ -239,13 +239,13 @@ sudo /opt/dionaea/bin/dionaea -u nobody -g nogroup -p /opt/dionaea/var/dionaea.p
 
 If it doesn't self destruct then you are up and going. If course I recommend you set this up with something like runit but this will get your honeypot working.
 
-## Where the cool automation comes in
+## Where the Cool Automation Comes in
 
 dionaea doesn't seem to have the cool IRC features of other honeypots but it still has web submissions. In fact it's designed to submit to several standard honeypots. I'm greedy so I deleted all of those and put in my Mac OS X server as one. For a quick and dirty python receiving server check through [MNIN Security | Malware Analyst's Cookbook](http://www.malwarecookbook.com/) or buy the book.
 
 Having these md5 named malware files on my OS X server means… what? They get backed up? Whoopty dooo! I guess that means I have easier access to them but so what. Lets make my system do all the pre work for me!
 
-Using the power of the almighty [Noodlesoft Hazel](http://www.noodlesoft.com/hazel.php), [Homebrew](http://mxcl.github.com/homebrew/), and a few python packages the system watches the incoming binary directory for new files and then goes to work[^WHERE]. It runs a series of scans on the files and chimes my phone with the summary on my new gift from the internet!
+Using the power of the almighty [Noodlesoft Hazel](http://www.noodlesoft.com/hazel.php), [Homebrew](http://mxcl.github.com/homebrew/), and a few python packages the system watches the incoming binary directory for new files and then goes to work.[^WHERE] It runs a series of scans on the files and chimes my phone with the summary on my new gift from the internet!
 
 ![iPhone Screenshot](/static/images/malware/iPhone.png)
 

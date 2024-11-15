@@ -12,7 +12,7 @@ When I worked for Stephens Media I spent a lot of my energy trying to contribute
 Then when I moved to Slickdeals.net my time was really sucked up. I drifted from working on Pelican and stopped doing as many pull requests.
 At some time I set up a personally hosted Stash instance. Then I locked that stash instance off behind a login.
 Then I started writing in my private confluence instead of here.
-Now all my projects these days are All Rights I noticed... hmph.
+Now all my projects these days are All Rights I noticed… hmph.
 
 I don't know exactly what triggered this sharephobia but it needs to stop.
 I almost think it's some weird greed involving my personal time and effort but if I was greedy wouldn't I want people fixing up my code for me?

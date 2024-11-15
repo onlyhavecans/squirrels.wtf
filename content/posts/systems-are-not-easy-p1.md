@@ -18,7 +18,7 @@ I should have called the clinic weeks ago, but it stresses me out, so it's still
 
 Maybe this is the exact same reason your own system is falling apart; it's full of don't want to dos and simply just will not to dos.
 
-It is great to be emotionally invested in the things in your system but if "Talk to Rachel" isn't something that's actually going to bring value to my life then why is it on my list? It's on the list because it popped into my head "Oh well I really should..." or my favorite little lie came up "I need to do this". The core idea of GTD is that every idea you have you write down. Everything that hits your inbox that feels like it's actionable should go into your system. Where I fall apart is remembering that not everything that hits the system should be done.
+It is great to be emotionally invested in the things in your system but if "Talk to Rachel" isn't something that's actually going to bring value to my life then why is it on my list? It's on the list because it popped into my head "Oh well I really should…" or my favorite little lie came up "I need to do this". The core idea of GTD is that every idea you have you write down. Everything that hits your inbox that feels like it's actionable should go into your system. Where I fall apart is remembering that not everything that hits the system should be done.
 
 This is why I have a Someday/Maybe list; a bucket of ideas I had that I still want out of my head but have not committed to doing. So quickly I forget if I'm not going to call the Optometrist and get new glasses this year then I should stop lying to myself and put it there.
 
@@ -26,4 +26,4 @@ Also using my system as a wishing well is also poisonous to wanting to use it. M
 
 When I am excited about my system, when I trust it and don't have any mental friction, I always have the time and energy to maintain it and use it to get things done. However it's going to slowly start filling up with things I won't do and that is when it becomes a burden to maintain. Taking the time to incubate the things that I'm not doing now and punting those things I am not going to do is not easy, but not making a choice is a choice. The earlier I make that choice the less I have to be stressed about it and the less expensive maintenance becomes.
 
-Now wait a moment, did I wrap this post telling everyone to put off or simply not to do the things they don’t want to do? Yes and no. I’m not your mommy, you know what should be done... or do you? I don’t always know what I should be doing so let’s go over how I review these blockers in [part two]({{< relref "systems-are-not-easy-p2.md" >}}).
+Now wait a moment, did I wrap this post telling everyone to put off or simply not to do the things they don't want to do? Yes and no. I'm not your mommy, you know what should be done… or do you? I don't always know what I should be doing so let's go over how I review these blockers in [part two]({{< relref "systems-are-not-easy-p2.md" >}}).

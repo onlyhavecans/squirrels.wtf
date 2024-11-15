@@ -18,8 +18,8 @@ I am going to try to spend more time adding smaller things to it, and putting mo
 
 It's going to be a rough next four years, might as well spend it contributing.
 
-## Dear Hugo, ouch
+## Dear Hugo, Ouch
 
 It's been years and the last time I wrote here I was using Hugo 0.80, sadly it is now at 0.138 and I have had to redo a shocking amount of code. It's outright frustrating I needed to replace the theme and tonnes of code changes.
 
-I also have noticed that old blog posts are pretty poor quality, but many of them are 12 years old and I am not interested in cleaning them all up... _yet_
+I also have noticed that old blog posts are pretty poor quality, but many of them are 12 years old and I am not interested in cleaning them all up… _yet_

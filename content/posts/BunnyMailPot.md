@@ -13,11 +13,11 @@ Then it hit me, actually dinged me… my email dinged that is.
 
 Malware comes through the mail too, duh.
 
-## The setup
+## The Setup
 
 This is hella… well you will see. It needs some cleaning up and maybe not to be relying on Apple's Mail.App… but seriously it's a super quick and dirty hack. It's not even ON the server, it's on my laptop at the moment.
 
-### The mail rule
+### The Mail Rule
 
 > Ok, I have mail… lots of it, all my work and personal and trash mail all in one app with nice aggressive mail filters… so lets get the malware out!
 
@@ -76,7 +76,7 @@ end pad
 
 Simple ya? Nothing fancy, quick and kinda diiiirty. When this runs it creates a folder in your downloads that matches the name of the mail rule you created. I went with the hell creative _Malware From Junk_
 
-## Processing the malware
+## Processing the Malware
 
 Just like every other _this is how I process files_ thing I have written up this part is all in [Hazel](http://www.noodlesoft.com/). Seriously I can't praise this app enough. Go pay this guy money. Stop reading this, go buy, use, love, live.
 
@@ -96,7 +96,7 @@ Do
 
 - Uncompress
 
-### Rename exe's to md5 and send to repo
+### Rename Exe's to Md5 and Send to Repo
 
 > Still really easy. The only trick is I set the rename and the upload to two separate scripts and actions so the whole thing can be halted easily in case something fails.
 
@@ -125,7 +125,7 @@ curl -sS -F upfile=@"$1" http://your.home.server:9000/cgi-bin/dionaea.py
 
 Ok, I'm not going to teach you how to set up growl to notify your phone for when you move this to your mac mini server at home, but needless to say [Prowl - iOS Push Notifications](http://prowlapp.com/) is your friend. If you sent up the receiver I talked about in the last bunnypot article then you should already have that dionaea.py already to go!
 
-## Next steps
+## Next Steps
 
 Next I need to find out how to get an email or even an entire domain onto as many spam lists as possible…
 

@@ -23,7 +23,7 @@ In the top most picture I didn't use a normal rubber band but I quickly found th
 
 [^SLIMMY]: My problem with the slimy is its design. It is only meant to hold about four cards and a small amount of cash. On any day I need to carry my ID, Work ID, Debit Card, PCard. This means ALL extra credit cards, Costco memberships, health cards, gift cards, and even business cards are out. Yes I can live without them but having to drive home and grab my Costco card or applicable gift card every time I want to grab some shopping on the way home is ANNOYING.
 
-My rubber band wallet currently contains a [Moleskine extra small notebook](http://www.moleskine.com/catalogue/classic/cahier/set_of_2_volant_notebooks_ruled__pink__extra_small.php)[^PINK], A [collapsable pen](http://www.zebrapen.com/products/pen/telescopic-brights?c=29) to write with, a small set of cash, and every card and ID I could need on a day. Somehow it is still smaller and more useful than every wallet I have owned before!
+My rubber band wallet currently contains a [Moleskine extra small notebook](http://www.moleskine.com/catalogue/classic/cahier/set_of_2_volant_notebooks_ruled__pink__extra_small.php),[^PINK] A [collapsable pen](http://www.zebrapen.com/products/pen/telescopic-brights?c=29) to write with, a small set of cash, and every card and ID I could need on a day. Somehow it is still smaller and more useful than every wallet I have owned before!
 
 [^PINK]: I use a BRIGHT PINK notebook too. It gets comments a lot, sometimes snide, sometimes funny… but the fact of the matter is when my "wallet" is on the table it's hard to miss and that in the end is the point; High visibility.
 

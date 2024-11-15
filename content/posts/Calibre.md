@@ -2,7 +2,7 @@
 date: 2012-04-30
 title: My Contribution to Calibre
 slug: my-controbution-to-calibre
-tags: [python, open_source, books]
+tags: [python, open-source, books]
 ---
 
 ## Backstory
@@ -19,7 +19,7 @@ After digging about I found a few "close enough but incomplete" and outdated sol
 
 A python based open source project with something that I want improved? A bunny like me only can do one thing in a situation like this; reach back to grab one of my many 'cans', learn the [API Documentation for recipes](http://manual.calibre-ebook.com/news_recipe.html), and get my money out of PyCharm.
 
-After a few days and learning more than just Calibre api[^browser], I put out what I called ReadItLater V3 on to [my github](https://github.com/onlyhavecans/ReadItLater-Calibre-Plugin) and reposted it to [Calibre Recipes MobileRead Forums](http://www.mobileread.com/forums/forumdisplay.php?f=228). Other people picked it up and I ended up adding a few extra features per requests
+After a few days and learning more than just Calibre api,[^browser] I put out what I called ReadItLater V3 on to [my github](https://github.com/onlyhavecans/ReadItLater-Calibre-Plugin) and reposted it to [Calibre Recipes MobileRead Forums](http://www.mobileread.com/forums/forumdisplay.php?f=228). Other people picked it up and I ended up adding a few extra features per requests
 
 [^browser]: [mechanize Browser](http://wwwsearch.sourceforge.net/mechanize/) and [Beautiful Soup](http://www.crummy.com/software/BeautifulSoup/bs3/documentation.html) are now favorites in my toolbox of handling and scraping web content, something I do more than any bunny should.
 
@@ -29,7 +29,7 @@ All was good with the world.
 
 A few weeks ago Read It Later officially rebranded to [Pocket](http://getpocket.com). This prompted me to pull up Calibre and check my plugin was working… all clear. Then, since I like to cover my bases, I pulled up Mobile Reads and dug around… and that's when I found it.
 
-[**Calibre merged my version into the official trunk**](http://bazaar.launchpad.net/~kovid/calibre/trunk/revision/11867.1.2)[^linkchoice].
+[**Calibre merged my version into the official trunk**](http://bazaar.launchpad.net/~kovid/calibre/trunk/revision/11867.1.2).[^linkchoice]
 
 This invigorated me to put my all into the project. However, all I really managed was the branding, some code cleanup, and docs. Pocket wasn't ready to give out their new API to small beans like me. At one point during this Calibre devs merged in someone else's but quickly pushed my [latest version](http://bazaar.launchpad.net/~kovid/calibre/trunk/revision/11935) once I completed it.
 
