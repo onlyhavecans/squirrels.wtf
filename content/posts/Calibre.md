@@ -6,7 +6,7 @@ tags: [python, open-source, books]
 
 ## Backstory
 
-When I bought my [NOOK Simple Touch™](http://www.barnesandnoble.com/p/nook-simple-touch-barnes-noble/1102344735) in January of this year I rediscovered [calibre E-book management](http://calibre-ebook.com/). While software always felt clunky in Mac OS X you could never deny it's power and sheer amazing once you got past the UI.
+When I bought my [NOOK Simple Touch™](https://www.barnesandnoble.com/p/nook-simple-touch-barnes-noble/1102344735) in January of this year I rediscovered [calibre E-book management](https://calibre-ebook.com/). While software always felt clunky in Mac OS X you could never deny it's power and sheer amazing once you got past the UI.
 
 Being a big fan of ReadItLater I immediately tried to have the program pump my massive reading list into my Nook. To my dismay I discovered that the plugin was hardly complete. It piped my entire ~500 article[^size] reading list into a several megabytes large ebook and ordered articles from newest to oldest. Running the plugin a second time… produced the same results. It hadn't even the courtesy to mark articles as read.
 

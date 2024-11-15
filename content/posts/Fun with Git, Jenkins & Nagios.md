@@ -10,7 +10,7 @@ Welcome to another edition on how to automate the hell out of your workflow.
 
 One thing I have been addicted to since I learned it was source control. I don't understand how some developers work without it… and I **really** don't understand how any syadmins live without it. I have actually found it _more_ useful as a sysadmin as a programmer, but only because at my day job I have used it in most of our major configs. Putting our 400+ file bind setup in subversion and using hooks to test and deploy our changes was not only a massive time saver but tail saver as well.
 
-Another system that gets plenty of additions or tweaks is our [Nagios](http://www.nagios.org/) configuration. Server gets deployed? Nagios. New services? Nagios. Something gets moved? Nagios. The list goes on.
+Another system that gets plenty of additions or tweaks is our [Nagios](https://www.nagios.org) configuration. Server gets deployed? Nagios. New services? Nagios. Something gets moved? Nagios. The list goes on.
 
 The problem is that at work the Nagios commits aren't so automated. You push to the SVN server, then go to the nagios box and then checkout to test your changes. This results in extra commits to fix breaks and just _work_. There doesn't need to be work!
 
@@ -20,10 +20,10 @@ The goal is to set up Nagios to have all it's configurations in git. Then I want
 
 ### Step One: Get Your Install on
 
-Install [Nagios](http://www.nagios.org/) and git. I'm not even gonna get into this, also if you haven't already throw java on the box. I'm going to demonstrate how to do everything on one box but it should be easy to break everything out onto multiple systems where needed.
+Install [Nagios](https://www.nagios.org) and git. I'm not even gonna get into this, also if you haven't already throw java on the box. I'm going to demonstrate how to do everything on one box but it should be easy to break everything out onto multiple systems where needed.
 
-[Jenkins](http://jenkins-ci.org/) might seem intimidating because it's java but it's not, really. I don't even bother with package installers, just grab the .war file from the website and `java --jar jenkins.war`.[^SECURITY]
-You might want to set up an init script and play with all the features but I'm not going to cover that, it's all well documented on [Welcome to Jenkins CI!](http://jenkins-ci.org/). If you are setting this up on a mac server, I tend to steal my LaunchAgent plists from [Homebrew](http://mxcl.github.com/homebrew/)
+[Jenkins](https://www.jenkins.io) might seem intimidating because it's java but it's not, really. I don't even bother with package installers, just grab the .war file from the website and `java --jar jenkins.war`.[^SECURITY]
+You might want to set up an init script and play with all the features but I'm not going to cover that, it's all well documented on Welcome to Jenkins CI!](https://www.jenkins.io). If you are setting this up on a mac server, I tend to steal my LaunchAgent plists from [Homebrew](http://brew.sh)
 
 [^SECURITY]:You'll want to set up authentication, general security, and maybe even want to restrict access by firewall to jenkins in the long run. Jenkins is a well tested system but left unsecured and open on the internet this system can be invoked to execute arbitrary code in a snap.
 

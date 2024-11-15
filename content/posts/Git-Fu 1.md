@@ -6,7 +6,7 @@ tags: [git]
 
 ## Backstory
 
-My git-fu sucks. I have to use an awesome git tool called [SourceTree](http://www.sourcetreeapp.com/) to do the git wizardry that I do. It's totally free and for the Mac so if you want to just jump into git and have expert features clicks away go download this. I bought it back when it cost money but now you can have it for free. I'll wait…
+My git-fu sucks. I have to use an awesome git tool called SourceTree to do the git wizardry that I do. It's totally free and for the Mac so if you want to just jump into git and have expert features clicks away go download this. I bought it back when it cost money but now you can have it for free. I'll wait…
 
 Anyways, I've been rolling around in the lap of GIT/SourceTree luxury these past months; clicking away and using features I only wished SVN could ever touch. However when jumping around between machines and VMs it would be faster to just use the command line. Now a days I'm now on the development team of a well sized open source project and having to fumble around git & github while testing submissions and making patches to help other people test is just NOT COOL. I think it all came to a head when the main project maintainer started flaunting some of his git-fu when submitting and fixing patches… well honestly since I just love cramming as much into my head as possible I thought I would hone my git foo.
 

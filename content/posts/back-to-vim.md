@@ -39,8 +39,8 @@ If only we had a windows client already.
 
 If you want some portable keys help check out the following;
 
-- [BunnyMan.Info — SSH Keys on a USB jump drive on Mac OS X (Mountain Lion Edition)](/posts/2013/Feb/25/ssh-on-usb-on-mac-os-x/)
-- [BunnyMan.Info — SSH Keys on a USB jump drive on Mac OS X Part 2](/posts/2013/Mar/07/ssh-on-usb-on-mac-os-x-scripts/)
+- [SSH Keys on a USB jump drive on Mac OS X (Mountain Lion Edition)]({{< ref ssh-on-usb-on-mac >}})
+- [SSH Keys on a USB jump drive on Mac OS X Part 2]({{< ref ssh-on-usb-scripts-edition >}})
 
 Just remember to not make these your ONLY keys, all posable keys should be password encoded and easily revokable so keep a backup and list of your emergency to revoke when it gets lost.
 

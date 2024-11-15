@@ -7,6 +7,9 @@ test:
   open http://localhost:1313
   hugo server --buildDrafts --navigateToChanged
 
+test-links:
+  muffet --buffer-size=8192 http://localhost:1313
+
 clean:
   rm -r public/*
   rm -r resources/*

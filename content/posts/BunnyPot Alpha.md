@@ -6,7 +6,7 @@ tags: [malware, security]
 
 Since the beginning of the year I have been mildly obsessed with reversing and malware. Studying ASM and low level debugging is put an awesome edge on my understanding of computer science, programming, and hacking in general.
 
-A week or so ago I started reading the [Malware Analyst's Cookbook and DVD: Tools and Techniques for Fighting Malicious Code](http://search.barnesandnoble.com/Malware-Analysts-Cookbook-and-DVD/Michael-Ligh/e/9780470613030) where they recommend you build up a honeypot to collect malware. Of course I can't a simple suggestions and set up a normal honeypot; Being a SysAdmin at heart I have to _automate the hell_ out of everything.
+A week or so ago I started reading the [Malware Analyst's Cookbook and DVD: Tools and Techniques for Fighting Malicious Code](https://www.barnesandnoble.com/w/malware-analysts-cookbook-and-dvd-michael-ligh/1100320092) where they recommend you build up a honeypot to collect malware. Of course I can't a simple suggestions and set up a normal honeypot; Being a SysAdmin at heart I have to _automate the hell_ out of everything.
 
 **If you aren't interested in the scripts or the setup just scroll down for the iPhone pic money shot.**
 
@@ -240,13 +240,11 @@ If it doesn't self destruct then you are up and going. If course I recommend you
 
 ## Where the Cool Automation Comes in
 
-dionaea doesn't seem to have the cool IRC features of other honeypots but it still has web submissions. In fact it's designed to submit to several standard honeypots. I'm greedy so I deleted all of those and put in my Mac OS X server as one. For a quick and dirty python receiving server check through [MNIN Security | Malware Analyst's Cookbook](http://www.malwarecookbook.com/) or buy the book.
+dionaea doesn't seem to have the cool IRC features of other honeypots but it still has web submissions. In fact it's designed to submit to several standard honeypots. I'm greedy so I deleted all of those and put in my Mac OS X server as one. For a quick and dirty python receiving server check through [MNIN Security | Malware Analyst's Cookbook](https://www.malwarecookbook.com/) or buy the book.
 
 Having these md5 named malware files on my OS X server means… what? They get backed up? Whoopty dooo! I guess that means I have easier access to them but so what. Lets make my system do all the pre work for me!
 
-Using the power of the almighty [Noodlesoft Hazel](http://www.noodlesoft.com/hazel.php), [Homebrew](http://mxcl.github.com/homebrew/), and a few python packages the system watches the incoming binary directory for new files and then goes to work.[^WHERE] It runs a series of scans on the files and chimes my phone with the summary on my new gift from the internet!
-
-![iPhone Screenshot](/static/images/malware/iPhone.png)
+Using the power of the almighty [Noodlesoft Hazel](https://www.noodlesoft.com/), [Homebrew](https://brew.sh/), and a few python packages the system watches the incoming binary directory for new files and then goes to work.[^WHERE] It runs a series of scans on the files and chimes my phone with the summary on my new gift from the internet!
 
 Sweet huh? The first time I was sitting around and my phone chimed, delivering info on a fresh piece of malware, I did a dance.
 
