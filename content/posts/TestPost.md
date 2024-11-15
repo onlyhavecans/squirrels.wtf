@@ -1,7 +1,6 @@
 ---
 date: 2012-06-19
 Title: Small Update
-slug: small-update
 tags: [news]
 ---
 

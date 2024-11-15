@@ -1,7 +1,6 @@
 ---
 date: 2012-06-27
 Title: A little thank you goes a long way
-slug: giving-thanks
 tags: [pelican, open-source]
 ---
 

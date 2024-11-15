@@ -1,7 +1,6 @@
 ---
 date: 2012-08-29
 title: Honing my Git-Fu Part 1
-slug: git-fu-01
 tags: [git]
 ---
 

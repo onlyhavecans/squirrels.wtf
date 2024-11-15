@@ -1,7 +1,6 @@
 ---
 date: 2012-03-14
 title: Nothing happens for a reason
-slug: nothing-happens-for-a-reason
 tags: [musings]
 ---
 

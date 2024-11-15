@@ -1,7 +1,6 @@
 ---
 date: 2014-07-13
 title: Where have you been?
-slug: update-2014
 tags: [news]
 ---
 

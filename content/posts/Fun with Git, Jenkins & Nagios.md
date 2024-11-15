@@ -1,7 +1,6 @@
 ---
 date: 2012-09-07
 title: Fun with Git, Jenkins, & Nagios
-slug: git-jenkins-nagios
 tags: [git, jenkins, devops]
 ---
 

@@ -1,7 +1,6 @@
 ---
 date: 2012-07-06
 title: Now with less dynamics
-slug: pelican-changeover
 tags: [pelican, news]
 ---
 

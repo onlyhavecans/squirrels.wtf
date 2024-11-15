@@ -1,7 +1,6 @@
 ---
 date: 2015-04-24
 title: Monitoring Chef runs without Chef
-slug: nagios-che-run-check
 tags: [nagios, chef-infra, devops]
 ---
 

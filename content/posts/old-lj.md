@@ -1,7 +1,6 @@
 ---
 date: 2012-03-08
 title: Things that are not happening for 100, Alex
-slug: things-that-are-not-happening-for-100-alex
 tags: [news]
 ---
 

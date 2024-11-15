@@ -1,8 +1,8 @@
 ---
 Date: 2012-03-21
 Title: The search for the perfect wallet
-Slug: the-search-for-the-perfect-wallet
-tags: [musings]
+tags:
+  - musings
 ---
 
 Through my whole life I have always struggled to find the perfect tool for the job. No matter what I am doing I from the big to the little I question methods and tools I am using. Sometimes I find it, sometimes I struggle on and on. This is a story about how I think I found perfection.

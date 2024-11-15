@@ -1,7 +1,6 @@
 ---
 date: 2014-07-14
 title: Chef Frustrations
-slug: chef-frustrations
 tags: [musings, open-source, chef-infra]
 ---
 
@@ -44,9 +43,9 @@ I feel that chef relies _too much_ on OPD though. Especially because chef is suc
 
 [^ACTUALLY]: I know it's not the best way because they are deprecating chef-solo for chef-zero, which is _good_ but it's a great example about the speed that Chef is changing.
 
-I plan on documenting plenty of chef like things myself; in fact I plan on posting as much of my own OPD as possible but with how fast chef evolves as a product and with the large variance of methods for different environments I really hope people take everything with a grain of salt and read the date on the post when consitering my advice.
+I plan on documenting plenty of chef like things myself; in fact I plan on posting as much of my own OPD as possible but with how fast chef evolves as a product and with the large variance of methods for different environments I really hope people take everything with a grain of salt and read the date on the post when considering my advice.
 
-Here is a great example; where about 2014-07 I went into #chef and asked about some methods for setting things up and was linked to [this blog](http://misheska.com/blog/2013/06/16/getting-started-writing-chef-cookbooks-the-berkshelf-way/) which is treated like a defacto example of how to do things. But read all those updates… and then notice how it's using a lot of deprecated methods. I was linked to an article that could be titled "How to develop some really bad habits, but learn important things while you are at it." It's not Mischa's fault, It doesn't seem like he is a docs writer for Chef. Honestly I feel the best thing that could be done is this document be updated to the latest methodologies and tacked on to the end of learn chef as "One good method to get your enviroment up and going".
+Here is a great example; where about 2014-07 I went into \#chef and asked about some methods for setting things up and was linked to [this blog](http://misheska.com/blog/2013/06/16/getting-started-writing-chef-cookbooks-the-berkshelf-way/) which is treated like a defacto example of how to do things. But read all those updates… and then notice how it's using a lot of deprecated methods. I was linked to an article that could be titled "How to develop some really bad habits, but learn important things while you are at it." It's not Mischa's fault, It doesn't seem like he is a docs writer for Chef. Honestly I feel the best thing that could be done is this document be updated to the latest methodologies and tacked on to the end of learn chef as "One good method to get your environment up and going".
 
 As a chef user do you even know about chef-dk? you probably should take a break from what you are doing, [read this](http://www.getchef.com/blog/2014/04/15/chef-development-kit/) and then [do this](https://gist.github.com/lamont-granquist/40d26b6fa8178212594f). Seriously don't you feel much better? This also should be on the end of learn chef guide. Hell this should probably be the first half of the learn chef guide.
 
@@ -56,7 +55,7 @@ I get that maybe they don't want to declare a "chef way" to do things… but at 
 
 Just to recap;
 
-- I believe chef's biggest weakness is documentation, which creates a wall in the learning curve to hit right after "I can now build and deploy a test apache on a linode" and "I can build and deploy this in a staging enviroment"
+- I believe chef's biggest weakness is documentation, which creates a wall in the learning curve to hit right after "I can now build and deploy a test apache on a linode" and "I can build and deploy this in a staging environment"
 - I think there should be a learn chef 200 series that goes over;
   - Using a wrapper cookbook, and the different types of abstraction you often see with these.
   - Teaching everything chef-dk adds; bootstrapping, runtests, and automated integration testing.
@@ -64,5 +63,5 @@ Just to recap;
   - Using more of chef's tools; ex ohai
 - If chef is going to rely on the community for docs maybe it should create a way where they can contribute to the main docbase just like they do code.
 - [go here](http://misheska.com/blog/2013/06/16/getting-started-writing-chef-cookbooks-the-berkshelf-way/), have your life changed
-- If you are in the Las Vegas, NV area come hang out at #lvdevops on freenode and tell me how I make you feel
-- I'm going to spend another week or two trying diferent ways to structure my cookbooks and see what works.
+- If you are in the Las Vegas, NV area come hang out at \#lvdevops on freenode and tell me how I make you feel
+- I'm going to spend another week or two trying different ways to structure my cookbooks and see what works.

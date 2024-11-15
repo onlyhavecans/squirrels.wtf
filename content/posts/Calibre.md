@@ -1,7 +1,6 @@
 ---
 date: 2012-04-30
 title: My Contribution to Calibre
-slug: my-controbution-to-calibre
 tags: [python, open-source, books]
 ---
 

@@ -1,7 +1,6 @@
 ---
 date: 2016-08-02
 title: Building chef-dk on FreeBSD 10
-slug: chef-dk-on-freebsd
 tags: [freebsd, chef-infra, devops]
 ---
 

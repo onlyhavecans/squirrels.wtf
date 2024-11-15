@@ -1,7 +1,6 @@
 ---
 date: 2012-08-04
 title: BunnyPot Alpha
-slug: bunnypot
 tags: [malware, security]
 ---
 

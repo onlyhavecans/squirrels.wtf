@@ -1,7 +1,6 @@
 ---
 date: 2013-02-27
 title: Update to my Transmission Tools
-slug: transmission-tools-2013-02-27
 tags: [python, bittorrent]
 ---
 

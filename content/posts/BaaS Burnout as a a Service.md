@@ -1,8 +1,8 @@
 ---
 date: 2016-05-02
 title: "BaaS: Burnout as a Service"
-slug: baas-burnout-as-a-service
-categories: [musings]
+tags:
+  - musings
 ---
 
 I wanna take a moment to to address what I like to call **Burnout as a Service; how I see burnout as a product of the tech industry and culture**. My friends, coworkers, and I have all experienced it in various levels, sometimes to crippling physical side effects. In this article I'm going to use strong language like _need_, and _should_, and _I won't work with you if you \[don't|do\] $thing_. While I have strong opinions about this subject and feel I have developed a powerful framework for helping avoid burnout it's bound not to be perfect or complete. I do study this subject at great length in the name of personal development and productivity/energy management so if you have thoughts, opinions, feedback, or insights further into this topic I'd be happy to hear about them in the comments.

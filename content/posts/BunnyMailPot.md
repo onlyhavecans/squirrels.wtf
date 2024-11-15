@@ -1,7 +1,6 @@
 ---
 date: 2012-11-06
 title: "BunMailPot Alpha..."
-slug: bunny-mail-honeypot-alpha
 tags: [macos, malware, security]
 ---
 

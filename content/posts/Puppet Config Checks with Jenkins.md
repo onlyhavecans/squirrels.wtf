@@ -1,7 +1,6 @@
 ---
 date: 2013-02-19
 title: Puppet Configuration Checks with Jenkins
-slug: puppet-jenkins
 tags: [jenkins, devops, puppet]
 ---
 

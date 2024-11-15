@@ -1,7 +1,6 @@
 ---
 date: 2012-03-08
 title: Wow!
-slug: wow
 tags: [news]
 ---
 

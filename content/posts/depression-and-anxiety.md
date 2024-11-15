@@ -1,7 +1,6 @@
 ---
 date: 2018-06-08
 title: A Word On Depression and Anxiety
-slug: a-word-on-depression-and-anxiety
 tags:
   - musings
   - depression

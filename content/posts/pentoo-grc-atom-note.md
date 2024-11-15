@@ -1,7 +1,6 @@
 ---
 date: 2015-09-06
 title: Quick Note on GnuRadio on Pentoo
-slug: pentoo-grc-atom
 tags: [grc, security, radio]
 ---
 

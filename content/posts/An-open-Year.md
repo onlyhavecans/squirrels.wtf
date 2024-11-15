@@ -1,8 +1,10 @@
 ---
 date: 2015-04-17
 title: An Open Year
-slug: open-year-2015
-tags: [bsd, chef-infra, news]
+tags:
+  - bsd
+  - chef-infra
+  - news
 ---
 
 It's been about a year since my last post, mostly frustrated with Chef as a beginner. Now I spend most of my day writing cookbooks and recipes. In fact I am even helping the Lead Dev at work learn Chef and got back from Chef conference. There I met a lot of amazing people and even [offered to help maintain BSD support in chef](https://github.com/chef/chef/pull/3231).
