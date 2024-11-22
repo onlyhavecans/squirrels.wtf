@@ -5,7 +5,9 @@ tags:
   - generative-ai
 draft: false
 ---
-I am no marketing expert but now that the "AI boom" has started to plateau and mature I see two broad cohorts of people when it comes to ingesting media and services. These are the consumers, not the creators.
+I saw something about cohorts and AI usage and it got this whole idea stuck in my head so I decided to write it out and maybe it's enough to make you think about how you feel about AI content itself and where it brings entertainment and value to you.
+
+Now that the "AI boom" has started to plateau and mature I see two broad cohorts of people when it comes to ingesting media and services. These are the consumers, not the creators.
 
 ## The Cohorts of Consumption
 
