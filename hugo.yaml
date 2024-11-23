@@ -18,9 +18,9 @@ params:
     - icon: brand-mastodon
       name: Mastodon (Hachyderm)
       url: https://hachyderm.io/@onlyhavecans
-    - icon: brand-bluesky
-      name: BlueSky
-      url: https://bsky.app/profile/squirrels.wtf
+    - icon: brand-linktree
+      name: LinkStack
+      url: https://wearing.black/
     - icon: brand-rss
       name: RSS Feed
       url: https://squirrels.wtf/index.xml
