@@ -11,7 +11,7 @@
   "disablePopupsForNoChanges": false,
   "listChangedFilesInMessageBody": false,
   "showStatusBar": true,
-  "updateSubmodules": false,
+  "updateSubmodules": true,
   "syncMethod": "merge",
   "customMessageOnAutoBackup": false,
   "autoBackupAfterFileChange": false,
@@ -29,7 +29,6 @@
   "showFileMenu": true,
   "authorInHistoryView": "hide",
   "dateInHistoryView": false,
-  "diffStyle": "split",
   "lineAuthor": {
     "show": false,
     "followMovement": "inactive",
@@ -55,5 +54,6 @@
     "lastShownAuthorDisplay": "initials",
     "lastShownDateTimeFormatOptions": "date"
   },
+  "diffStyle": "split",
   "autoCommitMessage": "vault backup: {{date}}"
 }
