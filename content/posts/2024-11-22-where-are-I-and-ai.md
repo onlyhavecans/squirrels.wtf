@@ -1,7 +1,7 @@
 ---
 date: 2024-11-22T16:00:30
 title: Where are I and AI
-draft: true
+draft: false
 tags:
   - generative-ai
 ---
