@@ -19,3 +19,6 @@ build: clean
 
 new post-name:
   hugo new content content/posts/{{today}}-{{post-name}}.md
+
+update-theme:
+  git submodule foreach git sm
