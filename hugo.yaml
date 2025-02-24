@@ -45,6 +45,10 @@ menu:
       identifier: about
       url: /about/
       weight: 3
+    - name: Uses
+      identifier: uses
+      url: /uses/
+      weight: 4
 
 taxonomies:
   tag: tags
