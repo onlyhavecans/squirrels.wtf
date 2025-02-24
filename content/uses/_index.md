@@ -17,9 +17,10 @@ This is all based on the trend originating with [uses.tech](https://uses.tech/) 
 
 ## Making & Shipping Software
 
-I am a very terminal based person, and like to have a portable config I use across many types of systems. You can check out my dotfiles [here](https://github.com/onlyhavecans/dotfiles)
+I am a very terminal based person, and like to have a portable configurations I use across many types of systems. You can check out my dotfiles [here](https://github.com/onlyhavecans/dotfiles)
 
 - **Firefox**: I prefer to not use chrome based browsers
+- **Homebrew/Linuxbrew**: No matter what Linux or macOS I use, I have access to all the latest cli tools. Homebrew has changed how I install most things.
 - [**WezTerm**](https://wezterm.org/index.html): I wanted a powerful and fast terminal I can use on all OS. It's lua config is also great for having some dynamic changes between linux and macOS.
 - **Zsh**: I keep trying to switch to fish but it's lack of shell expansions keeps driving me back.
 - **NeoVim w/ [LazyVim](https://www.lazyvim.org/)**: No matter how often I try to break into using VSCode I keep coming back to my fully terminal based setup. Check out my configs [here](https://github.com/onlyhavecans/neovim)
