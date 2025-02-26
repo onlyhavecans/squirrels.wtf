@@ -50,6 +50,7 @@ I still like to process my thoughts through writing. I have a discbound notebook
 - **Post-it 100% Recycled Super Sticky Lined Notes**: These are the best sticky notes I can find and can be reused and moved daily for weeks.
 - **[MyLifePlans Templates](https://www.etsy.com/shop/MyLifePlans)**: Elegant and useful printable templates for trackers and goal setting
 - **Obsidian**: For notes I want to save for later, archives, logs, and reference materials I love this markdown based note taking with a git based plugin for private sync!
+- [PomoFocus](https://pomofocus.io): A very basic pomodoro timer that has auto-progression, ticking, and very long and loud alerts. I don't use the tasks, just the timer.
 
 ## Making Music
 
