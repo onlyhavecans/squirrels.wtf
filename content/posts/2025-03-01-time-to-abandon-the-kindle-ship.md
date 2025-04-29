@@ -6,6 +6,7 @@ tags:
   - news
   - books
   - kindle
+  - drm
 ---
 I have a confession to make, a weird confession. I am a kindle junkie. Oh how I love my kindle. I have thousands books purchased through amazon's kindle store. I read my kindle every day for hours.
 
