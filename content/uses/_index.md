@@ -12,8 +12,8 @@ This is all based on the trend originating with [uses.tech](https://uses.tech/) 
 - macOS work Laptop
 - macOS desktop for music
 - Raspberry Pi for Pi-Hole
-- A small army of Raspberry Pi for PlexAmp headless home audio
-- Media PC w/ pci-e nics for PfSense
+- A small army of Raspberry Pi for ~~PlexAmp~~ headless home audio
+- Protectli for PfSense Firewall
 
 ## Making & Shipping Software
 
@@ -55,12 +55,12 @@ I still like to process my thoughts through writing. I have a discbound notebook
 ## Making Music
 
 - Ableton Live
-- N-I Komplete
+- Touche
 - Polyend Tracker+
 - Roland SP-404Mk2
-- Touche
 - Artura MicroFreak
 - Eventide Blackhole
+- ChaseBliss Blooper
 - A big pile of cheap Amazon pedals
 - SOMA Rumble of Ancient Times
 - iZotope Mix & Master
@@ -69,9 +69,10 @@ I still like to process my thoughts through writing. I have a discbound notebook
 
 I like to run most of my own software on my self host server in a big Docker Compose stack
 
-- **Plex**: Being able to archive all my media and stream it from my own server was life changing, especially for my 400GB music collection. PlexAmp is 😻
-- **Bliss**: Managing my music through a web interface since Plex doesn't edit
-- **Komga**: Hosting all of my Itch.io and Patreon books
+- **~~Plex~~**: Deprecated. I will miss PlexAmp, but they have been sharing all the signs things are not well in Startup Land.
+- **Navidrome**: The next evolution of my music collection, fiddly and needs good tagging, but it's very powerful.
+- **Jellyfin**: Not as simple and easy to use as Plex for most, but works extremely well once I discovered a few config tricks and the Infuse iOS/Mac client.
+- **Komga**: Hosting all of my Itch.io, Patreon, & DrivethruRPG books
 - **Grocy**: Home maintenance & chore tracking
 - **FreshRSS**: I never gave up on RSS, this is a recent transition from NewsBlur.
 - **Readeck**: Really nice read it later article storage
@@ -97,8 +98,10 @@ I often joke about how boring I am when it comes to beverages as I only care to 
 - **St Anthony's Industries Cup**: A special ceramic cup designed to keep my coffee & tea hot for a long time without imparting taste
 - **V60 02 Brewer**: I have a classic clear glass and Stardust purple from the Night Sky Series
 - **Blue Bottle Flat Bottom Brewer**: It works better than I expected when used with their filters
+- **Orea V4**: Did I need a newer flat bottom? No? but is it fun and makes for interesting brews with cheap filders? YES!
+- **Hario Switch**: I didn't get this brewer until I started experimenting with funkier beans.
 - **Fellow Stagg EKG Kettle**: Love it or hate it, it's the staple now
-- **1Zpresso K-Max**: An very high end burr and grind range without paying a fortune
+- **Comendante C40 v4**: As popular as it is expensive, but makes a fantastic cup of coffee.
 - **Acaia Pearl Scale**: Honestly, I would buy a timemore if I had to replace this
 - **Locally Roasted Coffee**: We have a lot of local roasters here!
 - ~~white2tea~~: I am looking for a new way to get quality loose leaf tea without ordering directly from China due to changes in shipping. I will miss their "Natural Redhead" series.
