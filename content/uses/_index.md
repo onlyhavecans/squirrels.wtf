@@ -12,18 +12,19 @@ This is all based on the trend originating with [uses.tech](https://uses.tech/) 
 - macOS work Laptop
 - macOS desktop for music
 - Raspberry Pi for Pi-Hole
-- A small army of Raspberry Pi for ~~PlexAmp~~ headless home audio
+- Raspberry Pi for Home Assistant OS
+- A small army of older Raspberry Pi's for snapcast home audio
 - Protectli for PfSense Firewall
 
 ## Making & Shipping Software
 
-I am a very terminal based person, and like to have a portable configurations I use across many types of systems. You can check out my dotfiles [here](https://github.com/onlyhavecans/dotfiles)
+I am a very terminal based person, and like to have a portable configurations I use across many types of systems. You can check out [my dotfiles here](https://onlyhavecans.works/onlyhavecans/castle-dotfiles)
 
 - **Firefox**: I prefer to not use chrome based browsers
 - **Homebrew/Linuxbrew**: No matter what Linux or macOS I use, I have access to all the latest cli tools. Homebrew has changed how I install most things.
 - [**WezTerm**](https://wezterm.org/index.html): I wanted a powerful and fast terminal I can use on all OS. It's lua config is also great for having some dynamic changes between linux and macOS.
 - **Zsh**: I keep trying to switch to fish but it's lack of shell expansions keeps driving me back.
-- **NeoVim w/ [LazyVim](https://www.lazyvim.org/)**: No matter how often I try to break into using VSCode I keep coming back to my fully terminal based setup. Check out my configs [here](https://github.com/onlyhavecans/neovim)
+- **NeoVim w/ [LazyVim](https://www.lazyvim.org/)**: No matter how often I try to break into using VSCode I keep coming back to my fully terminal based setup. Check out [my configs here](https://onlyhavecans.works/onlyhavecans/castle-neovim)
 - **tmux**: All keyboard navigation
 - **[Yazi](https://yazi-rs.github.io/)**: how I navigate and manage files.
 
@@ -70,6 +71,7 @@ I still like to process my thoughts through writing. I have a discbound notebook
 I like to run most of my own software on my self host server in a big Docker Compose stack
 
 - **Forgejo**: My Git + CI/CD + Renovate stack all at [OnlyHaveCans.Works](https://onlyhavecans.works)
+- **Home Assistant**: I use this to automate lots of random things around the house without having random things on the internet.
 - **~~Plex~~**: Deprecated. I will miss PlexAmp, but they have been sharing all the signs things are not well in Startup Land.
 - **Navidrome**: The next evolution of my music collection, fiddly and needs good tagging, but it's very powerful.
 - **Jellyfin**: Not as simple and easy to use as Plex for most, but works extremely well once I discovered a few config tricks and the Infuse iOS/Mac client.
@@ -77,7 +79,6 @@ I like to run most of my own software on my self host server in a big Docker Com
 - **Grocy**: Home maintenance & chore tracking
 - **FreshRSS**: I never gave up on RSS, this is a recent transition from NewsBlur.
 - **Readeck**: Really nice read it later article storage
-- **NextCloud**: Hosting most my records and documents
 - **Syncthing**: Syncronizing some misc files and settings
 - **Wireguard**: Always a way back home
 
