@@ -34,12 +34,14 @@ jobs:
 
       - name: Deploy to Netlify
         run: |
+          COMMIT_LINE=$(echo "$MESSAGE" | head -n1)
           echo "Deploy is: $DEPLOY_TYPE"
-          npx --no-install netlify deploy --no-build $DEPLOY_TYPE --dir=public --json | tee results.json
+          npx --no-install netlify deploy --no-build $DEPLOY_TYPE --dir=public --message "$COMMIT_LINE" --json | tee results.json
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
           DEPLOY_TYPE: ${{ forge.ref_name == 'main' && '--prod' || format('--alias pr-{0}', forge.event.number) }}
+          MESSAGE: ${{ github.event.head_commit.message }}
 
       - name: Comment PR
         if: forge.event_name == 'pull_request'
