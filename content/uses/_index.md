@@ -69,6 +69,7 @@ I still like to process my thoughts through writing. I have a discbound notebook
 
 I like to run most of my own software on my self host server in a big Docker Compose stack
 
+- **Forgejo**: My Git + CI/CD + Renovate stack all at [OnlyHaveCans.Works](https://onlyhavecans.works)
 - **~~Plex~~**: Deprecated. I will miss PlexAmp, but they have been sharing all the signs things are not well in Startup Land.
 - **Navidrome**: The next evolution of my music collection, fiddly and needs good tagging, but it's very powerful.
 - **Jellyfin**: Not as simple and easy to use as Plex for most, but works extremely well once I discovered a few config tricks and the Infuse iOS/Mac client.

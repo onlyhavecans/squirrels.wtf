@@ -12,6 +12,9 @@ params:
   favicon: /favicon.ico
   menu_item_separator: ' | '
   social:
+    - icon: brand-forgejo
+      name: Code Forge
+      url: https://onlyhavecans.works
     - icon: brand-github
       name: Github
       url: https://github.com/onlyhavecans

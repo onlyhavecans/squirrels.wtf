@@ -1,0 +1,60 @@
+---
+name: 'Build and deploy Hugo to Netlify'
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Install Hugo
+        run: |
+          HUGO_VERSION=$(cat hugo_version)
+          wget -O hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb
+          sudo dpkg -i hugo.deb
+
+      - name: Build
+        run: hugo --gc --minify
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: 'npm'
+
+      - name: Install Netlify CLI
+        run: npm ci
+
+      - name: Deploy to Netlify
+        run: |
+          echo "Deploy is: $DEPLOY_TYPE"
+          npx --no-install netlify deploy --no-build $DEPLOY_TYPE --dir=public --json | tee results.json
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          DEPLOY_TYPE: ${{ forge.ref_name == 'main' && '--prod' || format('--alias pr-{0}', forge.event.number) }}
+
+      - name: Comment PR
+        if: forge.event_name == 'pull_request'
+        run: |
+          echo "## Netlify Deploy Results" > comment_body.md
+          echo "" >> comment_body.md
+          jq -r 'to_entries[] | "**\(.key):** \(.value)"' results.json >> comment_body.md
+
+          echo "=== Using jq to create payload safely ==="
+          jq -n --rawfile body comment_body.md '{body: $body}' | tee comment.json
+          echo "=== end payload ==="
+
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.FORGEJO_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            -H "Accept: application/json" \
+            -d @comment.json \
+            "${{ forge.api_url }}/repos/${{ forge.repository }}/issues/${{ forge.event.number }}/comments"

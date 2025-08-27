@@ -1,5 +1,5 @@
 public/*
-!public/.gitkeep
 resources/_gen
 .hugo_build.lock
 .obsidian/workspace.json
+node_modules

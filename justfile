@@ -1,4 +1,5 @@
 today := `date +%F`
+version :=`cat hugo_version`
 
 default:
   @just --list --unsorted
@@ -22,3 +23,6 @@ new post-name:
 
 update-theme:
   git submodule foreach git sm
+
+upgrade:
+  brew install hugo@{{version}}
