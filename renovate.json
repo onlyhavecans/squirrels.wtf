@@ -1,7 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "local>SpidersWeb:renovate-config"
+    "local>SpidersWeb/renovate-config"
   ],
   "git-submodules": {
     "enabled": true
