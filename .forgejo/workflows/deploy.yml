@@ -16,10 +16,11 @@ jobs:
           fetch-depth: 0
 
       - name: Install Hugo
-        uses: actions/install-gh-release@v2
+        uses: actions/install-gh-release@v2.1.0
         with:
           repo: gohugoio/hugo
           tag: v1.48.1
+          cache: enable
 
       - name: Build
         run: hugo --gc --minify
