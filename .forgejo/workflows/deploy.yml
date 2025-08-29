@@ -19,6 +19,8 @@ jobs:
         uses: actions/install-gh-release@v2.1.0
         with:
           repo: gohugoio/hugo
+          asset-name: hugo_extended
+          rename-to: hugo
           tag: v1.48.1
           cache: enable
 
