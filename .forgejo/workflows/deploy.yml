@@ -22,6 +22,8 @@ jobs:
           asset-name: hugo_extended
           tag: v0.148.1
           cache: enable
+        env:
+          GITHUB_API_URL: https://api.github.com
 
       - name: Build
         run: hugo --gc --minify
