@@ -1,5 +1,4 @@
 today := `date +%F`
-version :=`cat hugo_version`
 
 default:
   @just --list --unsorted
