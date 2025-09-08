@@ -7,7 +7,8 @@
   "userIgnoreFilters": [
     "public/",
     "resources/",
-    "themes/"
+    "themes/",
+    "static/"
   ],
   "alwaysUpdateLinks": false
 }
