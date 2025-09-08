@@ -8,12 +8,11 @@ tags:
 
 Welcome to a brand new series of posts.
 
-This blog started as the continuation of my LiveJournal, and I am returning to my roots for this series. I miss blogging my thoughts. This blog went pretty quiet after Twitter really took off, but after the great Eloning of X I never fully took to Mastodon or BlueSky.
+This blog began as a continuation of my LiveJournal, and I am returning to my roots for this series called "This Week in Squirrels..." This blog went pretty quiet after Twitter really took off, but after the great "Eloning of X," I never entirely took to Mastodon or BlueSky. Because of this, I miss blogging my thoughts.
 
-My goals are both to post regularly to get back up the habits and build workflows for better blogging while also sharing a summarized short-form recap of my week.
-This won't become the sole purpose of my blog. I am really hoping to use this as a springboard for regular posts on all sorts of topics.
+My goals are two-fold here. The first is to return regularly and share my thoughts and content, even if it's just brief updates on what is going on in my life. The next goal is to get back into the habit of regularly deploying to my journal and build workflows for improved blogging.
 
-A lot of this is modeled after two other people I have seen do this.
+Status updates will not become the sole purpose of my blog, though. I would like to use this as a springboard for regular posts on all sorts of topics.
 
 My format will grow and change over time, but it's mostly going to be as follows:
 
@@ -42,4 +41,4 @@ My format will grow and change over time, but it's mostly going to be as follows
 ```
 
 I may miss a few weeks when things come up, but I hope you will stick with it.
-Also I hope I stick with it too 🤣
+Also, I hope I stick with it too 🤣
