@@ -8,14 +8,13 @@ This is all based on the trend originating with [uses.tech](https://uses.tech/) 
 
 - Protectli for OPNSense Firewall
 - NixOS mini pc
-- Debian server
-- Mint desktop tower
+- Debian servers
+- Mint desktop
 - macOS laptop
-- macOS desktop for music
-- Raspberry Pi
+- Many Raspberry Pi
   - Pi-Hole
-  - Home Assistant OS
-  - 3x snapcast audio streaming
+  - Home Assistant
+  - [Snapcast](https://github.com/badaix/snapcast) clients for multi-room audio
 
 ## Making & Shipping Software
 
