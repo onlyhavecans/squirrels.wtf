@@ -6,37 +6,38 @@ This is all based on the trend originating with [uses.tech](https://uses.tech/) 
 
 ## Hardware
 
-- NixOS mini pc lab
-- Debian home server
-- Mint work desktop
-- macOS work Laptop
+- Protectli for OPNSense Firewall
+- NixOS mini pc
+- Debian server
+- Mint desktop tower
+- macOS laptop
 - macOS desktop for music
-- Raspberry Pi for Pi-Hole
-- Raspberry Pi for Home Assistant OS
-- A small army of older Raspberry Pi's for snapcast home audio
-- Protectli for PfSense Firewall
+- Raspberry Pi
+  - Pi-Hole
+  - Home Assistant OS
+  - 3x snapcast audio streaming
 
 ## Making & Shipping Software
 
-I am a very terminal based person, and like to have a portable configurations I use across many types of systems. You can check out [my dotfiles here](https://onlyhavecans.works/onlyhavecans/castle-dotfiles)
+I am a very terminal based person, and like to have a portable configurations I use across many types of systems. You can check out [my dotfiles here](https://onlyhavecans.works/dots).
 
 - **Firefox**: I prefer to not use chrome based browsers
 - **Homebrew/Linuxbrew**: No matter what Linux or macOS I use, I have access to all the latest cli tools. Homebrew has changed how I install most things.
 - [**WezTerm**](https://wezterm.org/index.html): I wanted a powerful and fast terminal I can use on all OS. It's lua config is also great for having some dynamic changes between linux and macOS.
 - **Zsh**: I keep trying to switch to fish but it's lack of shell expansions keeps driving me back.
-- **NeoVim w/ [LazyVim](https://www.lazyvim.org/)**: No matter how often I try to break into using VSCode I keep coming back to my fully terminal based setup. Check out [my configs here](https://onlyhavecans.works/onlyhavecans/castle-neovim)
+- **NeoVim w/ [LazyVim](https://www.lazyvim.org/)**: No matter how often I try to break into using VSCode I keep coming back to my fully terminal based setup. Check out my configs [here](https://onlyhavecans.works/dots/castle-neovim)
 - **tmux**: All keyboard navigation
 - **[Yazi](https://yazi-rs.github.io/)**: how I navigate and manage files.
 
 ### Languages & Tools
 
-- **Golang**: It's not without it's flaws but multi-threading is lightweight, it is mostly strongly typed, and compiles down to a single binary that is easy to deploy
+- **Golang**: It's not without its flaws but multi-threading is lightweight, it is mostly strongly typed, and compiles down to a single binary that is easy to deploy
 - **Rust**: A whole different set of tradeoffs but I love the typing in it, the lack of nil, and serde is so fun.
 - **Bash & ZSH**: I write shell scripts constantly. If I type it, it can be scripted.
-- [**Just**](https://just.systems/): I replaced all my makefiles with justfiles
-- **PostgreSQL**: From work to Play and everything in between, my favorite DB engine. I can't go back to MySQL.
+- [**Just**](https://just.systems/): I replaced all my Makefiles with Justfiles.
+- **PostgreSQL**: From work to play and everything in between, my favorite SQL engine. I can't go back to MySQL.
 - **Python**: I wrote this for so many years it still pops up when I need to prototype something.
-- **Ansible**: How I manage owning so many computers without manually configuring/
+- **Ansible**: How I manage owning so many computers without manually configuring them.
 - **Chef-Infra & Ruby**: I mostly only write this for work now.
 
 ## Productivity & Notes
@@ -66,10 +67,11 @@ I still like to process my thoughts through writing. I have a discbound notebook
 - SOMA Rumble of Ancient Times
 - iZotope Mix & Master
 
-## Self Host Stack
+## Self-Host Stack
 
-I like to run most of my own software on my self host server in a big Docker Compose stack
+I like to run most of my own software on my servers at home.
 
+- **Docker Compose**: There is fancier ways to run and orchestrate things but I keep it simple.
 - **Forgejo**: My Git + CI/CD + Renovate stack all at [OnlyHaveCans.Works](https://onlyhavecans.works)
 - **Home Assistant**: I use this to automate lots of random things around the house without having random things on the internet.
 - **~~Plex~~**: Deprecated. I will miss PlexAmp, but they have been sharing all the signs things are not well in Startup Land.
@@ -79,7 +81,7 @@ I like to run most of my own software on my self host server in a big Docker Com
 - **Grocy**: Home maintenance & chore tracking
 - **FreshRSS**: I never gave up on RSS, this is a recent transition from NewsBlur.
 - **Readeck**: Really nice read it later article storage
-- **Syncthing**: Syncronizing some misc files and settings
+- **Syncthing**: Synchronizing some misc files and settings
 - **Wireguard**: Always a way back home
 
 ## Quality of Life
@@ -92,18 +94,18 @@ Some things just make my life that much more fun
 - **Shure SE215 Pro Wired Earbuds**: I went back to wired and have been so happy for it.
 - **Bandcamp**: I don't run Bandcamp or anything, but I buy the majority of my music through it, and it's just a delightful experience for fans of music.
 
-### Beverages
+## Beverages
 
 I often joke about how boring I am when it comes to beverages as I only care to drink water, coffee, & tea; but I put a lot of effort into what I drink.
 
-- **RTIC 20oz Ceramic Lined Tumbler**: This large "starbucks style" straw tumbler helps me get down a lot of water.
-- **St Anthony's Industries Cup**: A special ceramic cup designed to keep my coffee & tea hot for a long time without imparting taste
-- **V60 02 Brewer**: I have a classic clear glass and Stardust purple from the Night Sky Series
-- **Blue Bottle Flat Bottom Brewer**: It works better than I expected when used with their filters
-- **Orea V4**: Did I need a newer flat bottom? No? but is it fun and makes for interesting brews with cheap filders? YES!
+- **RTIC 20oz Ceramic Lined Tumbler**: This large "Starbucks style" straw tumbler helps me get down a lot of water.
+- **St Anthony's Industries Cup**: A special ceramic cup designed to keep my coffee & tea hot for a long time without imparting taste.
+- **V60 02 Brewer**: I have a classic clear glass and Stardust purple from the Night Sky Series.
+- **Blue Bottle Flat Bottom Brewer**: It works better than I expected when used with their filters.
+- **Orea V4**: Did I need a newer flat bottom? No? but is it fun and makes for interesting brews with cheap filters? YES!
 - **Hario Switch**: I didn't get this brewer until I started experimenting with funkier beans.
-- **Fellow Stagg EKG Kettle**: Love it or hate it, it's the staple now
-- **Comendante C40 v4**: As popular as it is expensive, but makes a fantastic cup of coffee.
+- **Fellow Stagg EKG Kettle**: Love it or hate it, it's the staple now.
+- **Comandante C40 v4**: As popular as it is expensive, but makes a fantastic cup of coffee.
 - **Acaia Pearl Scale**: Honestly, I would buy a timemore if I had to replace this
 - **Locally Roasted Coffee**: We have a lot of local roasters here!
 - ~~white2tea~~: I am looking for a new way to get quality loose leaf tea without ordering directly from China due to changes in shipping. I will miss their "Natural Redhead" series.
