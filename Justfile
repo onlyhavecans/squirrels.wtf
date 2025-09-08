@@ -25,4 +25,4 @@ weekly:
   hugo new content content/posts/{{today}}-this-week-in-squirrels-{{twis}}.md
 
 update-theme:
-  git submodule foreach git sm
+  git submodule sync
