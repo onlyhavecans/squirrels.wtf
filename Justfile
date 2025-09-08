@@ -1,4 +1,5 @@
 today := `date +%F`
+twis := `date +%Y-W%U`
 
 default:
   @just --list --unsorted
@@ -19,6 +20,9 @@ build: clean
 
 new post-name:
   hugo new content content/posts/{{today}}-{{post-name}}.md
+
+weekly:
+  hugo new content content/posts/{{today}}-this-week-in-squirrels-{{twis}}.md
 
 update-theme:
   git submodule foreach git sm
