@@ -42,6 +42,8 @@
   "templateFolderPath": "archetypes",
   "announceUpdates": true,
   "version": "2.1.0",
+  "globalVariables": {},
+  "onePageInputEnabled": false,
   "disableOnlineFeatures": true,
   "enableRibbonIcon": true,
   "showCaptureNotification": true,
