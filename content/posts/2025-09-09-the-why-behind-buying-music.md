@@ -1,6 +1,6 @@
 ---
 date: 2025-09-09T13:54:44-07:00
-title: But why buy Music when Spotify is right there?
+title: But why Buy Music when Spotify is Right There?
 tags:
   - music
   - drm
