@@ -7,7 +7,7 @@ tags:
   - self-hosting
   - drm
 ---
-Recently I wrote about [[2025-04-29-use-bandcamp-but-dont-trust-bandcamp|bandcamp]] and why I buy music in general, but I thought I would also talk about I buy music, and how I listen to it.
+Recently I wrote about [bandcamp]({{< relref "2025-04-29-use-bandcamp-but-dont-trust-bandcamp.md" >}}) and why I buy music in general, but I thought I would also talk about I buy music, and how I listen to it.
 
 ## Where I Buy Music
 ### #1 Bandcamp
