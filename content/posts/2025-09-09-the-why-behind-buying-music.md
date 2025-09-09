@@ -5,6 +5,7 @@ tags:
   - music
   - drm
 ---
+
 Sneaker Pimp's "Becoming X"
 
 …
@@ -31,13 +32,13 @@ Back in my days, we bought entire albums, or sometimes maxi-singles if you were 
 
 All that to bring up my following two points, starting with…
 
-## Reason 1: All the Music from the Before Times
+## Reason 1: All the Music from the before times
 
 I have so much music. I have albums from various groups I got at a show, as well as while labels and demos from when I was a DJ. I have stacks of CDs from indie labels that are long gone. I have music friends have made, and I have music that I have played. I have albums from a shoebox of albums that I don't even know where they came from. I have music that has been changed and redone over time.
 
 None of those will ever ever ever be on streaming platforms. When I used Apple Music with iTunes Match, it at least allowed me to sync my music, so I could listen to both at once; however, it was clear that Apple was interested in phasing that out.
 
-## Reason 2: My Preferred Way to Listen to Music
+## Reason 2: My Preferred way to Listen to Music
 
 I prefer to listen to music album by album and artist by artist in a fairly intentional way. You _can_ do that on Apple Music and Spotify, but that's not really what they give you, is it? They give you all these computer-generated playlists, all based on what they think you want to listen to, or they want you to listen to.
 
