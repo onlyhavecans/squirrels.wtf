@@ -117,7 +117,7 @@ Something like Discogs or my local Zia Records suddenly becomes amazing. I can p
 
 Then rip it like it's 2003
 
-## Segueway: File Quality
+## Segway: File Quality
 
 Why should anybody care about FLACs and or 24-bit audio?
 Well, IDK about yall, but I have my reasons.
@@ -130,63 +130,7 @@ And I care about having uncompressed high bitrate music because when i stream it
 
 [^1]: You can open FLACs anywhere EXCEPT Apple Music, they don't support it even though there is no technical or legal reason stopping them. Mostly just because they made their own closed version ALAC.
 
-## But… How Do Play Music?
-
-The easiest way to enjoy your digital music before everything became mobile and phone based was that you created a music folder on your computer and like, dumped all the album folders into it. or maybe organized them like
-
-```text
-music > artist > album > coolfile.mp3
-```
-
-And if you wanted music on the go? Burn a CD or spend all the money in the world on an iPod or Zune but that doesn't cut it anymore.
-
-We need phones and ALL OF OUR MUSIC ALL THE TIME.
-
-I don't actually believe this. i think it's an interesting experiment to give yourself like three albums or 75 minute playlists and stick to that for a week. And if that's all you need… Music Players STILL exist and you can buy them and load them up with music.
-
-But let's assume you want to be able to "stream" all your music all the time. Then files on your laptop are not going to cut it…
-
-### A Solution for the Least Technical
-
-I did some research for this one, I don't actually do this but it is from a dev of software I use.
-
-Put all your music on some sort of random cloud service like Dropbox, Google Drive, Microsoft Drive, whatever.
-
-Then point this $50/yr website at it <https://asti.ga>
-
-Your own private streaming service and you don't even have to set up anything at home
-
-### For Those Technical Enough to Have a Nas
-
-Plex & PlexAMP.
-
-For reals.
-
-Unless you have a grudge or concern about Plex™ Inc., then there is nothing better than PlexAmp. I cannot rant and rave enough about how good PlexAmp is. You will need one of their PlexPass subscriptions but my lifetime has paid for itself several times over.
-
-It's an all in one server, plus apps, plus headless, with all the features you could want AND SOME MORE. Hey, you can even link up with your friend's plexes and listen to their music too. Oh, it also can host your video library on the side too but whatever.
-
-It also uses a music DB for metadata so you don't even need to clean up most file's metadata as long as the folders and files are set up right.
-
-### For the Super Nerds that Don't want to Plex
-
-I have been moving away from Plex™ Inc[^2] since the company has been on a struggle bus since it's Pandemic peak. There is the forcing once free features behind paywalls, layoffs after layoffs, removing features from the server, the never released multiroom sync for PlexAmp they talked about in 2021, getting hacked three times, major exploits int he server, the constantly pushed back server rewrite, the disastrous client rewrite, the push of "social" features sharing activity that was only private before by default, the massive push to be a media streaming hub for their own and other major platforms content… I am not saying any of these are reasons _you_ should leave Plex, but I have a huge concern about them pivoting off being the best personal media server & client… and I like to get out before the ship sinks.
-
-[^2]: Post Pending, I swear. I have been trying to write this one for months
-
-This my current setup is a whole article of content unto itself but I thought I would at least highlight my workflow.
-
-1. Run files through Musicbrainz Picard to tag & sort
-2. Rare/Too indie files get cleaned up manually in mp3tag
-3. rsync them up to my docker host server
-4. Navidrome runs in a container to host music
-5. Caddy acts as a https reverse proxy
-6. unbound + pi-home is a reverse proxy w/ split horizon dns to route
-7. Feishin on the desktop to play
-8. Ampfery for iOS and Carplay
-9. Music Assistant with [Snapcast](https://github.com/badaix/snapcast) to do multi-room audio
-
-## Segueway #2 Backups
+## Segway #2 Backups
 
 I brought this up in the last article but for the love of everything that is holy have backups, have **tested** backups.
 
