@@ -1,6 +1,6 @@
 ---
 date: 2025-09-09T13:54:44-07:00
-title: "From Renting to Owning: Why I stepped back from Infinite Songs to Ownership"
+title: "Why I went back to Ownership over Infinite Songs"
 tags:
   - music
   - drm
@@ -10,9 +10,9 @@ Sneaker Pimp's "Becoming X"
 
 …
 
-Yep, that's the whole post. The entire reason I buy all almost every last track of music I enjoy is because of Sneaker Pimp's "Becoming X."
+Yep, that's the whole post. The entire reason I buy all almost every track of music I enjoy is because of Sneaker Pimp's "Becoming X."
 
-… That's not a very good blog post, so let's rewind.
+… Fine, that's not a very good blog post, so let's rewind.
 
 ## The Beginning
 
@@ -84,5 +84,6 @@ To avoid sharing a Rick Beato video,[^2] I will instead share a Venus Theory one
 ## Then what Do I Do?
 
 1. Buy music
-2. Don't lean into the AI playlists, listen intentionally
-3. Do what makes you happy
+1. Listen intentionally to artists and albums.
+1. Curate your own playlists and spent time with the music you enjoy.
+1. Consiter if any of this matters to you, then do what best aligns with _your_ goals.
