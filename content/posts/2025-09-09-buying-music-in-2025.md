@@ -70,7 +70,7 @@ The Ugly:
 - Amazon
 - Artist pages cannot tell between multiple artists with the same name.
 
-## Pick #4 Direct from Artist
+### Pick #4 Direct from Artist
 
 this has been such a tyre fire of bad experiences. I really wish i could endorse this more, I really want to but I have bought music from the following artists directly and only once has it gone well..
 
@@ -109,7 +109,7 @@ Then I found out they have some Orbital singles that are not on Orbital's Bandca
 
 I am not 100% ready to recommend them, but they might be the pick just below Bandcamp, again if they have it. My one issue is they are the most expensive of them all and I am not sure how above board they are yet.
 
-## The Fallback: Used Media
+### The Fallback: Used Media
 
 Sometimes you just can't find sold digital for reasons.
 
