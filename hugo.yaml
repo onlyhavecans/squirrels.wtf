@@ -2,11 +2,11 @@
 baseURL: https://squirrels.wtf
 languageCode: en-us
 title: Dear Squirrels, WTF
-copyright: Amelia Aronsohn 2012-2025
+copyright: Ame Aronsohn 2012-2025
 theme: hugo-theme-m10c
 
 params:
-  author: Amelia Aronsohn
+  author: Ame Aronsohn
   avatar: img/naryana2.png
   description: Musings, Tech, & Deep Thots
   favicon: /favicon.ico
