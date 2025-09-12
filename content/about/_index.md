@@ -1,14 +1,16 @@
 ---
-title: Because Life is Too Awesome Not to Share
+title: Life is Too Awesome to Not Share
 ---
 
 Welcome to my proverbial corner of the internet, or one of them.
 I am Ame, or Ms. D.O.S. in furry circles.
 
 I am a furry, an avid reader, a game master, and a musician.
-However my career is in DevOps, or as I think of it, Linux nerding with a good splash of programming.
+However my career is in DevOps, or, as I think of it, being so much of a Linux nerd that they pay to automate things.
 
-I absolutely adore computers and technology, yes even when they are being jerks. I tend not to be too fanatical or tie my identity to any piece of technology or company anymore and this allows me to both be way too distracted by being into too many things but also see when something is better for a certain use case.
+I absolutely adore computers and technology; yes, even when they are being jerks. I tend not to be too fanatical or tie my identity to any piece of technology or company anymore to allows me be into too many things and be more prepared to see when something else is better for a certain use case.
+
+If you want to read about my tabletop games check out [Exploration5.Games](https://exploration5.games)
 
 ## Dumb Quick Fun Facts
 
@@ -31,3 +33,4 @@ I absolutely adore computers and technology, yes even when they are being jerks.
 ---
 
 Also, here is a treat since you actually read a whole about page; a link to my [SoundCloud](https://soundcloud.com/dos_skwrl)
+

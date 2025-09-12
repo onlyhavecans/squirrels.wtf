@@ -43,7 +43,7 @@ I am a very terminal based person, and like to have a portable configurations I 
 
 I still like to process my thoughts through writing. I have a discbound notebook customized with printable trackers and daily task & note pages. I also manage all of my projects and tasks with "basic" GTD-style lists over a heavyweight software system.
 
-- **Discagenda Discbound discs (24mm daily notebook, 33mm archive)**: After trying out so many different discs the metal Discagenda ones are the smoothest page turn, look great, and are not too heavy.
+- **Discagenda Discbound discs** (24mm daily notebook, 33mm archive): After trying out so many different discs the metal Discagenda ones are the smoothest page turn, look great, and are not too heavy.
 - **Lined Letter 120gsm paper**: I know dot grid is in vogue but I still like lined sheets in a heavy paper for my daily tasks and notes.
 - **Frienda Rolling Ball Pen 0.5mm**: These Japanese pens are super quick drying and have thicker & darker lines when writing quickly than my second favorite pen, the Sakura Micron PN. They do have a smidge of bleed though.
 - **Kuru Toga Mechanical Pencil 0.5mm**: I never know if the rotating lead is much more than a gimmick but I really adore the feel of their lead more than far more expensive drafting pencils I have tried.
