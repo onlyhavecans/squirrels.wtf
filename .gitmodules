@@ -1,4 +1,4 @@
-[submodule "themes/hugo-theme-m10c"]
-	path = themes/hugo-theme-m10c
-	url = https://github.com/vaga/hugo-theme-m10c.git
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
 	branch = master

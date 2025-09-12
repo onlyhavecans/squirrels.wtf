@@ -1,0 +1,30 @@
+strong, b {
+  color: #EF7627 !important;
+}
+
+a {
+  color: #B55690 !important;
+}
+
+.footnotes {
+  font-size: 0.75em;
+
+}
+
+.nocomment {
+  margin-top: 42px;
+}
+
+/* Reset tag links to default colors */
+.post-tags a {
+  color: var(--secondary) !important;
+}
+
+.terms-tags a {
+  color: var(--primary) !important;
+}
+
+.top-link {
+  color: var(--primary) !important;
+}
+

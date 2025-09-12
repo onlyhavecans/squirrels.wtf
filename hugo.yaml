@@ -3,65 +3,103 @@ baseURL: https://squirrels.wtf
 languageCode: en-us
 title: Dear Squirrels, WTF
 copyright: Amelia Aronsohn 2012-2025
-theme: hugo-theme-m10c
+theme: PaperMod
 
-params:
-  author: Amelia Aronsohn
-  avatar: img/naryana2.png
-  description: Musings, Tech, & Deep Thots
-  favicon: /favicon.ico
-  menu_item_separator: ' | '
-  social:
-    - icon: brand-forgejo
-      name: Code Forge
-      url: https://onlyhavecans.works
-    - icon: brand-github
-      name: Github
-      url: https://github.com/onlyhavecans
-    - icon: brand-mastodon
-      name: Mastodon (Hachyderm)
-      url: https://hachyderm.io/@onlyhavecans
-    - icon: brand-linktree
-      name: LinkStack
-      url: https://wearing.black/
-    - icon: brand-rss
-      name: RSS Feed
-      url: https://squirrels.wtf/index.xml
-  style:
-    darkestColor: '#242930'
-    darkColor: '#353b43'
-    lightColor: '#c4d0db'
-    lightestColor: '#ffffff'
-    primaryColor: '#f2c6c5'
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections:
+  - posts
+  - papermod
 
-menu:
-  main:
-    - name: Home
-      identifier: home
-      url: /
-      weight: 1
-    - name: Tags
-      identifier: tags
-      url: /tags/
-      weight: 2
-    - name: About
-      identifier: about
-      url: /about/
-      weight: 3
-    - name: Uses
-      identifier: uses
-      url: /uses/
-      weight: 4
+minify:
+  disableXML: true
+  # minifyOutput: true
+
+pagination:
+  disableAliases: false
+  pagerSize: 6
 
 taxonomies:
+  category: categories
   tag: tags
+  series: series
 
 permalinks:
   posts: /posts/:year-:month-:day-:title/
 
-enableEmoji: true
-footnotereturnlinkcontents: ↩
+menu:
+  main:
+    - name: About
+      url: about
+      weight: 10
+    - name: Uses
+      url: uses
+      weight: 10
+    - name: Tags
+      url: tags
+      weight: 20
+    - name: Archives
+      url: archives
+      weight: 50
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  author: Ame
+  description: Musings, Tech, & Deep Thots
+  favicon: /favicon.ico
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowCodeCopyButtons: true
+  disableSpecial1stPost: true
+  ShowToc: true
+  TocOpen: true
+  Comments: true
+
+  images: ["img/naryana2.png"]
+
+  cover:
+  responsiveImages: true
+
+  homeInfoParams:
+    Title: Welcome to my Nest
+    Content: |
+      This blog is a collection of personal writings from 2012 forward;
+      Everything before 2012 was posted on LiveJournal and is lost to the ages.
+
+      Please keep in mind that with a history of posts like this, the older content may not be something I identify or endorse anymore, but I have decided to keep it for posterity and history for now.
+
+  socialIcons:
+    - name: forgejo
+      title: View my Code
+      url: https://onlyhavecans.works
+    - name: github
+      title: Code Backup
+      url: https://github.com/onlyhavecans
+    - name: mastodon
+      title: Mastodon (Hachyderm)
+      url: https://hachyderm.io/@onlyhavecans
+    - name: linktree
+      title: LinkStack
+      url: https://wearing.black/
+    - name: rss
+      title: RSS Feed
+      url: https://squirrels.wtf/index.xml
+
+# footnotereturnlinkcontents: ↩
 markup:
   goldmark:
     renderer:
       unsafe: true
+  highlight:
+    noClasses: false
