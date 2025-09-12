@@ -3,12 +3,12 @@ title: Life is Too Awesome to Not Share
 ---
 
 Welcome to my proverbial corner of the internet, or one of them.
-I am Ame, or Ms. D.O.S. in furry circles.
+I am Ame the Squirrel, or Ms. D.O.S. in furry circles.
 
 I am a furry, an avid reader, a game master, and a musician.
-However my career is in DevOps, or, as I think of it, being so much of a Linux nerd that they pay to automate things.
+My career is in DevOps/Platform/SRE/SysOps, or, as I think of it, being so much of a Linux nerd that they pay to automate things.
 
-I absolutely adore computers and technology; yes, even when they are being jerks. I tend not to be too fanatical or tie my identity to any piece of technology or company anymore to allows me be into too many things and be more prepared to see when something else is better for a certain use case.
+I absolutely adore computers and technology; yes, even when they are being jerks. I tend not to be too fanatical or tie my identity to any piece of technology or company these days, which allows me to be excited about everything.
 
 If you want to read about my tabletop games check out [Exploration5.Games](https://exploration5.games)
 
