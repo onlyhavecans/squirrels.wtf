@@ -14,3 +14,24 @@ strong, b {
 .post-content a {
   text-decoration: underline;
 }
+
+.toc {
+  border-left: 0.4em solid rgba($primary-color, .3);
+  margin: 1em 0em;
+  padding: .5em 1em;
+  background: $darkest-color;
+
+  p {
+    margin: .5em 0;
+  }
+}
+
+.toc h2 {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.toc ul {
+  margin-top: 0px;
+  padding-top: 0px;
+}
