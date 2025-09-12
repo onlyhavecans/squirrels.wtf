@@ -5,12 +5,24 @@ title: Dear Squirrels, WTF
 copyright: Ame Aronsohn 2012-2025
 theme: hugo-theme-m10c
 
+enableEmoji: true
+
+taxonomies:
+  tag: tags
+
+permalinks:
+  posts: /posts/:year-:month-:day-:title/
+
 params:
-  author: Ame Aronsohn
-  avatar: img/naryana2.png
   description: Musings, Tech, & Deep Thots
+  author: Ame the Squirrel
+  avatar: img/naryana2.png
   favicon: /favicon.ico
+  images:
+    - img/naryana2.png
+
   menu_item_separator: ' | '
+
   social:
     - icon: brand-forgejo
       name: Main Code Forge
@@ -30,6 +42,7 @@ params:
     - icon: brand-rss
       name: RSS Feed
       url: https://squirrels.wtf/index.xml
+
   style:
     darkestColor: '#242930'
     darkColor: '#353b43'
@@ -45,24 +58,17 @@ menu:
       weight: 1
     - name: Tags
       identifier: tags
-      url: /tags/
+      url: /tags
       weight: 2
     - name: About
       identifier: about
-      url: /about/
+      url: /about
       weight: 3
     - name: Uses
       identifier: uses
-      url: /uses/
+      url: /uses
       weight: 4
 
-taxonomies:
-  tag: tags
-
-permalinks:
-  posts: /posts/:year-:month-:day-:title/
-
-enableEmoji: true
 footnotereturnlinkcontents: ↩
 markup:
   goldmark:

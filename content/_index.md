@@ -1,8 +1,6 @@
-# Welcome to my Nest
+# 👋🏻 Welcome to My Nest 🌳 🐿️
 
-This blog is a collection of personal writings from 2012 forward.
-Everything before 2012 was posted on LiveJournal and is lost to the ages.
+This blog is my collection of personal writings going all the way back to 2012 when I left LiveJournal.
+I primarily write about technology, productivity, and ethics here.
 
-Please keep in mind that with a history of posts like this, the older content may not be something I identify or endorse anymore, but I have decided to keep it for posterity and history for now.
-
-The largest volume of content is personal reflections and insights into technology and productivity.
+The older content may not be something I identify with or endorse anymore.
