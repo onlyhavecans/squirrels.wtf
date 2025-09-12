@@ -13,10 +13,10 @@ params:
   menu_item_separator: ' | '
   social:
     - icon: brand-forgejo
-      name: Code Forge
+      name: Main Code Forge
       url: https://onlyhavecans.works
     - icon: brand-github
-      name: Github
+      name: Github (Code Backup)
       url: https://github.com/onlyhavecans
     - icon: brand-mastodon
       name: Mastodon (Hachyderm)
