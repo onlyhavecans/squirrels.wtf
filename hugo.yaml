@@ -89,6 +89,9 @@ params:
     - name: mastodon
       title: Mastodon (Hachyderm)
       url: https://hachyderm.io/@onlyhavecans
+    - name: bluesky
+      title: BlueSky
+      url: https://bsky.app/profile/wearing.black
     - name: linktree
       title: LinkStack
       url: https://wearing.black/
