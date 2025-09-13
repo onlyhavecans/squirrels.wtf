@@ -6,7 +6,7 @@ default:
 
 test: clean
   open http://localhost:1313
-  hugo server --gc --navigateToChanged
+  hugo server --gc --navigateToChanged --cleanDestinationDir
 
 test-links:
   muffet --buffer-size=8192 http://localhost:1313
