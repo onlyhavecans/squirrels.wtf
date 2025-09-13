@@ -1,5 +1,5 @@
 ---
-date: 2025-09-09T12:37:19-07:00
+date: 2025-09-12T12:37:19-07:00
 title: Buying Music in 2025
 draft: false
 tags:
@@ -20,6 +20,7 @@ Currently the best way to buy music… if they have it.
 Format: Too many to choose from (but I recommend FLAC or MP3 320)
 
 The Good:
+
 - Lets you listen to an album several times before you buy even
 - stream your music right from their page… for now
 - Big Money to artists
@@ -27,10 +28,12 @@ The Good:
 - Excessively HQ files, some even fancy 24bit
 
 The Bad:
+
 - Very few major artists (but you would be shocked who you will find)
 - Their discover is ruined these days.
 
 The Ugly:
+
 - Artists can reupload and edit albums after published. What version is up now? who knows
 
 ### Pick #2 Itunes Music Store
@@ -42,15 +45,18 @@ But the quality, selection, and price make it worth the annoyance
 Format: M4A 254
 
 The Good:
+
 - M4A is well supported and decent quality
 - Amazing catalogue with albums and singles impossible to find elsewhere
 - The best for international releases I have found
 
 The Bad:
+
 - The preview snippets are embarrassing in 2025
 - How apple puts the album cover isn't supported anywhere so I have to fix them all manually.
 
 The Ugly:
+
 - You have to use their "Apple Music.app" which is a tyre fire
 - Store is slow and sluggish and no multiple tabs
 - lots of download problems requiring several app restarts and redownloading
@@ -60,13 +66,16 @@ The Ugly:
 Format: Variable Bit Rate MP3
 
 The Good:
+
 - second largest mainstream catalogue to iTunes
 - Everybody loves an MP3 Files
 
 The Bad:
+
 - When you click play on a track or album to preview it shuffles the current album and plays a random track?!
 
 The Ugly:
+
 - Amazon
 - Artist pages cannot tell between multiple artists with the same name.
 
@@ -84,10 +93,12 @@ this has been such a tyre fire of bad experiences. I really wish i could endorse
 Formats: ??? It depends
 
 The good
+
 1. Most money to artists
 2. Sometimes the only place to get a HQ version
 
 The Bad
+
 1. Inconsistent to what you get
 2. Prices all over the place
 3. Buggy app stores
@@ -95,6 +106,7 @@ The Bad
 5. No preview before listen
 
 The Ugly
+
 1. Incomplete versions of albums
 2. Good luck finding anything but the latest album
 3. Welcome to a dozen mailing lists
@@ -136,7 +148,7 @@ I brought this up in the last article but for the love of everything that is hol
 
 Licensing and BS means where you bought a file doesn't mean it will be there when you come back.
 
-## Finally: what about Discovery?
+## Finally: What about Discovery?
 
 Spotify got popular because it was amazing at shoveling fresh new music into your ears at an astronomical rate.
 
