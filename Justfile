@@ -27,4 +27,5 @@ weekly:
   nvim content/posts/{{twis}}.md
 
 update-theme:
-  git submodule sync
+  git submodule update --init --recursive
+  git submodule update --remote --merge
