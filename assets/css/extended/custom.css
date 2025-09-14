@@ -7,7 +7,8 @@ strong, b, a {
 }
 
 .entry-content img {
-  height: 400px;
+  max-height: 400px;
+  max-width: 80%;
   margin: auto;
   display: block;
   margin-bottom: .5em;
