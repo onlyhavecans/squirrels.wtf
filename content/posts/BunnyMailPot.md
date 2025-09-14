@@ -14,7 +14,7 @@ Malware comes through the mail too, duh.
 
 ## The Setup
 
-This is hella… well you will see. It needs some cleaning up and maybe not to be relying on Apple's Mail.App… but seriously it's a super quick and dirty hack. It's not even ON the server, it's on my laptop at the moment.
+This is hella… well you will see. It needs some cleaning up and maybe not to be relying on Apple's Mail.App… but seriously it's a super quick and dirty hack. It's not even ON the server, it's on my laptop at the moment.
 
 ### The Mail Rule
 
@@ -73,7 +73,7 @@ on pad(n)
 end pad
 ```
 
-Simple ya? Nothing fancy, quick and kinda diiiirty. When this runs it creates a folder in your downloads that matches the name of the mail rule you created. I went with the hell creative _Malware From Junk_
+Simple ya? Nothing fancy, quick and kinda diiiirty. When this runs it creates a folder in your downloads that matches the name of the mail rule you created. I went with the hell creative _Malware From Junk_
 
 ## Processing the Malware
 
