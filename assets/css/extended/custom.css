@@ -8,9 +8,9 @@ strong, b, a {
 
 .entry-content img {
   height: 400px;
+  margin: auto;
+  display: block;
   margin-bottom: .5em;
-  margin-left: 20%;
-  margin-right: 20%;
   clip-path: circle();
 }
 
