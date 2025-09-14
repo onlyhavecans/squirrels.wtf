@@ -14,6 +14,7 @@ _Also sorry for the grammar in the title, I think it sounds clever._
 As somebody who consumes a lot of books, art, & music I want hand created content for a few reasons.
 
 ### Reason 1: I Buy Stuff
+
 I pay for content; I buy books by the droves, I purchase music directly,[^1] and I commission art from artists[^2] as well as have an active Patreon subscription I am always struggling to cull back.
 
 What does this have to do with AI? Well I want the most value possible for my money. AI is low value content. It's extremely easy to create for next to nothing. So then why should I pay for it?
@@ -25,6 +26,7 @@ Value can sometimes be arbitrary, but I put a lot of value on the time, energy, 
 [^2]: This reminds me that rebuilding my art site is the next thing that needs to happen. I have broken over 100 pieces of commissioned art and share it all NOWHERE at the moment.
 
 ### Reason 2: Error Tolerance
+
 I have a moderately low error tolerance. Allow me to explain with an example.
 
 Below is the title of an anime I am currently enjoying.

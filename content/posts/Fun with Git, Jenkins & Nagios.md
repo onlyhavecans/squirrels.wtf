@@ -23,7 +23,7 @@ The goal is to set up Nagios to have all it's configurations in git. Then I want
 Install [Nagios](https://www.nagios.org) and git. I'm not even gonna get into this, also if you haven't already throw java on the box. I'm going to demonstrate how to do everything on one box but it should be easy to break everything out onto multiple systems where needed.
 
 [Jenkins](https://www.jenkins.io) might seem intimidating because it's java but it's not, really. I don't even bother with package installers, just grab the .war file from the website and `java --jar jenkins.war`.[^SECURITY]
-You might want to set up an init script and play with all the features but I'm not going to cover that, it's all well documented on Welcome to Jenkins CI!](https://www.jenkins.io). If you are setting this up on a mac server, I tend to steal my LaunchAgent plists from [Homebrew](http://brew.sh)
+You might want to set up an init script and play with all the features but I'm not going to cover that, it's all well documented on Welcome to Jenkins CI!](<https://www.jenkins.io>). If you are setting this up on a mac server, I tend to steal my LaunchAgent plists from [Homebrew](http://brew.sh)
 
 [^SECURITY]:You'll want to set up authentication, general security, and maybe even want to restrict access by firewall to jenkins in the long run. Jenkins is a well tested system but left unsecured and open on the internet this system can be invoked to execute arbitrary code in a snap.
 

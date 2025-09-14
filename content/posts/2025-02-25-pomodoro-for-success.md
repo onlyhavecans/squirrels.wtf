@@ -18,6 +18,7 @@ If you have followed me long enough you would know this is the third article I h
 This time let's start off with talking about when using timers and focus blocks works best for me.
 
 ## When I Use the Timer
+
 I have three cases where I use the timer, and sometimes these overlap.
 
 1. I want (on need) to sit down and focus to complete tasks.
@@ -59,6 +60,7 @@ Once the 50 timer is going I want to try to get what I am working on done IN tha
 The more I do this the better I get at making smaller units of work for myself, which makes ADHD brain happy on so many different levels. I get more things to "done", I check off more boxes, and everybody prefers a smaller PR to review. Not everybody likes stacked PRs, but sometimes you get poke your coworkers to give you a quick check off.
 
 ## When I Don't Use a Timer
+
 This is the easiest section to write and is probably just a list
 
 1. I have a lot of meetings/appointments in the day
@@ -70,11 +72,13 @@ This is the easiest section to write and is probably just a list
 A lot of these boil down to the idea that if I don't have the time to focus for at least an hour at a time, I don't bother. Sometimes at the end of the day I will do a 25/5 timer just to close things out, but otherwise I need to have the time available without rejecting other important responsibilities.
 
 ## When I Wished I Used a Timer
+
 Sometimes when my meds have lapsed and I just can't find the energy to hit start… it happens and it's important that we give ourselves grace when our health or minds need a break from grinding things out at max clip.[^1]
 
 [^1]: I feel compelled to bring up the privilege in this statement. I am a knowledge worker who works for a company that isn't complete dog shit to it's employees and gives us the space to take care of minds and bodies when we need it, and empowers us to find the modalities of work that work the best for ourselves. If you look at my linkedin you will see how I have spent over 5 years of my life working in service & support oriented work. I never forget the good I have and and how grueling it was working tight timed shifts under forced time ebb and crunch.
 
 ## When I Fall off the Wagon
+
 I can usually keep this going for a few years on my best, but burnout and fatigue hit us all at some point. When the time tracking falls off because my position has changed, or my direction isn't clear, or I can't summon the energy to keep going… I don't.
 
 I put the timers away, usually for 6 months, maybe even a year…
@@ -82,9 +86,11 @@ I put the timers away, usually for 6 months, maybe even a year…
 But I keep coming back to the one time technique that has worked for me since I first got into doing knowledge work and needed to both track and control my own time and energy.
 
 ## tl;dr
+
 This is your reminder that…
 
 Pomodoro Technique™ has some important elements people like to forget…
+
 1. Plan out your time blocks for the day/week in advance
 2. Set up each block to have an estimate no more than 4 blocks/2hour
 3. If you have a bunch of smaller things set up "batch blocks"
@@ -92,12 +98,14 @@ Pomodoro Technique™ has some important elements people like to forget…
 5. When you have time at the end of a timer and the task is done, clean things up, reset to neutral.
 
 …and some things you should be more flexible with like how big your blocks are;
+
 - 50/10 works amazing for me
 - 25/5 is low energy or filler for me
 - 75/15 would be even more powerful
 - 90/30 is supposedly the "optimal" according to somebody on the internet but idk about that
 
 and my own personal hacks are;
+
 - Use bigger ones when starting out, smoller ones when all tired at the end
 - Lean into the time pressure by using a timer that automatically progresses from focus->break->focus without intervention
 - Set your timer to tick when in focus, silent on break
@@ -106,6 +114,7 @@ and my own personal hacks are;
 - Be flexible with your blocks as your day evolves, rescope them, cut them, grow them, suddenly do a batch block.
 
 …but if planning things out isn't for you but you still want to use timers to challenge yourself;
+
 1. Choose what things you are going to focus on for the time period
 2. Start a stopwatch and focus on a single task
 3. Stop the timer when you get distracted or finish
@@ -114,4 +123,4 @@ and my own personal hacks are;
 
 ## P.S. What Timer Do I Use?
 
-I have a physical TimeTimer clock for some cases but lately I mostly use the [PomoFocus website](https://pomofocus.io/app) because it is usable with an absolute minimum configuration, no login required, and has auto-progression. 
+I have a physical TimeTimer clock for some cases but lately I mostly use the [PomoFocus website](https://pomofocus.io/app) because it is usable with an absolute minimum configuration, no login required, and has auto-progression.

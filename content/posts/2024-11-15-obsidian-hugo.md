@@ -21,7 +21,7 @@ One of my favorite features of Obsidian is how well it works with git. I am extr
 
 This got me thinking, why not open my hugo site as an Obsidian vault?
 
-## It Works!
+## It Works
 
 Unsurprisingly it's perfectly smooth. You select your Hugo site directly as a vault and Hugo blissfully ignores the `.obsidian` folder it creates.
 
