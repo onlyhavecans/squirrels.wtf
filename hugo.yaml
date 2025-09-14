@@ -2,75 +2,95 @@
 baseURL: https://squirrels.wtf
 languageCode: en-us
 title: Dear Squirrels, WTF
-copyright: Ame Aronsohn 2012-2025
-theme: hugo-theme-m10c
+copyright: Amelia Aronsohn 2012-2025
+theme: PaperMod
 
 enableEmoji: true
+enableInlineShortcodes: true
+enableRobotsTXT: true
+pygmentsUseClasses: true
 
-taxonomies:
-  tag: tags
+pagination:
+  disableAliases: false
+  pagerSize: 6
 
 permalinks:
   posts: /posts/:year-:month-:day-:title/
 
-params:
-  description: Musings, Tech, & Deep Thots
-  author: Ame the Squirrel
-  avatar: img/naryana2.png
-  favicon: /favicon.ico
-  images:
-    - img/naryana2.png
+mainsections:
+  - posts
+  - papermod
 
-  menu_item_separator: ' | '
+outputs:
+  home:
+    - HTML
+    - RSS
 
-  social:
-    - icon: brand-forgejo
-      name: Main Code Forge
-      url: https://onlyhavecans.works
-    - icon: brand-github
-      name: Github (Code Backup)
-      url: https://github.com/onlyhavecans
-    - icon: brand-mastodon
-      name: Mastodon (Hachyderm)
-      url: https://hachyderm.io/@onlyhavecans
-    - icon: brand-bluesky
-      name: BlueSky
-      url: https://bsky.app/profile/wearing.black
-    - icon: brand-linktree
-      name: LinkStack
-      url: https://wearing.black/
-    - icon: brand-rss
-      name: RSS Feed
-      url: https://squirrels.wtf/index.xml
-
-  style:
-    darkestColor: '#242930'
-    darkColor: '#353b43'
-    lightColor: '#c4d0db'
-    lightestColor: '#ffffff'
-    primaryColor: '#f2c6c5'
+taxonomies:
+  tag: tags
 
 menu:
   main:
-    - name: Home
-      identifier: home
-      url: /
-      weight: 1
-    - name: Tags
-      identifier: tags
-      url: /tags
-      weight: 2
     - name: About
-      identifier: about
-      url: /about
-      weight: 3
+      url: about
+      weight: 10
     - name: Uses
-      identifier: uses
-      url: /uses
-      weight: 4
+      url: uses
+      weight: 10
+    - name: Tags
+      url: tags
+      weight: 20
+    - name: Archives
+      url: archives
+      weight: 50
 
-footnotereturnlinkcontents: ↩
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
+params:
+  env: production
+
+  author: Ame the Squirrel
+  description: Musings, Tech, & Deep Thots
+  images: ["img/naryana2.png"]
+  cover: "img/naryana2.png"
+
+  comments: true
+  defaultTheme: auto
+  disableSpecial1stPost: true
+  responsiveImages: true
+  showCodeCopyButtons: true
+  showReadingTime: true
+  showToc: true
+  tocOpen: true
+
+  homeInfoParams:
+    Title: 👋🏻 Welcome to My Nest 🌳 🐿️
+    Content: |
+      ![Profile Pic](img/naryana2.png)
+
+      This blog is my collection of personal writings going all the way back to 2012 when I left LiveJournal.
+      I primarily write about technology, productivity, and ethics here.
+
+      Now that I am posting a bit less on social media you can expect a lot more content here.
+      It is still primarily just a blog but I am working to expand this into more of a full personal profile and site.
+
+      Feel free to poke around and @ me on socials about anything you read.
+      However, older content may not be something I identify with or endorse anymore.
+
+  socialIcons:
+    - name: forgejo
+      title: View my Code
+      url: https://onlyhavecans.works
+    - name: github
+      title: Code Backup
+      url: https://github.com/onlyhavecans
+    - name: mastodon
+      title: Mastodon (Hachyderm)
+      url: https://hachyderm.io/@onlyhavecans
+    - name: bluesky
+      title: BlueSky
+      url: https://bsky.app/profile/squirrels.wtf
+    - name: linktree
+      title: LinkStack
+      url: https://wearing.black/
+    - name: rss
+      title: RSS Feed
+      url: https://squirrels.wtf/index.xml

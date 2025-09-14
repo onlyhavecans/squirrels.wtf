@@ -1,14 +1,16 @@
 ---
 date: 2018-05-03
 title: An Open Letter to Whom it May Concern
-tags: [musings, transgender]
+tags:
+  - musings
+  - transgender
 ---
 
 Sometimes it's a little odd to hear these things from other people so I thought I'd leave a nice open letter to whom it may concern. No wait, this isn't a generic letter to just anyone. This is a letter I am writing specifically for _you_. That's right, directly from me to you; Just you. You probably heard some confusing things, or caught wind of some stuff you don't understand. I am here to make some clarifications, set the record straight, just in case you missed the news.
 
 Since this is just a personal letter between me and you I'm going to add an appropriate meme. You know me and memes; I can't live without them.
 
-<img src="/img/2018/05-03_probably_trans_meme.jpg" alt="Trans meme I came out to" align="right">
+![Trans meme I came out to](probably_trans_meme.jpg)
 
 For about 36 years of my life I went by a lot of different names from Xanaphia, Jonny, David, tBunnyMan, DJ Epic MegafaiL, and even BitM… Things have changed.
 

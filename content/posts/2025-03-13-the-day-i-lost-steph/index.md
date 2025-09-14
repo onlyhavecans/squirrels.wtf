@@ -14,15 +14,15 @@ When people pass away we often talk about who they were to us individually but I
 
 - She was more powerful than you could even imagine.
 - She was incredibly passionate about whatever had her interests.
-- She always wanted to help others around her and do goode.
+- She always wanted to help others around her and do good.
 - She had been through things that could humble most of us.
 - She created a whole local charity and social group around her.
 - She was an amazing witch
-- She was an amazing dancer, even right after knee surgury
+- She was an amazing dancer, even right after knee surgery
 - She was the biggest nerd I know
 
 I have so much more I could write but it's still hard to. Maybe some other time I will come back and write more, but for now what I want to share most is her smile. Because it was the best one in the world.
 
-I hope this can be a lil memorial to everything she was for us all.
+![Stephanie's Smile](stephs-smile.png#center)
 
-![Stephanie's Smile](stephs-smile.png)
+I hope this can be a lil memorial to everything she was for us all.

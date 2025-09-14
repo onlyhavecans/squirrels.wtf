@@ -1,0 +1,46 @@
+h1, h2, h3, h4, h5, h7 {
+  color: #A30262;
+}
+
+strong, b, a {
+  color: #B55690;
+}
+
+.entry-content img {
+  height: 400px;
+  margin-bottom: .5em;
+  margin-left: 20%;
+  margin-right: 20%;
+  clip-path: circle();
+}
+
+.entry-content p {
+  margin-top: 1em;
+}
+
+.post-content img {
+  float: right;
+}
+
+.footnotes {
+  font-size: 0.75em;
+}
+
+.nocomment {
+  margin-top: 52px;
+}
+
+.nocomment h2 {
+  margin-top: 32px;
+}
+
+
+/* Reset misc links to default colors */
+.terms-tags a {
+  color: var(--primary) !important;
+}
+
+.post-tags a,
+.top-link a {
+  color: var(--secondary) !important;
+}
