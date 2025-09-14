@@ -1,7 +1,7 @@
 ---
 date: "2025-09-07T19:24:14-07:00"
 title: "This Week in Squirrels: Intro"
-description: A weekly wrap up of my thoughts, experiances, and finds.
+description: Introducing my new series of weekly wrap-ups.
 tags:
   - news
   - twis
