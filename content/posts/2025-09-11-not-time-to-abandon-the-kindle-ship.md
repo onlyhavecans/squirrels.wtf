@@ -1,6 +1,7 @@
 ---
 date: 2025-09-11T23:10:09-07:00
 title: (Not) Time to Abandon the Kindle Ship
+description: A reflection of how I almost gave up my Kindle and Amazon eBook collection, with research notes.
 draft: false
 tags:
   - books
