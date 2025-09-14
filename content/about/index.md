@@ -1,8 +1,10 @@
 ---
 title: Life is Too Awesome to Not Share
+showtoc: false
 ---
 
-Welcome to my proverbial corner of the internet, or one of them.
+Welcome to my proverbial corner of the internet.
+
 I am Ame the Squirrel, or Ms. D.O.S. in furry circles.
 
 I am a furry, an avid reader, a game master, and a musician.

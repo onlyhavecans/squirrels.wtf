@@ -1,9 +1,19 @@
+:root {
+  --accent-header: rgb(181, 86, 145);
+  --accent-link: rgb(163, 2, 98);
+}
+
+.dark {
+  --accent-header: rgb(163, 2, 98);
+  --accent-link: rgb(181, 86, 145);
+}
+
 h1, h2, h3, h4, h5, h7 {
-  color: #A30262;
+  color: var(--accent-header);
 }
 
 strong, b, a {
-  color: #B55690;
+  color: var(--accent-link);
 }
 
 .entry-content img {
