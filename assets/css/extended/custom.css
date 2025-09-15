@@ -16,6 +16,17 @@ strong, b, a {
   color: var(--accent-link);
 }
 
+/* Reset misc links to default colors */
+.terms-tags a {
+  color: var(--primary) !important;
+}
+
+.post-tags a,
+.top-link a {
+  color: var(--secondary) !important;
+}
+
+
 .entry-content img {
   max-height: 400px;
   max-width: 80%;
@@ -27,6 +38,10 @@ strong, b, a {
 
 .entry-content p {
   margin-bottom: 1em;
+}
+
+.toc {
+  font-size: 0.85em;
 }
 
 .post-content img {
@@ -43,15 +58,4 @@ strong, b, a {
 
 .nocomment h2 {
   margin-top: 32px;
-}
-
-
-/* Reset misc links to default colors */
-.terms-tags a {
-  color: var(--primary) !important;
-}
-
-.post-tags a,
-.top-link a {
-  color: var(--secondary) !important;
 }
