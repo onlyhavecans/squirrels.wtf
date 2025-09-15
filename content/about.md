@@ -1,6 +1,7 @@
 ---
 title: Life is Too Awesome to Not Share
 showtoc: false
+rss_ignore: true
 ---
 
 Welcome to my proverbial corner of the internet.
