@@ -51,6 +51,11 @@ params:
   description: Musings, Tech, & Deep Thots
   images:
     - img/naryana-card.webp
+  cover:
+    responsiveImages: true
+    linkFullImages: false
+    hiddenInList: true
+    hidden: true
 
   comments: true
   defaultTheme: auto
@@ -74,11 +79,8 @@ params:
 
   socialIcons:
     - name: forgejo
-      title: View my Code
+      title: Code Forge (Forgejo)
       url: https://onlyhavecans.works
-    - name: github
-      title: Code Backup
-      url: https://github.com/onlyhavecans
     - name: mastodon
       title: Mastodon (Hachyderm)
       url: https://hachyderm.io/@onlyhavecans
@@ -88,6 +90,9 @@ params:
     - name: linktree
       title: LinkStack
       url: https://wearing.black/
+    - name: github
+      title: GitHub
+      url: https://github.com/onlyhavecans
     - name: rss
       title: RSS Feed
       url: https://squirrels.wtf/index.xml
