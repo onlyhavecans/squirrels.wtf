@@ -62,15 +62,12 @@ params:
   tocOpen: true
 
   homeInfoParams:
-    Title: 👋🏻 Welcome to My Nest 🌳 🐿️
+    Title: Welcome!
     Content: |
-      ![Profile Pic](img/naryana.png)
-
       This blog is my collection of personal writings going all the way back to 2012 when I left LiveJournal.
-      I primarily write about technology, productivity, and ethics here.
 
-      Now that I am posting a bit less on social media you can expect a lot more content here.
-      It is still primarily just a blog but I am working to expand this into more of a full personal profile and site.
+      I primarily write about technology, productivity, and ethics here.
+      Now that I am posting a bit less on social media you can expect a lot more casual journal content here as well.
 
       Feel free to poke around and @ me on socials about anything you read.
       However, older content may not be something I identify with or endorse anymore.
