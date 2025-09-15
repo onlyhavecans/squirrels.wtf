@@ -1,6 +1,10 @@
 ---
 date: 2018-05-03
 title: An Open Letter to Whom it May Concern
+cover:
+    image: card.webp
+    alt: A trans coming out meme
+    relative: true
 tags:
   - musings
   - transgender

@@ -1,6 +1,10 @@
 ---
 date: 2025-03-13T13:35:12-07:00
 title: The Day I Lost One of the Most Important People in my Life
+cover:
+    image: card.webp
+    alt: A collage of Stephanie's Smile
+    relative: true
 tags:
   - news
 ---
