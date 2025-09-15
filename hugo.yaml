@@ -50,7 +50,7 @@ params:
   author: Ame the Squirrel
   description: Musings, Tech, & Deep Thots
   images:
-    - img/naryana-card.webp
+    - img/naryana-card.png
   cover:
     responsiveImages: true
     linkFullImages: false
