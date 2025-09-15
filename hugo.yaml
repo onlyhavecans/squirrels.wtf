@@ -49,8 +49,8 @@ params:
 
   author: Ame the Squirrel
   description: Musings, Tech, & Deep Thots
-  images: ["img/naryana.png"]
-  cover: "img/naryana.png"
+  images:
+    - img/naryana-card.webp
 
   comments: true
   defaultTheme: auto
@@ -94,3 +94,6 @@ params:
     - name: rss
       title: RSS Feed
       url: https://squirrels.wtf/index.xml
+
+  social:
+    fediverse_creator: '@onlyhavecans@hachyderm.io'
