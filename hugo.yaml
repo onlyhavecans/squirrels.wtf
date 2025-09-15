@@ -58,7 +58,6 @@ params:
   responsiveImages: true
   showCodeCopyButtons: true
   showReadingTime: true
-  showFullTextinRSS: true
   showToc: true
   tocOpen: true
 

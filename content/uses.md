@@ -1,5 +1,6 @@
 ---
 title: Ame Uses...
+rss_ignore: true
 ---
 This is a "uses" page, which lists the gear and software I use daily.
 This is all based on the trend originating with [uses.tech](https://uses.tech/) where you can see what all us nerds are using.
