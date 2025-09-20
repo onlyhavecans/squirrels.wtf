@@ -1,4 +1,3 @@
-today := `date +%F`
 twis := `date +%Y-W%U`
 
 default:
@@ -19,8 +18,8 @@ build: clean
   hugo
 
 new post-name:
-  hugo new content content/posts/{{today}}-{{post-name}}.md
-  nvim content/posts/{{today}}-{{post-name}}.md
+  hugo new content content/posts/{{post-name}}/index.md
+  nvim content/posts/{{post-name}}/index.md
 
 weekly:
   hugo new content content/posts/{{twis}}.md --kind weekly-posts
