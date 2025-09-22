@@ -1,3 +1,4 @@
+/* Add splash of color and hifghlight */
 :root {
   --accent-header: rgb(181, 86, 145);
   --accent-link: rgb(163, 2, 98);
@@ -26,7 +27,7 @@ strong, b, a {
   color: var(--secondary) !important;
 }
 
-
+/* front page */
 .entry-content img {
   max-height: 400px;
   max-width: 80%;
@@ -40,6 +41,7 @@ strong, b, a {
   margin-bottom: 1em;
 }
 
+/* Posts formats */
 .toc {
   font-size: 0.85em;
 }
@@ -53,9 +55,9 @@ strong, b, a {
 }
 
 .nocomment {
-  margin-top: 52px;
+  margin-top: 32px;
 }
 
 .nocomment h2 {
-  margin-top: 32px;
+  margin-top: var(--content-gap);
 }
