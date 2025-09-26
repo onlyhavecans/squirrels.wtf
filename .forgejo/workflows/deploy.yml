@@ -22,12 +22,12 @@ jobs:
           curl --no-progress-meter --output hugo.deb -L https://github.com/gohugoio/hugo/releases/download/${HUGO_VERSION}/hugo_extended_${VERSION}_linux-amd64.deb
           sudo dpkg -i hugo.deb
         env:
-          HUGO_VERSION: v0.150.1 # renovate: datasource=github-releases depName=gohugoio/hugo
+          HUGO_VERSION: v0.150.1  # renovate: datasource=github-releases depName=gohugoio/hugo
 
       - name: Build
         run: hugo --gc $HUGO_DEV
         env:
-          HUGO_DEV: ${{  forge.ref_name != 'main' && '--baseURL=/ --environment development' || '--minify' }}
+          HUGO_DEV: ${{  forge.ref_name != 'main' && '--baseURL=/' || '' }}
 
       - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444  # v5
         with:
