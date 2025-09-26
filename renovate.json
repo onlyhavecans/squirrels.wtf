@@ -5,5 +5,8 @@
   ],
   "git-submodules": {
     "enabled": true
+  },
+  "lockFileMaintenance": {
+    "enabled": false
   }
 }
