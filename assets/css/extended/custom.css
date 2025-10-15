@@ -50,6 +50,10 @@ strong, b, a {
   float: right;
 }
 
+.post-content h2 {
+  margin-top: 2em !important;
+}
+
 .footnotes {
   font-size: 0.75em;
 }
@@ -60,4 +64,11 @@ strong, b, a {
 
 .nocomment h2 {
   margin-top: var(--content-gap);
+}
+
+/* Reduce excessive spacing for nested lists */
+.post-content li > ul,
+.post-content li > ol {
+  margin-bottom: 0.5em;
+  margin-top: 0.25em;
 }
