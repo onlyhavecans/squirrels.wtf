@@ -7,7 +7,7 @@ update:
   nix flake update
 
 test: clean
-  open http://localhost:1313
+  xdg-open http://localhost:1313
   hugo server --gc --navigateToChanged
 
 test-links:
@@ -24,12 +24,12 @@ build: clean
   hugo
 
 new post-name:
-  g swc post/{{post-name}}
+  git switch -C post/{{post-name}}
   hugo new content content/posts/{{post-name}}/index.md
   nvim content/posts/{{post-name}}/index.md
 
 weekly:
-  g swc post/weekly-{{twis}}
+  git switch -C post/weekly-{{twis}}
   hugo new content content/posts/{{twis}}.md --kind weekly-posts
   nvim content/posts/{{twis}}.md
 
