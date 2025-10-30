@@ -1,10 +1,12 @@
-/* Add splash of color and hifghlight */
+/* Add splash of color and highlight */
+
 :root {
+  /* default light on :root to support noscript */
   --accent-header: rgb(181, 86, 145);
   --accent-link: rgb(163, 2, 98);
 }
 
-.dark {
+:root[data-theme="dark"] {
   --accent-header: rgb(163, 2, 98);
   --accent-link: rgb(181, 86, 145);
 }
