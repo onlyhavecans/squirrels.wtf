@@ -2,31 +2,34 @@
 title: Ame Uses...
 rss_ignore: true
 ---
+
 This is a "uses" page, which lists the gear and software I use daily.
 This is all based on the trend originating with [uses.tech](https://uses.tech/) where you can see what all us nerds are using.
 
 ## Hardware
 
-- Protectli OPNSense Firewall
-- AMD Ryzen 7600 server w/ NixOS
-- AMD Ryzen 8700 + Radeon 7900 XTX desktop w/ NixOS
-- Framework 13' AMD 7040 series laptop w/ NixOS
-- Many Raspberry Pi
-  - Pi-Hole
-  - Home Assistant
-  - [Snapcast](https://github.com/badaix/snapcast) clients for multi-room audio
+- **Protectli Vault Pro VP2420 Firewall**: The Coreboot console access is amazing and this hardware has been reliable.
+- **AMD Ryzen 7600 server**: A compact NAS style PC I use to run the 8 disk zfs
+- **AMD Ryzen 8700 + Radeon 7900 XTX desktop**: This thing is a room heater but all the power I can use.
+- **Framework 13' AMD 7040 series laptop**: I replaced an old MacBook with this and it feels great and has good performance, a nice screen, and Linux's saver mode gets me plenty of battery.
+- **Many Raspberry Pi**
 
-## Making & Shipping Software
+## Software
 
-I am a very terminal based person, and like to have a portable configurations I use across many types of systems. You can check out [my dotfiles here](https://onlyhavecans.works/dots).
+### General
 
+I am a very terminal & keyboard based person, and like to have a portable configurations I use across many types of systems. You can check out [my dotfiles here](https://onlyhavecans.works/dots).
+
+- **NixOS w/ Lix**: I know it's a love it or hate it, but I really adore having a OS based around configuration management and full system lock and roll. I share [my Nix Flake here](https://onlyhavecans.works/ops/nixos-skwrls).
+- **Niri**: I am a scrolling and a Wayland convert, Niri is the best Window Manager/Compositor these days I feel.
+- **Waybar, Fuzzel, & Foot**: The "Desktop Stack" of apps. There is so many choices but I like to keep it basic.
 - **Firefox**: I prefer to not use chrome based browsers
 - **Zsh**: I keep trying to switch to fish but it's lack of shell expansions keeps driving me back.
-- **NeoVim w/ [LazyVim](https://www.lazyvim.org/)**: No matter how often I try to break into using VSCode I keep coming back to my fully terminal based setup. Check out my configs [here](https://onlyhavecans.works/dots/castle-neovim).
-- **tmux**: All keyboard navigation.
+- **NeoVim w/ [LazyVim](https://www.lazyvim.org/)**: No matter how often I try to break into using VSCode I keep coming back to my fully terminal based setup. Check out [my configs here](https://onlyhavecans.works/dots/castle-neovim).
+- **Tmux**: All keyboard navigation.
 - **[Yazi](https://yazi-rs.github.io/)**: how I navigate and manage files.
 
-### Languages & Tools
+### Languages & Automation
 
 - **Golang**: It's not without its flaws but multi-threading is lightweight, it is mostly strongly typed, and compiles down to a single binary that is easy to deploy
 - **Rust**: A whole different set of tradeoffs but I love the typing in it, the lack of nil, and serde is so fun.
@@ -35,6 +38,24 @@ I am a very terminal based person, and like to have a portable configurations I 
 - **PostgreSQL**: From work to play and everything in between, my favorite SQL engine. I can't go back to MySQL.
 - **Python**: I wrote this for so many years it still pops up when I need to prototype something.
 - **Ansible, Chef-Infra & Ruby**: I mostly only write this for work now.
+
+### Server Stuff
+
+I like to run most of my own software on my servers at home.
+
+- **OPNSense**: I only recently have switched from PFSense. OPN has been an adjustment and I am still trying to get it to be as reliable.
+- **Pi-Hole w/ unbound**: I run all my own DNS with filtering.
+- **Home Assistant**: I love a smart home that _doesn't_ bind me a provider and also doesn't use Wi-Fi.
+  - [Snapcast](https://github.com/badaix/snapcast) clients for multi-room audio
+- **Docker Compose**: There is fancier ways to run and orchestrate things but I keep it simple.
+- **Forgejo**: My Git + CI/CD + Renovate stack all at [OnlyHaveCans.Works](https://onlyhavecans.works)
+- **Navidrome**: The next evolution of my music collection, fiddly and needs good tagging, but it's very powerful.
+- **Jellyfin**: Not as simple and easy to use as Plex for most, but works extremely well once I discovered a few config tricks and the Infuse iOS/Mac client.
+- **Komga**: Hosting all of my Itch.io, Patreon, & DrivethruRPG books
+- **FreshRSS**: I never gave up on RSS, this is a recent transition from NewsBlur.
+- **Readeck**: Really nice read it later article storage
+- **Syncthing**: Synchronizing some misc files and settings
+- **Wireguard**: Always a way back home
 
 ## Productivity & Notes
 
@@ -48,7 +69,7 @@ I still like to process my thoughts through writing. I have a discbound notebook
 - **Post-it 100% Recycled Super Sticky Lined Notes**: These are the best sticky notes I can find and can be reused and moved daily for weeks.
 - **[MyLifePlans Templates](https://www.etsy.com/shop/MyLifePlans)**: Elegant and useful printable templates for trackers and goal setting
 - **Obsidian**: For notes I want to save for later, archives, logs, and reference materials I love this markdown based note taking with a git based plugin for private sync!
-- [PomoFocus](https://pomofocus.io): A very basic pomodoro timer that has auto-progression, ticking, and very long and loud alerts. I don't use the tasks, just the timer.
+- **[PomoFocus](https://pomofocus.io)**: A very basic pomodoro timer that has auto-progression, ticking, and very long and loud alerts. I don't use the tasks, just the timer.
 
 ## Making Music
 
@@ -62,23 +83,6 @@ I still like to process my thoughts through writing. I have a discbound notebook
 - A big pile of cheap Amazon pedals
 - SOMA Rumble of Ancient Times
 - iZotope Mix & Master
-
-## Self-Host Stack
-
-I like to run most of my own software on my servers at home.
-
-- **Docker Compose**: There is fancier ways to run and orchestrate things but I keep it simple.
-- **Forgejo**: My Git + CI/CD + Renovate stack all at [OnlyHaveCans.Works](https://onlyhavecans.works)
-- **Home Assistant**: I use this to automate lots of random things around the house without having random things on the internet.
-- **~~Plex~~**: Deprecated. I will miss PlexAmp, but they have been sharing all the signs things are not well in Startup Land.
-- **Navidrome**: The next evolution of my music collection, fiddly and needs good tagging, but it's very powerful.
-- **Jellyfin**: Not as simple and easy to use as Plex for most, but works extremely well once I discovered a few config tricks and the Infuse iOS/Mac client.
-- **Komga**: Hosting all of my Itch.io, Patreon, & DrivethruRPG books
-- **Grocy**: Home maintenance & chore tracking
-- **FreshRSS**: I never gave up on RSS, this is a recent transition from NewsBlur.
-- **Readeck**: Really nice read it later article storage
-- **Syncthing**: Synchronizing some misc files and settings
-- **Wireguard**: Always a way back home
 
 ## Quality of Life
 
