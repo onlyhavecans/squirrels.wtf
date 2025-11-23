@@ -7,11 +7,10 @@ This is all based on the trend originating with [uses.tech](https://uses.tech/) 
 
 ## Hardware
 
-- Protectli for OPNSense Firewall
-- NixOS mini pc
-- Debian servers
-- Mint desktop
-- macOS laptop
+- Protectli OPNSense Firewall
+- AMD Ryzen 7600 server w/ NixOS
+- AMD Ryzen 8700 + Radeon 7900 XTX desktop w/ NixOS
+- Framework 13' AMD 7040 series laptop w/ NixOS
 - Many Raspberry Pi
   - Pi-Hole
   - Home Assistant
@@ -22,11 +21,9 @@ This is all based on the trend originating with [uses.tech](https://uses.tech/) 
 I am a very terminal based person, and like to have a portable configurations I use across many types of systems. You can check out [my dotfiles here](https://onlyhavecans.works/dots).
 
 - **Firefox**: I prefer to not use chrome based browsers
-- **Homebrew/Linuxbrew**: No matter what Linux or macOS I use, I have access to all the latest cli tools. Homebrew has changed how I install most things.
-- [**WezTerm**](https://wezterm.org/index.html): I wanted a powerful and fast terminal I can use on all OS. It's lua config is also great for having some dynamic changes between linux and macOS.
 - **Zsh**: I keep trying to switch to fish but it's lack of shell expansions keeps driving me back.
-- **NeoVim w/ [LazyVim](https://www.lazyvim.org/)**: No matter how often I try to break into using VSCode I keep coming back to my fully terminal based setup. Check out my configs [here](https://onlyhavecans.works/dots/castle-neovim)
-- **tmux**: All keyboard navigation
+- **NeoVim w/ [LazyVim](https://www.lazyvim.org/)**: No matter how often I try to break into using VSCode I keep coming back to my fully terminal based setup. Check out my configs [here](https://onlyhavecans.works/dots/castle-neovim).
+- **tmux**: All keyboard navigation.
 - **[Yazi](https://yazi-rs.github.io/)**: how I navigate and manage files.
 
 ### Languages & Tools
@@ -37,8 +34,7 @@ I am a very terminal based person, and like to have a portable configurations I 
 - [**Just**](https://just.systems/): I replaced all my Makefiles with Justfiles.
 - **PostgreSQL**: From work to play and everything in between, my favorite SQL engine. I can't go back to MySQL.
 - **Python**: I wrote this for so many years it still pops up when I need to prototype something.
-- **Ansible**: How I manage owning so many computers without manually configuring them.
-- **Chef-Infra & Ruby**: I mostly only write this for work now.
+- **Ansible, Chef-Infra & Ruby**: I mostly only write this for work now.
 
 ## Productivity & Notes
 
