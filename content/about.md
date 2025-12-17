@@ -26,12 +26,12 @@ If you want to read about my tabletop games check out [Exploration5.Games](https
 - Any pony can be your best pony but we all know Trixie is best pony.
 - I practice witchcraft.
 - I tried to be a Gamer™ but failed to get my Gamer™ license twice and gave up..
-  - …so I switched to reading, I read a LOT of books.
-  - My most read genres are romance, popsci, & social issues.
+    - …so I switched to reading, I read a LOT of books.
+    - My most read genres are romance, popsci, & social issues.
 - I like to say I am a Rarity but we all know that's probably a lie.
 - I watch anime as it airs (current season), mostly the shoujo/josei.
 - I am enough of a computer nerd to have nuanced opinions on things like editors, window managers, software packaging/deployment, and programming languages.
-  - But I know that said opinions all are based on my use case and needs; it's a good thing if you prefer something different because diversity is far more important than 'correctness' for the health of ecosystems, including tech ones.
+    - But I know that said opinions all are based on my use case and needs; it's a good thing if you prefer something different because diversity is far more important than 'correctness' for the health of ecosystems, including tech ones.
 - I play a cartoon spider on Twitch as a hobby.
 - I care a lot about social justice issues like ethics, equity, and accessibility. I am more of a social justice white mage sub red though. _(that is a Final Fantasy XI joke)_
 

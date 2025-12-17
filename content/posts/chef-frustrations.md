@@ -57,10 +57,10 @@ Just to recap;
 
 - I believe chef's biggest weakness is documentation, which creates a wall in the learning curve to hit right after "I can now build and deploy a test apache on a linode" and "I can build and deploy this in a staging environment"
 - I think there should be a learn chef 200 series that goes over;
-  - Using a wrapper cookbook, and the different types of abstraction you often see with these.
-  - Teaching everything chef-dk adds; bootstrapping, runtests, and automated integration testing.
-  - Highlighting several useful patterns for cookbook development.
-  - Using more of chef's tools; ex ohai
+    - Using a wrapper cookbook, and the different types of abstraction you often see with these.
+    - Teaching everything chef-dk adds; bootstrapping, runtests, and automated integration testing.
+    - Highlighting several useful patterns for cookbook development.
+    - Using more of chef's tools; ex ohai
 - If chef is going to rely on the community for docs maybe it should create a way where they can contribute to the main docbase just like they do code.
 - [go here](http://misheska.com/blog/2013/06/16/getting-started-writing-chef-cookbooks-the-berkshelf-way/), have your life changed
 - If you are in the Las Vegas, NV area come hang out at \#lvdevops on freenode and tell me how I make you feel

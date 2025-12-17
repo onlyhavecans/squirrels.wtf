@@ -46,7 +46,7 @@ I like to run most of my own software on my servers at home.
 - **OPNSense**: I only recently have switched from PFSense. OPN has been an adjustment and I am still trying to get it to be as reliable.
 - **Pi-Hole w/ unbound**: I run all my own DNS with filtering.
 - **Home Assistant**: I love a smart home that _doesn't_ bind me a provider and also doesn't use Wi-Fi.
-  - [Snapcast](https://github.com/badaix/snapcast) clients for multi-room audio
+    - [Snapcast](https://github.com/badaix/snapcast) clients for multi-room audio
 - **Docker Compose**: There is fancier ways to run and orchestrate things but I keep it simple.
 - **Forgejo**: My Git + CI/CD + Renovate stack all at [OnlyHaveCans.Works](https://onlyhavecans.works)
 - **Navidrome**: The next evolution of my music collection, fiddly and needs good tagging, but it's very powerful.

@@ -81,11 +81,11 @@ Now starts the puppet configurations!
 
 - Name: Puppet
 - Source Code Management: Git
-  - Repositories: Your central git hub, not the one on puppet[^NOT]
+    - Repositories: Your central git hub, not the one on puppet[^NOT]
 - Trigger Builds Remotely: check
-  - Authentication Token: _pick something simple but unique here like 'stopHackingRoot'_
+    - Authentication Token: _pick something simple but unique here like 'stopHackingRoot'_
 - Poll SCM: check
-  - Schedule: `H/15 * * * *`[^POLL]
+    - Schedule: `H/15 * * * *`[^POLL]
 
 [^NOT]: Seriously, if you don't have a central git server set up a central git repo SOMEWHERE safe, even on your jenkins box if need be (like we did for nagios) Just remember that your going to end up with something sensitive in there someday.
 
@@ -128,7 +128,7 @@ The second one shouldn't error out but it will toss up style warnings and possib
 
 - Post-Build Actions
 - Scan for compiler warnings
-  - Parser: Puppet-Lint
+    - Parser: Puppet-Lint
 
 ## Step Four: The Danger Zone
 
