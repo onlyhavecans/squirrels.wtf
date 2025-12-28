@@ -3,6 +3,9 @@
   "extends": [
     "local>ops/renovate-config"
   ],
+  "nix": {
+    "enabled": true
+  },
   "git-submodules": {
     "enabled": true
   },
