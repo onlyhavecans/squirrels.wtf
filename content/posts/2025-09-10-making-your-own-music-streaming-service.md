@@ -1,5 +1,5 @@
 ---
-date: 2025-09-10T09:13:38-07:00
+date: 2026-01-01T08:13:38-07:00
 title: Setting up Streaming for your own Music
 draft: false
 tags:
@@ -7,7 +7,12 @@ tags:
   - self-hosting
 ---
 
-## But… How Do Play Music?
+
+This is part... what? Four in the series on owning and keeping your own music instead of streaming. 
+
+There is one critical peice I haven't gone over though.
+
+## But… How Do Listen Music?
 
 The easiest way to enjoy your digital music before everything became mobile and phone based was that you created a music folder on your computer and like, dumped all the album folders into it. or maybe organized them like
 
@@ -15,9 +20,14 @@ The easiest way to enjoy your digital music before everything became mobile and 
 music > artist > album > coolfile.mp3
 ```
 
-And if you wanted music on the go? Burn a CD or spend all the money in the world on an iPod or Zune but that doesn't cut it anymore.
+Then you open up the music in winamp and enjoy the sweet tunes.
+And if you wanted music on the go? You burn a CD!
 
-We need phones and ALL OF OUR MUSIC ALL THE TIME.
+## Ok, grandma. Nobody has a cd player anymore
+
+You mibut that doesn't cut it anymore.
+
+We need our phones to do everything and ALL OF OUR MUSIC ALL THE TIME.
 
 I don't actually believe this. i think it's an interesting experiment to give yourself like three albums or 75 minute playlists and stick to that for a week. And if that's all you need… Music Players STILL exist and you can buy them and load them up with music.
 
@@ -33,7 +43,7 @@ Then point this $50/yr website at it <https://asti.ga>
 
 Your own private streaming service and you don't even have to set up anything at home
 
-### For Those Technical Enough to Have a Nas
+### For Those Technical Enough to Have a NAS
 
 Plex & PlexAMP.
 
@@ -56,11 +66,12 @@ I have been moving away from Plex™ Inc[^2] since the company has been on a str
 This my current setup is a whole article of content unto itself but I thought I would at least highlight my workflow.
 
 1. Run files through Musicbrainz Picard to tag & sort
-2. Rare/Too indie files get cleaned up manually in mp3tag
-3. rsync them up to my docker host server
-4. Navidrome runs in a container to host music
-5. Caddy acts as a https reverse proxy
-6. unbound + pi-home is a reverse proxy w/ split horizon dns to route
-7. Feishin on the desktop to play
-8. Ampfery for iOS and Carplay
-9. Music Assistant with [Snapcast](https://github.com/badaix/snapcast) to do multi-room audio
+1. Rare/Too indie files get cleaned up manually
+1. rsync them up to my server
+1. Navidrome runs in a container
+1. Caddy acts as a https reverse proxy
+1. unbound + pi-home is a reverse proxy w/ split horizon dns to route
+1. Script running every hour to update public dns at DNSimple
+1. Feishin on the desktop to play
+1. Ampfery for iOS and Carplay
+1. Music Assistant with [Snapcast](https://github.com/badaix/snapcast) to do multi-room audio
