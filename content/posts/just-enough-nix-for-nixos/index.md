@@ -197,6 +197,9 @@ You will start with a configuration.nix file something like this
 
 and I think the best thing is to is break down some important fundamental types and concepts.
 
+> [!CAUTION]
+> Blow this up and make it parts with explinations
+
 ```nix
 {config, pkgs, lib, ...}:
 # ^ Like we learned earlier this is a set, and it defines what arguments our 
