@@ -1,0 +1,150 @@
+/* Obsidian-compatible callouts for PaperMod */
+
+:root {
+  /* Callout colors - light mode */
+  --callout-note: #448aff;
+  --callout-abstract: #00b0ff;
+  --callout-info: #00b8d4;
+  --callout-tip: #00bfa5;
+  --callout-success: #00c853;
+  --callout-question: #64dd17;
+  --callout-warning: #ff9100;
+  --callout-caution: #ff9100;
+  --callout-danger: #ff5252;
+  --callout-bug: #f50057;
+  --callout-example: #7c4dff;
+  --callout-quote: #9e9e9e;
+  --callout-todo: #448aff;
+  --callout-important: #7c4dff;
+  --callout-failure: #ff5252;
+
+  --callout-bg-opacity: 0.1;
+  --callout-content-bg: var(--theme);
+}
+
+[data-theme="dark"] {
+  /* Slightly brighter colors for dark mode */
+  --callout-note: #82b1ff;
+  --callout-abstract: #40c4ff;
+  --callout-info: #18ffff;
+  --callout-tip: #64ffda;
+  --callout-success: #69f0ae;
+  --callout-question: #b2ff59;
+  --callout-warning: #ffab40;
+  --callout-caution: #ffab40;
+  --callout-danger: #ff8a80;
+  --callout-bug: #ff80ab;
+  --callout-example: #b388ff;
+  --callout-quote: #bdbdbd;
+  --callout-todo: #82b1ff;
+  --callout-important: #b388ff;
+  --callout-failure: #ff8a80;
+
+  --callout-bg-opacity: 0.15;
+}
+
+/* Base callout structure */
+.callout {
+  margin: 1.5rem 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: color-mix(in srgb, var(--callout-color) calc(var(--callout-bg-opacity) * 100%), transparent);
+  border-left: 4px solid var(--callout-color);
+}
+
+.callout-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+  color: var(--callout-color);
+}
+
+.callout-icon {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.callout-icon svg {
+  width: 1.2em;
+  height: 1.2em;
+}
+
+.callout-title {
+  flex-grow: 1;
+}
+
+.callout-content {
+  padding: 0 1rem 1rem;
+  color: var(--primary);
+}
+
+.callout-content > :first-child {
+  margin-top: 0;
+}
+
+.callout-content > :last-child {
+  margin-bottom: 0;
+}
+
+/* Foldable callouts */
+details.callout > summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+details.callout > summary::-webkit-details-marker {
+  display: none;
+}
+
+.callout-fold {
+  display: flex;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+.callout-fold::after {
+  content: "";
+  border: solid var(--callout-color);
+  border-width: 0 2px 2px 0;
+  padding: 3px;
+  transform: rotate(-45deg);
+}
+
+details.callout[open] .callout-fold::after {
+  transform: rotate(45deg);
+}
+
+/* Type-specific colors */
+.callout-note { --callout-color: var(--callout-note); }
+.callout-abstract { --callout-color: var(--callout-abstract); }
+.callout-info { --callout-color: var(--callout-info); }
+.callout-tip { --callout-color: var(--callout-tip); }
+.callout-success { --callout-color: var(--callout-success); }
+.callout-question { --callout-color: var(--callout-question); }
+.callout-warning { --callout-color: var(--callout-warning); }
+.callout-caution { --callout-color: var(--callout-caution); }
+.callout-danger { --callout-color: var(--callout-danger); }
+.callout-bug { --callout-color: var(--callout-bug); }
+.callout-example { --callout-color: var(--callout-example); }
+.callout-quote { --callout-color: var(--callout-quote); }
+.callout-todo { --callout-color: var(--callout-todo); }
+.callout-important { --callout-color: var(--callout-important); }
+.callout-failure { --callout-color: var(--callout-failure); }
+
+/* Quote callout special styling */
+.callout-quote {
+  border-left-style: solid;
+  font-style: italic;
+}
+
+.callout-quote .callout-content {
+  font-style: italic;
+}
+
+/* Nested callouts */
+.callout .callout {
+  margin: 0.75rem 0;
+}

@@ -1,0 +1,88 @@
+{{- /*
+  Obsidian-compatible callout/admonition render hook for PaperMod
+  Syntax: > [!type] Optional title
+          > Content here
+
+  Requires Hugo v0.134.0+ for blockquote alert support
+*/ -}}
+
+{{- if eq .Type "alert" -}}
+
+{{- /* Map type aliases to canonical types */ -}}
+{{- $typeMap := dict
+  "note"      "note"
+  "abstract"  "abstract"
+  "summary"   "abstract"
+  "tldr"      "abstract"
+  "info"      "info"
+  "tip"       "tip"
+  "hint"      "tip"
+  "success"   "success"
+  "check"     "success"
+  "done"      "success"
+  "question"  "question"
+  "help"      "question"
+  "faq"       "question"
+  "warning"   "warning"
+  "attention" "warning"
+  "caution"   "caution"
+  "danger"    "danger"
+  "error"     "danger"
+  "bug"       "bug"
+  "example"   "example"
+  "quote"     "quote"
+  "cite"      "quote"
+  "todo"      "todo"
+  "important" "important"
+  "failure"   "failure"
+  "fail"      "failure"
+  "missing"   "failure"
+-}}
+
+{{- /* Determine the callout type */ -}}
+{{- $alertType := .AlertType | lower -}}
+{{- $type := index $typeMap $alertType | default "note" -}}
+
+{{- /* Determine title - use custom title or fall back to type name */ -}}
+{{- $title := .AlertTitle | default (title $type) -}}
+
+{{- /* Check for foldable callout */ -}}
+{{- $foldable := .AlertSign -}}
+
+{{- /* Load icon SVG from assets */ -}}
+{{- $iconPath := printf "icons/callouts/%s.svg" $type -}}
+{{- $icon := resources.Get $iconPath -}}
+
+{{- if $foldable -}}
+<details class="callout callout-{{ $type }}"{{ if eq .AlertSign "+" }} open{{ end }}>
+  <summary class="callout-header">
+    <span class="callout-icon">{{ $icon.Content | safeHTML }}</span>
+    <span class="callout-title">{{ $title }}</span>
+    <span class="callout-fold"></span>
+  </summary>
+  {{- with .Text }}
+  <div class="callout-content">
+    {{ . }}
+  </div>
+  {{- end }}
+</details>
+{{- else -}}
+<div class="callout callout-{{ $type }}">
+  <div class="callout-header">
+    <span class="callout-icon">{{ $icon.Content | safeHTML }}</span>
+    <span class="callout-title">{{ $title }}</span>
+  </div>
+  {{- with .Text }}
+  <div class="callout-content">
+    {{ . }}
+  </div>
+  {{- end }}
+</div>
+{{- end -}}
+
+{{- else -}}
+{{- /* Standard blockquote - pass through */ -}}
+<blockquote>
+  {{ .Text }}
+</blockquote>
+{{- end -}}
