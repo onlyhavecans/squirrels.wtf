@@ -10,15 +10,15 @@ tags:
 > [!CAUTION]
 > this flow is so bad rn and needs refactor
 
-This is part of my series on making NixOS more accessible to beginners. One of the big walls people mention when I talk to them about NixOS is that you have to learn a purpose-built functional language just to use NixOS. But I don’t think you need to learn that much of it to get started.
+This is part of my series on making NixOS more accessible to beginners. One of the big walls people mention when I talk to them about NixOS is that you have to learn a purpose-built functional language just to use NixOS. But I don't think you need to learn that much of it to get started.
 
-Back when I got started with Chef-Infra (or Opscode Chef back then), there was a presintation and then a post called “Just enough Ruby to use Chef,” and I wanted to pay that forward by writing what I think is “Just enough Nix to use NixOS.”
+Back when I got started with Chef-Infra (or Opscode Chef back then), there was a presintation and then a post called "Just enough Ruby to use Chef," and I wanted to pay that forward by writing what I think is "Just enough Nix to use NixOS."
 
-There is already an official language reference I am linking to here, which is actually really short and amazing to keep around. However, when I go through the full tutorial, it quickly gets out of hand and teaches you a lot about how to do many things that fall right into the “things you can learn when you need it” category.
+There is already an official language reference I am linking to here, which is actually really short and amazing to keep around. However, when I go through the full tutorial, it quickly gets out of hand and teaches you a lot about how to do many things that fall right into the "things you can learn when you need it" category.
 
-So let’s take a walk through the basics.
+So let's take a walk through the basics.
 
-DISCLAIMER: This is a “just enough” guide. I am not going to explain the nuances of the language, and I will use many analogies that do not perfectly match. If you have feedback on how I can improve the post because of any gaps or maybe better analogies that would make sense to system operators with minimal programming experience, please hit me up. I am not interested in your “Wells.”
+DISCLAIMER: This is a "just enough" guide. I am not going to explain the nuances of the language, and I will use many analogies that do not perfectly match. If you have feedback on how I can improve the post because of any gaps or maybe better analogies that would make sense to system operators with minimal programming experience, please hit me up. I am not interested in your "Wells."
 
 DISCLAIMER: Ok, sorry, another one. All of my NixOS posts are written for someone who is comfortable operating Linux-based systems at the CLI, using version control, editing various configuration file formats, and who has at least dabbled in programming/scripting. I would consider all of these prerequisites for learning NixOS in 2026, unless you wanna hit the deep end of the pool hard.
 
@@ -35,7 +35,7 @@ Every time we talk about Nix or NixOS, we need to go over some important lingo, 
 
 ## Part 1: Spicy JSON
 
-Nix is kinda like spicy JSON. It’s spicier because, even though it looks and behaves a lot like JSON, you'll find a lot of lil fun extra functions that add all sorts of herbs and spices, and when all marinated together, can become hard to read for a newcomer.
+Nix is kinda like spicy JSON. It's spicier because, even though it looks and behaves a lot like JSON, you'll find a lot of lil fun extra functions that add all sorts of herbs and spices, and when all marinated together, can become hard to read for a newcomer.
 
 Because it can get complex, I recommend starting out by looking for the json in it! Because every Nix file is a single JSONC object! (not really but work with me here)
 
@@ -55,15 +55,15 @@ Because it can get complex, I recommend starting out by looking for the json in 
 }
 ```
 
-Now, that’s easy peasy, but you will only rarely see anything that plain in Nixland. We need to add some spice, and my first bit of seasoning is: I think we should clarify that every Nix file is not a JSON object but a JSON function.
+Now, that's easy peasy, but you will only rarely see anything that plain in Nixland. We need to add some spice, and my first bit of seasoning is: I think we should clarify that every Nix file is not a JSON object but a JSON function.
 
 Exciting right?
 
 ## Part 2: Functional JSON
 
-That’s right, all of our JSON objects are lambda functions and can contain other functions. If you never mastered lambda, then don’t fret too much. We will try to keep it simple. A lambda is an anonymous function, meaning we never bother to name them. But you can pretend the filename is the function name if you want. Nix won’t, but that’s not going to stop you, is it?
+That's right, all of our JSON objects are lambda functions and can contain other functions. If you never mastered lambda, then don't fret too much. We will try to keep it simple. A lambda is an anonymous function, meaning we never bother to name them. But you can pretend the filename is the function name if you want. Nix won't, but that's not going to stop you, is it?
 
-In the above example, we are ignoring everything passed into our JSON function, so we left out the argument list. I personally avoid doing this because it’s too implicit for me. Instead, I would write the above code like this, which explicitly says “This is probably gonna receive something, but toss it.” Kinda like how Go uses _.
+In the above example, we are ignoring everything passed into our JSON function, so we left out the argument list. I personally avoid doing this because it's too implicit for me. Instead, I would write the above code like this, which explicitly says "This is probably gonna receive something, but toss it." Kinda like how Go uses _.
 
 ```nix
 _: {
@@ -71,7 +71,7 @@ _: {
 }
 ```
 
-Some people also write this, which is basically a smidge more verbose by saying “I expect a set, but like... ignore it.”
+Some people also write this, which is basically a smidge more verbose by saying "I expect a set, but like... ignore it."
 
 ```nix
 # the dots mean ignore everything not defined passed in
@@ -82,7 +82,7 @@ Some people also write this, which is basically a smidge more verbose by saying 
 
 So now I am being clearer about how spicy my JSON is and showing that I am ignoring everything that my JSON function is being called with.
 
-But we rarely ignore everything we pass in. In fact, we are usually needy, needy programmers and operators, and we want the world and free API access to it while we are at it. While I can’t give you a GraphQL endpoint for your mailbox, we can at least declare what attributes we need passed into our function.
+But we rarely ignore everything we pass in. In fact, we are usually needy, needy programmers and operators, and we want the world and free API access to it while we are at it. While I can't give you a GraphQL endpoint for your mailbox, we can at least declare what attributes we need passed into our function.
 
 ```nix
 {pkgs, ...}: {
@@ -116,11 +116,11 @@ We leave that `pkgs.fish` bare when we use it, as we would with any good variabl
 }
 ```
 
-Wait what? That’s... not a JSON array? Where are the commas? Also, there is too much repetition! I have to type packages over and over? I really hate that! Your analogy was filled with LIES.
+Wait what? That's... not a JSON array? Where are the commas? Also, there is too much repetition! I have to type packages over and over? I really hate that! Your analogy was filled with LIES.
 
 ## Part 3: How to Type Less
 
-All right, I’m sorry, you got me. We have already broken a bit of our spicy JSON analogy. If you look back at the reference guide, you can see that we don’t have arrays, we have lists, and lists in Nix don’t have a comma.
+All right, I'm sorry, you got me. We have already broken a bit of our spicy JSON analogy. If you look back at the reference guide, you can see that we don't have arrays, we have lists, and lists in Nix don't have a comma.
 
 But if you promise to forgive me for my faltering analogy, we can get into some language constructs designed to save typing that you will see a LOT of. Ok? Awesome. Thanks.
 
@@ -146,9 +146,9 @@ The first one is for drying up lists. Nix is very purpose-built, so it has langu
 }
 ```
 
-Our with does us the favor of slapping pkgs in front of everything in our list! How nice of it. There are plenty of other ways you can use it, but when getting started, it’s best to use it sparingly because my explanation of with is a convenient half-truth; it actually introduces pkgs into the scope of that list and into complex code that can DO THINGS or even NOT do things. But that shatters too much of the spicy JSON analogy, so let’s not get too deep into that and remember that you can get weird with it.
+Our with does us the favor of slapping pkgs in front of everything in our list! How nice of it. There are plenty of other ways you can use it, but when getting started, it's best to use it sparingly because my explanation of with is a convenient half-truth; it actually introduces pkgs into the scope of that list and into complex code that can DO THINGS or even NOT do things. But that shatters too much of the spicy JSON analogy, so let's not get too deep into that and remember that you can get weird with it.
 
-Also, here is a bonus: if you ever see something like this, it’s a functionally similar version of with. It applies the thing to the arguments passed in.
+Also, here is a bonus: if you ever see something like this, it's a functionally similar version of with. It applies the thing to the arguments passed in.
 
 ```nix
 thing @ { arg, otherArg, ... }: { ... }; 
@@ -162,11 +162,11 @@ For some reason, you can write it like this, and it does the exact same thing, j
 { arg, otherArg, ... } @ thing: { ... };
 ```
 
-I personally only use this in flakes, which we are not gonna talk about here, but it’s good to know since you have a high likelyhood of seeing it.
+I personally only use this in flakes, which we are not gonna talk about here, but it's good to know since you have a high likelyhood of seeing it.
 
 ## Part 4: Talking about Types
 
-Ok Ok ok, ok. OK! We’ve already reached the point where the analogy is crumbling out from under us faster than we can shift it, so let's just talk directly about Nix when applied to NixOS configuration.
+Ok Ok ok, ok. OK! We've already reached the point where the analogy is crumbling out from under us faster than we can shift it, so let's just talk directly about Nix when applied to NixOS configuration.
 
 You will start with a configuration.nix file something like this
 
@@ -238,7 +238,7 @@ and I think the best thing is to is break down some important fundamental types 
 
 ## Bonus: If you use NeoVIM and a plugin manager, read this
 
-When I got started, Nix felt extremely similar to NeoVIM’s Lua-based configuration format.
+When I got started, Nix felt extremely similar to NeoVIM's Lua-based configuration format.
 
 I use Lazy.vim to configure NeoVIM plugins, and a common pattern is to create a plugins folder with various Lua files that all look something like this.
 
@@ -264,9 +264,9 @@ This language has patterns similar to Nix in some cases. especially the ones we 
 
 ## Part 5: Saving more typing with local variables
 
-Ok, y'all. I appreciate you having read this far, but it’s time for me to get mean. Downright rude. Not at or about you. No. I have something rude to say about Nix. Every seasoned Nix person has their hill that they want to die on about some level of the experience, but this is mine.
+Ok, y'all. I appreciate you having read this far, but it's time for me to get mean. Downright rude. Not at or about you. No. I have something rude to say about Nix. Every seasoned Nix person has their hill that they want to die on about some level of the experience, but this is mine.
 
-Have you ever thought LISP was too easy to read? No really? Have you ever sat back and thought, "All these symbols are great, but let's make the lexer also do JavaScript-style keywords smashed into the middle of lambda declarations?” That’s where we start talking about variables.
+Have you ever thought LISP was too easy to read? No really? Have you ever sat back and thought, "All these symbols are great, but let's make the lexer also do JavaScript-style keywords smashed into the middle of lambda declarations?" That's where we start talking about variables.
 
 In short, if you want to have local variables at the top of your function to help collect magic numbers and other pieces of information you want to be able to reuse, you use a let ... in. It works like this.
 
@@ -282,7 +282,7 @@ in
 
 See how the let and in are all smushed in between the arguments set and the body? I tend to use a lot of whitespace here to make it clear, but on a single line, as it looks like {pkgs, ...}: let foo = true in{ bar = foo }
 
-Ok, ok, that’s not the worst example, but the more you work with Nix code, you will see let ... in blocks nested deep in places. That example is actually a bit painfully simplistic and doesn’t really explain why you would want to use let...in blocks at all, so let me give you another example.
+Ok, ok, that's not the worst example, but the more you work with Nix code, you will see let ... in blocks nested deep in places. That example is actually a bit painfully simplistic and doesn't really explain why you would want to use let...in blocks at all, so let me give you another example.
 
 ```nix
 { pkgs, vars, ... }:
@@ -305,7 +305,7 @@ See how we can combine this to define functions to reduce code duplication? That
 
 ## Part 6: Nani the F#&% is this?
 
-Nah, you know what? Let’s get REALLY complex with it! Hit you with the firehose! This is a concept you will see in NixOS known as an overlay.
+Nah, you know what? Let's get REALLY complex with it! Hit you with the firehose! This is a concept you will see in NixOS known as an overlay.
 
 ```nix
 # Here we are omitting one of the {} in a chain for what is called a curried lambda 
@@ -338,7 +338,7 @@ in
 }
 ```
 
-If you take a deep breath, you will note the only thing here I haven’t mentioned before is inherit. This is another one of those things where we “push things around in scope,” like with and @. However, you can write it out manually if it looks too confusing.
+If you take a deep breath, you will note the only thing here I haven't mentioned before is inherit. This is another one of those things where we "push things around in scope," like with and @. However, you can write it out manually if it looks too confusing.
 
 ```nix
 {
@@ -354,11 +354,11 @@ You can even be more clever with inherit, but I will leave that to your explorat
 
 Beyond that, what is going on there?
 
-It’s overriding the attributes from two previous (read: already existing in nixpkgs) packages to make our own derivation with our own hardcoded version, src, and go vendorHash! For the most basic Go package pin that’s all you need to do. You can use this to force a newer version than nixpkgs is installing, or to an extent, stay pinned back. This is more of a temp hack than a long-term solution since somebody changing how the package is built, like one of the required libraries, would probably break our minimal overlay.
+It's overriding the attributes from two previous (read: already existing in nixpkgs) packages to make our own derivation with our own hardcoded version, src, and go vendorHash! For the most basic Go package pin that's all you need to do. You can use this to force a newer version than nixpkgs is installing, or to an extent, stay pinned back. This is more of a temp hack than a long-term solution since somebody changing how the package is built, like one of the required libraries, would probably break our minimal overlay.
 
-## Part 7: Let’s talk about Gatcha
+## Part 7: Let's talk about Gatcha
 
-Not Gatcha games, these are gatcha’s that will trip you up. Because it’s a mistake I eventually made.
+Not Gatcha games, these are gatcha's that will trip you up. Because it's a mistake I eventually made.
 
 ### Start simple
 
@@ -373,7 +373,7 @@ And the only one you edit is configuration.nix. But do yourself the biggest favo
 
 An old programming adage: clever code makes you feel cool, but nobody likes to maintain that Perl one-liner you wrote back in college that can bulk encode video files, parse all the ffmpeg logs, and reformat all the output into succinct colored output.
 
-Nix is a domain-specific, declarative, pure, lazy, functional programming language. If you totally understand all those words and fear no LISP, then you have nothing to worry about. But for the rest of us, be aware when you are implementing things that you can't read later. You probably don’t have to get that clever just to configure a few systems.
+Nix is a domain-specific, declarative, pure, lazy, functional programming language. If you totally understand all those words and fear no LISP, then you have nothing to worry about. But for the rest of us, be aware when you are implementing things that you can't read later. You probably don't have to get that clever just to configure a few systems.
 
 ### The Danger of Importing
 
@@ -385,4 +385,4 @@ If you ever create an infinite recursion with imports, you will be in for a WORL
 
 Play around and find out. If you remove ... everything crashes pretty fast, and with lix, you get a pretty good error.
 
-But, to phrase it in my words, when you define a function with {x, y}: you are defining the function expectation (read signature in programmer), and like most languages, if you pass in unexpected arguments to a function, the compiler barfs. So we put ... so any new unused inputs added don’t barf everything.
+But, to phrase it in my words, when you define a function with {x, y}: you are defining the function expectation (read signature in programmer), and like most languages, if you pass in unexpected arguments to a function, the compiler barfs. So we put ... so any new unused inputs added don't barf everything.
