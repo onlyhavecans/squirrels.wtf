@@ -22,7 +22,7 @@ jobs:
           curl --no-progress-meter --output hugo.deb -L https://github.com/gohugoio/hugo/releases/download/${HUGO_VERSION}/hugo_extended_${VERSION}_linux-amd64.deb
           sudo dpkg -i hugo.deb
         env:
-          HUGO_VERSION: v0.155.1 # renovate: datasource=github-releases depName=gohugoio/hugo
+          HUGO_VERSION: v0.155.2 # renovate: datasource=github-releases depName=gohugoio/hugo
 
       - name: Build
         run: hugo --gc $HUGO_DEV
