@@ -20,12 +20,12 @@ This is all based on the trend originating with [uses.tech](https://uses.tech/) 
 
 I am a very terminal & keyboard based person, and like to have a portable configurations I use across many types of systems. You can check out [my dotfiles here](https://onlyhavecans.works/dots).
 
-- **NixOS w/ Lix**: I know it's a love it or hate it, but I really adore having a OS based around configuration management and full system lock and roll. I share [my Nix Flake here](https://onlyhavecans.works/ops/nixos-skwrls).
+- **NixOS w/ Lix**: I know it's a love it or hate it, but I really adore having a OS based around configuration management and full system lock and roll. I share my [NixOS setup here](https://onlyhavecans.works/ops/nixos-skwrls).
 - **Niri**: I am a scrolling and a Wayland convert, Niri is the best Window Manager/Compositor these days I feel.
-- **Waybar, Fuzzel, & Foot**: The "Desktop Stack" of apps. There is so many choices but I like to keep it basic.
+- **Waybar, Mako, Fuzzel, & Foot**: The "Desktop Stack" of apps. There is so many choices but I like to keep it basic.
 - **Firefox**: I prefer to not use chrome based browsers
 - **Zsh**: I keep trying to switch to fish but it's lack of shell expansions keeps driving me back.
-- **NeoVim w/ [LazyVim](https://www.lazyvim.org/)**: No matter how often I try to break into using VSCode I keep coming back to my fully terminal based setup. Check out [my configs here](https://onlyhavecans.works/dots/castle-neovim).
+- **NeoVim**: No matter how often I try to break into using VSCode I keep coming back to my fully terminal based setup. Check out [my configs here](https://onlyhavecans.works/dots/castle-neovim).
 - **Tmux**: All keyboard navigation.
 - **[Yazi](https://yazi-rs.github.io/)**: how I navigate and manage files.
 
@@ -37,7 +37,7 @@ I am a very terminal & keyboard based person, and like to have a portable config
 - [**Just**](https://just.systems/): I replaced all my Makefiles with Justfiles.
 - **PostgreSQL**: From work to play and everything in between, my favorite SQL engine. I can't go back to MySQL.
 - **Python**: I wrote this for so many years it still pops up when I need to prototype something.
-- **Ansible, Chef-Infra & Ruby**: I mostly only write this for work now.
+- **Ansible, Chef-Infra**: I mostly only write this for work now.
 
 ### Server Stuff
 
@@ -49,7 +49,7 @@ I like to run most of my own software on my servers at home.
     - [Snapcast](https://github.com/badaix/snapcast) clients for multi-room audio
 - **Docker Compose**: There is fancier ways to run and orchestrate things but I keep it simple.
 - **Forgejo**: My Git + CI/CD + Renovate stack all at [OnlyHaveCans.Works](https://onlyhavecans.works)
-- **Navidrome**: The next evolution of my music collection, fiddly and needs good tagging, but it's very powerful.
+- **Navidrome**: The next evolution of my music collection. Navidrome has been a delight for hosting my collect and letting me stream from browsers or Feishin. The smart playlist support is great.
 - **Jellyfin**: Not as simple and easy to use as Plex for most, but works extremely well once I discovered a few config tricks and the Infuse iOS/Mac client.
 - **Komga**: Hosting all of my Itch.io, Patreon, & DrivethruRPG books
 - **FreshRSS**: I never gave up on RSS, this is a recent transition from NewsBlur.
@@ -71,19 +71,6 @@ I still like to process my thoughts through writing. I have a discbound notebook
 - **Obsidian**: For notes I want to save for later, archives, logs, and reference materials I love this markdown based note taking with a git based plugin for private sync!
 - **[PomoFocus](https://pomofocus.io)**: A very basic pomodoro timer that has auto-progression, ticking, and very long and loud alerts. I don't use the tasks, just the timer.
 
-## Making Music
-
-- Ableton Live
-- Touche
-- Polyend Tracker+
-- Roland SP-404Mk2
-- Artura MicroFreak
-- Eventide Blackhole
-- ChaseBliss Blooper
-- A big pile of cheap Amazon pedals
-- SOMA Rumble of Ancient Times
-- iZotope Mix & Master
-
 ## Quality of Life
 
 Some things just make my life that much more fun
@@ -91,6 +78,7 @@ Some things just make my life that much more fun
 - **Kindle Paperwhite Signature**: I miss the Oasis but the new Paperwhite Signature is _so blazing fast_. I read a lot, like ~100 books a year, so having a fast light e-reader and access to so many books is a solid tradeoff.
 - **Aiko Edition [Yoyogi Messenger](https://chromeindustries.com/products/yoyogi-messenger)**: Chrome Industries made a huge purse. The Aiko edition spray paint and bunny theme makes me smile every time I look at it.
 - **Steelcase Gesture Office Chair**: When work and play is both computer based, having a comfortable adjustable and ergonomic chair is a must for our health.
+- **HiBy Digital M300 Digital Audio Player**: I've gone back to listening to podcasts and music on a dedicated music device and it's been great. The screen is a bit small for my fingers so my next one will be even more focused on physical controls
 - **Shure SE215 Pro Wired Earbuds**: I went back to wired and have been so happy for it.
 - **Bandcamp**: I don't run Bandcamp or anything, but I buy the majority of my music through it, and it's just a delightful experience for fans of music.
 
