@@ -29,40 +29,11 @@ strong, b, a {
   color: var(--secondary) !important;
 }
 
-/* front page */
-.entry-content img {
-  max-height: 400px;
-  max-width: 80%;
-  margin: auto;
-  display: block;
-  margin-bottom: .5em;
-  clip-path: circle();
-}
-
-.entry-content p {
-  margin-bottom: 1em;
-}
-
-/* Posts formats */
-.toc {
-  font-size: 0.85em;
-}
-
-.post-content img {
-  float: right;
-}
-
 .post-content h2 {
-  margin-top: 2em !important;
+  margin-top: 1.4em; !important
 }
 
-/* Reduce excessive spacing for nested lists */
-.post-content li > ul,
-.post-content li > ol {
-  margin-bottom: 0.5em;
-  margin-top: 0.25em;
-}
-
+/* space out my custom nocomment */
 .footnotes {
   font-size: 0.75em;
 }
