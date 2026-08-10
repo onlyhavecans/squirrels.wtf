@@ -6,15 +6,20 @@ default:
 update:
     nix flake update
 
+# Start the dev server with drafts and live reload
+[parallel]
+test: serve-local open-local
+
+serve-local:
+    hugo server --disableFastRender --cleanDestinationDir --navigateToChanged --logLevel warn
+
 [linux]
-test: clean
+open-local:
     xdg-open http://localhost:1313
-    hugo server --gc --navigateToChanged
 
 [macos]
-test: clean
+open-local:
     open http://localhost:1313
-    hugo server --gc --navigateToChanged
 
 test-links:
     muffet --buffer-size=8192 http://localhost:1313
