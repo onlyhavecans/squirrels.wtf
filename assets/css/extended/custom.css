@@ -11,7 +11,7 @@
   --accent-link: rgb(181, 86, 145);
 }
 
-h1, h2, h3, h4, h5, h7 {
+h1, h2, h3, h4, h5, h6 {
   color: var(--accent-header);
 }
 
@@ -30,7 +30,7 @@ strong, b, a {
 }
 
 .post-content h2 {
-  margin-top: 1.4em; !important
+  margin-top: 1.4em !important;
 }
 
 /* space out my custom nocomment */
