@@ -22,18 +22,19 @@ I am a very terminal & keyboard based person, and like to have a portable config
 
 - **NixOS w/ Lix**: I know it's a love it or hate it, but I really adore having a OS based around configuration management and full system lock and roll. I share my [NixOS setup here](https://onlyhavecans.works/ops/nixos-skwrls).
 - **Niri**: I am a scrolling and a Wayland convert, Niri is the best Window Manager/Compositor these days I feel.
-- **Waybar, Mako, Fuzzel, & Foot**: The "Desktop Stack" of apps. There is so many choices but I like to keep it basic.
-- **Firefox**: I prefer to not use chrome based browsers
-- **Zsh**: I keep trying to switch to fish but it's lack of shell expansions keeps driving me back.
+- **Noctalia**: I've resisted so many premade shells but this one is just the right amount of ux to make my desktop complete. Also the way it layers configurations means I can dotfiles my base and have system overrides.
+- **Foot**: where there are "cooler" shells the fastest feeling one is still foot.
+- **Firefox**: I prefer to not use chrome based browsers.
+- **Fish**: Ok, I know I said I keep going back because of expansions but fish 4.x has so much better compat
 - **NeoVim**: No matter how often I try to break into using VSCode I keep coming back to my fully terminal based setup. Check out [my configs here](https://onlyhavecans.works/dots/castle-neovim).
-- **Tmux**: All keyboard navigation.
-- **[Yazi](https://yazi-rs.github.io/)**: how I navigate and manage files.
+- **Tmux w/ sesh**: All keyboard navigation! I switched to sesh for managing sessions and it's really slick
+- **[Yazi](https://yazi-rs.github.io/)**: I navigate and manage files.
 
 ### Languages & Automation
 
-- **Golang**: It's not without its flaws but multi-threading is lightweight, it is mostly strongly typed, and compiles down to a single binary that is easy to deploy
+- **Golang**: It's not without its flaws but multi-threading is lightweight, typed, and compiles down to a single binary that is easy to deploy
 - **Rust**: A whole different set of tradeoffs but I love the typing in it, the lack of nil, and serde is so fun.
-- **Bash & ZSH**: I write shell scripts constantly. If I type it, it can be scripted.
+- **Bash**: I write shell scripts constantly. If I type it, it can be scripted.
 - [**Just**](https://just.systems/): I replaced all my Makefiles with Justfiles.
 - **PostgreSQL**: From work to play and everything in between, my favorite SQL engine. I can't go back to MySQL.
 - **Python**: I wrote this for so many years it still pops up when I need to prototype something.
@@ -52,8 +53,7 @@ I like to run most of my own software on my servers at home.
 - **Navidrome**: The next evolution of my music collection. Navidrome has been a delight for hosting my collect and letting me stream from browsers or Feishin. The smart playlist support is great.
 - **Jellyfin**: Not as simple and easy to use as Plex for most, but works extremely well once I discovered a few config tricks and the Infuse iOS/Mac client.
 - **Komga**: Hosting all of my Itch.io, Patreon, & DrivethruRPG books
-- **FreshRSS**: I never gave up on RSS, this is a recent transition from NewsBlur.
-- **Readeck**: Really nice read it later article storage
+- **Miniflux**: I move to this from FreshRSS, I really like the more minimal style and full keyboard driven layout
 - **Syncthing**: Synchronizing some misc files and settings
 - **Wireguard**: Always a way back home
 
@@ -67,7 +67,6 @@ I still like to process my thoughts through writing. I have a discbound notebook
 - **Kuru Toga Mechanical Pencil 0.5mm**: I never know if the rotating lead is much more than a gimmick but I really adore the feel of their lead more than far more expensive drafting pencils I have tried.
 - **Zebra Mildliners**: Awesome Highlighters with little smear. I use these to make a quick bit of a "daily spread"
 - **Post-it 100% Recycled Super Sticky Lined Notes**: These are the best sticky notes I can find and can be reused and moved daily for weeks.
-- **[MyLifePlans Templates](https://www.etsy.com/shop/MyLifePlans)**: Elegant and useful printable templates for trackers and goal setting
 - **Obsidian**: For notes I want to save for later, archives, logs, and reference materials I love this markdown based note taking with a git based plugin for private sync!
 - **[PomoFocus](https://pomofocus.io)**: A very basic pomodoro timer that has auto-progression, ticking, and very long and loud alerts. I don't use the tasks, just the timer.
 
